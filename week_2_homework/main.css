@@ -1,23 +1,22 @@
 body{
     margin: 0px;
+    background-color: #23708E
 }
 
 nav{
     background-color: #23708E;
-    padding: 20px 10px;
 }
 
 nav ul{
     list-style: none;
     padding-left: 0px;
-    margin: 0px;
+    margin: -20px;
+    margin-top: 20px;
     text-align: center;
 }
 
-nav li{
-    border-bottom: 1px solid #afc4d8;
-    padding: 10px;
-    margin: 10px;
+nav a{
+    display: block;
 }
 
 nav ul a{
@@ -25,4 +24,13 @@ nav ul a{
     color: whitesmoke;
     text-transform: uppercase;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.current{
+    background-color: aquamarine;
+    padding: 15px;
+}
+
+li:not(.current){
+    margin: 30px;
 }
