@@ -1,10 +1,10 @@
 body{
     margin: 0px;
-    background-color: #23708E
+    background-color: #173753;
 }
 
 nav{
-    background-color: #23708E;
+    background-color: #173753;
 }
 
 nav ul{
@@ -17,6 +17,7 @@ nav ul{
 
 nav a{
     display: block;
+    padding: 15px;
 }
 
 nav ul a{
@@ -26,11 +27,12 @@ nav ul a{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.current{
-    background-color: aquamarine;
+nav a:hover{
+    background-color: #e71d357e;
     padding: 15px;
 }
 
-li:not(.current){
-    margin: 30px;
+.current{
+    background-color: #e71d36;
+    padding: 15px;
 }
