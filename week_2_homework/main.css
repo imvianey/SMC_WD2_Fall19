@@ -1,6 +1,6 @@
 body{
     margin: 0px;
-    background-color: #173753;
+    background-color: white;
 }
 
 nav{
@@ -10,14 +10,12 @@ nav{
 nav ul{
     list-style: none;
     padding-left: 0px;
-    margin: -20px;
-    margin-top: 20px;
     text-align: center;
 }
 
 nav a{
     display: block;
-    padding: 15px;
+    padding: 20px;
 }
 
 nav ul a{
@@ -29,10 +27,50 @@ nav ul a{
 
 nav a:hover{
     background-color: #e71d357e;
-    padding: 15px;
+    padding: 20px;
 }
 
 .current{
     background-color: #e71d36;
-    padding: 15px;
+    padding: 20px;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 60px;
+}
+
+h2{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+}
+
+.image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+}
+
+p{
+    margin: 25px 30px;
+}
+
+@media(min-width:540px){
+    nav ul li{
+        display: inline-block;
+        padding-bottom: 5px;
+        border-bottom: 0px;
+        margin: 10px 20px;
+    }
+
+    nav ul{
+        text-align: center;
+    }
+
+    nav{
+        padding: 0px 10px;
+    }
 }
