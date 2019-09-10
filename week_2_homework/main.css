@@ -33,7 +33,7 @@ nav ul a{
 }
 
 .cats .current{
-    background-color: #e71d36;
+    background-color: #a8201a;
     padding: 20px;
 }
 
@@ -100,7 +100,51 @@ p{
         max-width: 650px;
     }
 }
+/* -- END OF INDEX CAT -- */
+/* -- START OF ABOUT -- */
+.about nav ul{
+    list-style: none;
+    text-align: center;
+    font-size: 25px;
+}
 
+.about nav li{
+    border-bottom: 2px solid white;
+}
+
+.about nav a:hover{
+    color: #e71d36;
+    padding: 20px;
+}
+
+.about .current{
+    font-size: 25px;
+    padding: 20px;
+}
+
+@media(min-width:540px){
+    .about nav li{
+        border-bottom: 0px;
+    }
+
+    .about nav ul{
+        list-style: none;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .about nav ul li{
+        display: inline-block;
+        margin: 0px 15px;
+}
+
+@media(min-width:768px){
+    .about nav ul li{
+        display: inline-block;
+        margin: 0px 60px;
+}
+/* -- END OF ABOUT -- */
+/* -- START OF CONTACT -- */
 .contact nav ul{
     list-style: none;
     text-align: left;
@@ -154,3 +198,4 @@ p{
         max-width: 650px;
     }
 }
+/* -- START OF CONTACT -- */
