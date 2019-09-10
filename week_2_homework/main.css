@@ -1,25 +1,25 @@
-body{
+body {
     margin: 0px;
     background-color: white;
 }
 
-nav{
+nav {
     background-color: #173753;
 }
 
-nav ul{
+nav ul {
     list-style: none;
     padding-left: 0px;
     text-align: center;
     margin: 0px;
 }
 
-nav a{
+nav a {
     display: block;
     padding: 20px;
 }
 
-nav ul a{
+nav ul a {
     text-decoration: none;
     color: whitesmoke;
     text-transform: uppercase;
@@ -27,175 +27,187 @@ nav ul a{
     font-weight: bold;
 }
 
-.cats nav a:hover{
+.cats nav a:hover {
     background-color: #e71d357e;
     padding: 20px;
 }
 
-.cats .current{
+.cats .current {
     background-color: #a8201a;
     padding: 20px;
 }
 
-h1{
+/* -- ABOUT -- */
+.about nav ul {
+    list-style: none;
+    text-align: center;
+    font-size: 20px;
+}
+
+.about nav li {
+    border-bottom: 2px solid white;
+}
+
+.about nav a:hover {
+    color: #e71d36;
+    padding: 20px;
+}
+
+.about .current {
+    font-size: 30px;
+    padding: 20px;
+}
+
+/* -- ABOUT END -- */
+/* -- CONTACT-- */
+.contact nav ul {
+    list-style: none;
+    text-align: left;
+}
+
+.contact nav a {
+    display: block;
+    padding: 20px;
+}
+
+.contact nav a:hover {
+    text-decoration: underline;
+    text-decoration-color: #e71d36;
+    padding: 20px;
+}
+
+.contact .current {
+    border-left: 8px solid #e71d36;
+    padding: 20px;
+}
+
+/* -- CONTACT END -- */
+
+h1 {
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
     font-size: 60px;
 }
 
-h2{
+h2 {
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
     font-size: 30px;
 }
 
-.image{
+.image {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 85%;
 }
 
-p{
+p {
     margin: 25px 55px;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-@media(min-width:540px){
-    nav ul li{
+/* -- INDEX CAT MEDIA QUERY START -- */
+@media(min-width:540px) {
+    nav ul li {
         display: inline-block;
         border-bottom: 0px;
         margin: 0px 25px;
     }
 
-    nav ul{
+    nav ul {
         text-align: center;
     }
 
-    nav{
+    nav {
         padding: 0px 10px;
     }
 }
 
-
-@media(min-width:768px){
-    nav ul li{
+@media(min-width:768px) {
+    nav ul li {
         display: inline-block;
         margin: 0px 70px;
     }
 
-    nav ul{
+    nav ul {
         text-align: center;
     }
 
-    nav{
+    nav {
         padding: 0px 10px;
     }
 
-    .image{
+    .image {
         display: block;
         margin-left: auto;
         margin-right: auto;
         max-width: 650px;
     }
 }
-/* -- END OF INDEX CAT -- */
-/* -- START OF ABOUT -- */
-.about nav ul{
-    list-style: none;
-    text-align: center;
-    font-size: 25px;
-}
 
-.about nav li{
-    border-bottom: 2px solid white;
-}
+/* -- INDEX CAT MEDIA QUERY END -- */
+/* -- ABOUT MEDIA QUERY START-- */
 
-.about nav a:hover{
-    color: #e71d36;
-    padding: 20px;
-}
-
-.about .current{
-    font-size: 25px;
-    padding: 20px;
-}
-
-@media(min-width:540px){
-    .about nav li{
+@media(min-width:540px) {
+    .about nav li {
         border-bottom: 0px;
     }
 
-    .about nav ul{
+    .about nav ul {
         list-style: none;
         text-align: center;
         font-size: 20px;
     }
 
-    .about nav ul li{
+    .about nav ul li {
         display: inline-block;
         margin: 0px 15px;
+    }
 }
 
-@media(min-width:768px){
-    .about nav ul li{
+@media(min-width:768px) {
+    .about nav ul li {
         display: inline-block;
         margin: 0px 60px;
-}
-/* -- END OF ABOUT -- */
-/* -- START OF CONTACT -- */
-.contact nav ul{
-    list-style: none;
-    text-align: left;
+    }
 }
 
-.contact nav a{
-    display: block;
-    padding: 20px;
-}
+/* -- ABOUT MEDIA QUERY END -- */
+/* -- CONTACT MEDIA QUERY START -- */
 
-.contact nav a:hover{
-    text-decoration: underline;
-    text-decoration-color: #e71d36;
-    padding: 20px;
-}
-
-.contact .current{
-    border-left: 8px solid #e71d36;
-    padding: 20px;
-}
-
-@media(min-width:540px){
-    .contact nav ul{
+@media(min-width:540px) {
+    .contact nav ul {
         list-style: none;
         text-align: center;
     }
 
-    .contact .current{
+    .contact .current {
         border-left: 0px;
         border-bottom: 8px solid #e71d36;
         padding: 20px;
     }
 
-    .contact nav a:hover{
+    .contact nav a:hover {
         text-decoration: underline;
         text-decoration-color: #e71d36;
         padding: 20px;
     }
 }
 
-@media(min-width:768px){
-    .contact nav ul{
+@media(min-width:768px) {
+    .contact nav ul {
         list-style: none;
         text-align: center;
     }
 
-    .image{
+    .image {
         display: block;
         margin-left: auto;
         margin-right: auto;
         max-width: 650px;
     }
 }
-/* -- START OF CONTACT -- */
+
+/* -- CONTACT MEDIA QUERY END -- */
