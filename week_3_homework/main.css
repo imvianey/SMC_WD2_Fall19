@@ -60,7 +60,7 @@ nav a{
     border-left: 4px solid #67b29e;
 }
 
-/* ------------------------ MAIN --------------------------- */
+/* ---- MAIN ---- */
 
 .floater-section{
     float: left;
@@ -80,6 +80,14 @@ p{
 }
 
 @media(min-width:540px){
+    nav{
+        padding: 0px 10px;
+    }
+
+    nav a{
+        padding: 10px;
+    }
+
     nav ul li{
         display: inline-block;
         padding-bottom: 5px;
@@ -91,11 +99,28 @@ p{
         text-align: center;
     }
 
-    nav{
-        padding: 0px 10px;
+    nav ul a{
+        text-decoration: none;
+        color: #e0f2e9;
+        text-transform: uppercase;
+        font-family: 'Jura', sans-serif;
+        font-size: 25px;
+        font-weight: 700;
+    }
+    
+    .current {
+        text-shadow: 0 0 15px #3c9380;
+        color: #67b29e;
+        border-left: 0px;
+        border-bottom: 4px solid #67b29e;
+        padding-bottom: 10px;
     }
 
-    /* MAIN */
+    header label img{
+        display: none;
+    }
+
+    /* ---- MAIN ---- */
 
     .width-md-50{
         width: 50%;
@@ -104,9 +129,13 @@ p{
     .width-md-33{
         width: 33%;
     }
-}/* end of 540px breakpoint */
+}/* end of 540px breakpoint --------------*/
 
 @media(min-width: 800px){
+    nav ul li{
+        padding: 0px 50px;
+    }
+
     .width-lg-25{
         width: 25%;
     }
