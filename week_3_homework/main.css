@@ -1,11 +1,12 @@
 @import url("colors.css");
+@import url('https://fonts.googleapis.com/css?family=Jura:500,700|Roboto&display=swap');
 
 body {
     margin: 0px;
 }
 
 header{
-    background-color: lightcyan;
+    background-color: #06070e;
 }
 
 header input#toggler{
@@ -19,42 +20,44 @@ header label img{
 }
 
 nav {
-    background-color: #130000;
+    background-color: #06070e;
+    display: none;
+    padding-top: 0px;
 }
 
 input#toggler:checked + nav{
     display: block;
 }
 
-nav ul {
+nav ul{
     list-style: none;
     padding-left: 0px;
-    text-align: center;
     margin: 0px;
+    text-align: left;
 }
 
-nav a {
+nav li:first-child{
+    margin-top: 0px;
+}
+
+nav ul a{
+    text-decoration: none;
+    color: #e0f2e9;
+    text-transform: uppercase;
+    font-family: 'Jura', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+nav a{
     display: block;
     padding: 20px;
 }
 
-nav ul a {
-    text-decoration: none;
-    color: whitesmoke;
-    text-transform: uppercase;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-}
-
-nav a:hover {
-    background-color: #f0a91094;
-    padding: 20px;
-}
-
 .current {
-    background-color: #f0a910;
-    padding: 20px;
-    color: #130000;
+    text-shadow: 0 0 15px #3c9380;
+    color: #67b29e;
+    border-left: 4px solid #67b29e;
 }
 
 /* ------------------------ MAIN --------------------------- */
@@ -69,6 +72,11 @@ nav a:hover {
     clear: both;
     content: "";
     display: block;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+
 }
 
 @media(min-width:540px){
@@ -98,43 +106,20 @@ nav a:hover {
     }
 }/* end of 540px breakpoint */
 
-/* -- INDEX CAT MEDIA QUERY START -- */
-@media(min-width:540px) {
-    nav ul li {
-        display: inline-block;
-        border-bottom: 0px;
-        margin: 0px 25px;
+@media(min-width: 800px){
+    .width-lg-25{
+        width: 25%;
     }
 
-    nav ul {
-        text-align: center;
+    .width-lg-33{
+        width: 33.333333%;
     }
 
-    nav {
-        padding: 0px 10px;
-    }
-}
-
-@media(min-width:768px) {
-    nav ul li {
-        display: inline-block;
-        margin: 0px 70px;
+    .width-lg-50{
+        width: 50%;
     }
 
-    nav ul {
-        text-align: center;
-    }
-
-    nav {
-        padding: 0px 10px;
-    }
-
-    .image {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        max-width: 650px;
+    .width-lg-100{
+        width: 100%;
     }
 }
-
-/* -- INDEX CAT MEDIA QUERY END -- */
