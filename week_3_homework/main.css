@@ -96,6 +96,12 @@ img {
     width: 100%;
 }
 
+.clearfix{
+    content: "";
+  clear: both;
+  display: inline-block;
+}
+
 /* start of 540px breakpoint --------------*/
 @media(min-width:540px) {
     nav {
