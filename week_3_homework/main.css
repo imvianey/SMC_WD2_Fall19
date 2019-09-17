@@ -142,12 +142,16 @@ img {
 
     /* ---- MAIN ---- */
 
+    .width-md-100 {
+        width: 100%;
+    }
+
     .width-md-50 {
         width: 50%;
     }
 
     .width-md-33 {
-        width: 33%;
+        width: 33.3333%;
     }
 }
 
