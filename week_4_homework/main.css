@@ -5,7 +5,7 @@
 
 body {
     margin: 0px;
-    background-color:#EAF2EF;
+    background-color: #EAF2EF;
 }
 
 header {
@@ -60,19 +60,19 @@ nav a {
     background-color: #016C71;
 }
 
-p a:link{
+p a:link {
     color: #17976A;
 }
 
-p a:visited{
-    color:#016C71;
+p a:visited {
+    color: #016C71;
 }
 
-p a:hover{
+p a:hover {
     color: #E9A31C;
 }
 
-p a:active{
+p a:active {
     color: #0D3822;
 }
 
@@ -100,7 +100,7 @@ h2 {
     font-weight: 701;
 }
 
-h3{
+h3 {
     font-family: 'Open Sans', Arial, sans-serif;
     text-align: center;
     font-size: 35px;
@@ -117,10 +117,10 @@ p {
     font-family: 'Open Sans', Arial, sans-serif;
 }
 
-ol li{
+ol li {
     font-family: 'Open Sans', Arial, sans-serif;
-    text-align: center;
-    
+    text-align: left;
+
 }
 
 
@@ -193,10 +193,14 @@ ol li{
         display: none;
     }
 
-ol li{
-    font-size: 2vw;
-    font-size: 20px;
-}
+    ol li {
+        font-size: 2vw;
+        font-size: 20px;
+    }
+
+    .top {
+        margin-top: 18px;
+    }
 
 }
 

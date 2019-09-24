@@ -18,8 +18,11 @@ img {
     padding: 15px;
 }
 
-.space{
-    margin: 15px;
+.space {
+    padding: 15px;
+}
+
+.center {
     text-align: center;
 }
 
