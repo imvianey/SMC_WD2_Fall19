@@ -7,7 +7,7 @@ body {
     margin: 0px;
 }
 
-header{
+header {
     background-color: #17976A;
 }
 
@@ -56,15 +56,15 @@ nav a {
 
 .current {
     color: #E9A31C;
-    background-color:#016C71;
+    background-color: #016C71;
 }
 
 /* ---- MAIN ---- */
-.banner{
+.banner {
     position: relative;
 }
 
-h1{
+h1 {
     font-family: 'Bowlby One SC', cursive;
     font-size: 10vw;
     text-align: center;
@@ -73,7 +73,7 @@ h1{
     margin-bottom: 0px;
 }
 
-h2{
+h2 {
     font-family: 'Open Sans', Arial, sans-serif;
     text-align: center;
     font-size: 6vw;
@@ -83,13 +83,13 @@ h2{
     font-weight: 701;
 }
 
-.title{
+.title {
     position: absolute;
     width: 100%;
-    bottom:0px;
+    bottom: 0px;
 }
 
-p{
+p {
     font-family: 'Open Sans', Arial, sans-serif;
 }
 
@@ -101,7 +101,7 @@ p{
 /* start of 540px breakpoint --------------*/
 @media(min-width:540px) {
     nav {
-         display: inline;
+        display: inline;
     }
 
     nav a {
@@ -124,7 +124,7 @@ p{
         font-size: 20px;
     }
 
-    .current{
+    .current {
         display: none;
     }
 
@@ -148,32 +148,33 @@ p{
         color: #E9A31C;
     }
 
-        .s-current {
-            background-image: url("links/foot.png");
-            background-repeat: no-repeat;
-            background-color: transparent;
-            background-size: 40px;
-            background-position-x: 113px;
-            padding-right: 24px;
-            color: #E9A31C;
-        }
+    .s-current {
+        background-image: url("links/foot.png");
+        background-repeat: no-repeat;
+        background-color: transparent;
+        background-size: 40px;
+        background-position-x: 113px;
+        padding-right: 24px;
+        color: #E9A31C;
+    }
 
     nav a:hover {
-        color: 
-        #f0a910;
+        color:
+            #f0a910;
     }
 
     header label img {
         display: none;
     }
 }
+
 /* ---- MAIN ---- */
 
 
 /* end of 540px breakpoint --------------*/
 /* start of 800px breakpoint --------------*/
-@media(min-width: 800px){
-nav ul {
-    text-align: right;
-}
+@media(min-width: 800px) {
+    nav ul {
+        text-align: right;
+    }
 }
