@@ -105,7 +105,7 @@ p{
     }
 
     nav ul {
-        text-align: right;
+        text-align: center;
     }
 
     nav ul a {
@@ -157,4 +157,12 @@ p{
     header label img {
         display: none;
     }
+}
+
+/* end of 540px breakpoint --------------*/
+/* start of 800px breakpoint --------------*/
+@media(min-width: 800px){
+nav ul {
+    text-align: right;
+}
 }
