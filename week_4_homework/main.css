@@ -1,12 +1,10 @@
 @import "colors.css";
 @import "layout.css";
+@import url('https://fonts.googleapis.com/css?family=Bowlby+One+SC&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,800&display=swap');
 
 body {
     margin: 0px;
-}
-
-header {
-    background-color: blue;
 }
 
 header input#toggler {
@@ -20,7 +18,7 @@ header label img {
 }
 
 nav {
-    background-color: #06070e;
+    background-color: #17976A;
     display: none;
     padding-top: 0px;
 }
@@ -33,7 +31,7 @@ nav ul {
     list-style: none;
     padding-left: 0px;
     margin: 0px;
-    text-align: left;
+    text-align: center;
 }
 
 nav li:first-child {
@@ -43,19 +41,44 @@ nav li:first-child {
 nav ul a {
     text-decoration: none;
     color: #e0f2e9;
-    text-transform: uppercase;
-    font-family: 'Jura', sans-serif;
+    font-family: 'Bowlby One SC', cursive;
     font-size: 20px;
-    font-weight: 700;
 }
 
 nav a {
     display: block;
-    padding: 20px;
+    padding: 15px;
 }
 
 .current {
-    text-shadow: 0 0 15px #3c9380;
-    color: #67b29e;
-    border-left: 4px solid #67b29e;
+    color: #E9A31C;
+    background-color:#0D3822;
+}
+
+/* ---- MAIN ---- */
+.bigfoot{
+    background-image: url(links/bigfoot-grey.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 200px;
+    /* min-height: 300px; ADD TO LARGER SCREENS LATER*/
+}
+
+.bigfoot h1{
+    font-family: 'Bowlby One SC', cursive;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 8px;
+    color: #E9A31C;
+    text-shadow: 1px 4px #120309;
+    margin-top: 45px;
+}
+
+.bigfoot h2{
+    font-family: 'Open Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 0px;
+    color: #E9A31C;
+    text-shadow: 1px 1px 1px #120309
 }
