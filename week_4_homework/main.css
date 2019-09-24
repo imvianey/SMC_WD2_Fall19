@@ -56,29 +56,28 @@ nav a {
 }
 
 /* ---- MAIN ---- */
-.bigfoot{
+/* .bigfoot{
     background-image: url(links/bigfoot-grey.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 200px;
+    min-height: 200px;}
     /* min-height: 300px; ADD TO LARGER SCREENS LATER*/
-}
 
-.bigfoot h1{
+.banner h1{
+    margin-top: -100px;
     font-family: 'Bowlby One SC', cursive;
     font-size: 40px;
     text-align: center;
-    margin-bottom: 8px;
     color: #E9A31C;
-    text-shadow: 1px 4px #120309;
-    margin-top: 45px;
+    text-shadow: 2px 5px 6px #120309;
+    margin-bottom: 0px;
 }
 
-.bigfoot h2{
+.banner h2{
     font-family: 'Open Sans', Arial, sans-serif;
     text-align: center;
     font-size: 20px;
     margin-top: 0px;
     color: #E9A31C;
-    text-shadow: 1px 1px 1px #120309
+    text-shadow: 1px 1px 1px #120309;
 }
