@@ -5,6 +5,7 @@
 
 body {
     margin: 0px;
+    background-color:#EAF2EF;
 }
 
 header {
@@ -99,6 +100,13 @@ h2 {
     font-weight: 701;
 }
 
+h3{
+    font-family: 'Open Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: 35px;
+    color: #016C71;
+}
+
 .title {
     position: absolute;
     width: 100%;
@@ -109,13 +117,12 @@ p {
     font-family: 'Open Sans', Arial, sans-serif;
 }
 
-.float-left{
-    float: left;
+ol li{
+    font-family: 'Open Sans', Arial, sans-serif;
+    text-align: center;
+    
 }
 
-.float-right{
-    float: right;
-}
 
 /* start of 540px breakpoint --------------*/
 @media(min-width:540px) {
@@ -185,10 +192,13 @@ p {
     header label img {
         display: none;
     }
+
+ol li{
+    font-size: 2vw;
+    font-size: 20px;
 }
 
-/* ---- MAIN ---- */
-
+}
 
 /* end of 540px breakpoint --------------*/
 /* start of 800px breakpoint --------------*/
