@@ -59,6 +59,22 @@ nav a {
     background-color: #016C71;
 }
 
+p a:link{
+    color: #17976A;
+}
+
+p a:visited{
+    color:#016C71;
+}
+
+p a:hover{
+    color: #E9A31C;
+}
+
+p a:active{
+    color: #0D3822;
+}
+
 /* ---- MAIN ---- */
 .banner {
     position: relative;
@@ -93,10 +109,13 @@ p {
     font-family: 'Open Sans', Arial, sans-serif;
 }
 
-/* .title{
-    margin-top: -135px;
-} */
+.float-left{
+    float: left;
+}
 
+.float-right{
+    float: right;
+}
 
 /* start of 540px breakpoint --------------*/
 @media(min-width:540px) {
