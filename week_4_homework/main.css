@@ -7,6 +7,10 @@ body {
     margin: 0px;
 }
 
+header{
+    background-color: #17976A;
+}
+
 header input#toggler {
     display: none;
 }
@@ -52,12 +56,12 @@ nav a {
 
 .current {
     color: #E9A31C;
-    background-color:#0D3822;
+    background-color:#016C71;
 }
 
 /* ---- MAIN ---- */
 .banner h1{
-    margin-top: -100px;
+    /* margin-top: -100px; */
     font-family: 'Bowlby One SC', cursive;
     font-size: 40px;
     text-align: center;
@@ -78,4 +82,79 @@ nav a {
 
 p{
     font-family: 'Open Sans', Arial, sans-serif;
+}
+
+.title{
+    margin-top: -135px;
+}
+
+
+/* start of 540px breakpoint --------------*/
+@media(min-width:540px) {
+    nav {
+         display: inline;
+    }
+
+    nav a {
+        padding: 10px;
+    }
+
+    nav ul li {
+        display: inline-block;
+        margin: 10px 20px;
+    }
+
+    nav ul {
+        text-align: right;
+    }
+
+    nav ul a {
+        text-decoration: none;
+        color: #e0f2e9;
+        font-family: 'Bowlby One SC', cursive;
+        font-size: 20px;
+    }
+
+    .current{
+        display: none;
+    }
+
+    .i-current {
+        background-image: url("links/foot.png");
+        background-repeat: no-repeat;
+        background-color: transparent;
+        background-size: 40px;
+        background-position-x: 63px;
+        padding-right: 24px;
+        color: #E9A31C;
+    }
+
+    .e-current {
+        background-image: url("links/foot.png");
+        background-repeat: no-repeat;
+        background-color: transparent;
+        background-size: 40px;
+        background-position-x: 101px;
+        padding-right: 24px;
+        color: #E9A31C;
+    }
+
+        .s-current {
+            background-image: url("links/foot.png");
+            background-repeat: no-repeat;
+            background-color: transparent;
+            background-size: 40px;
+            background-position-x: 113px;
+            padding-right: 24px;
+            color: #E9A31C;
+        }
+
+    nav a:hover {
+        color: 
+        #f0a910;
+    }
+
+    header label img {
+        display: none;
+    }
 }
