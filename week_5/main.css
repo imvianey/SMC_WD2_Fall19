@@ -1,3 +1,55 @@
 @import "colors.css";
 @import "layout.css";
 @import "navbar.css";
+
+/* multi-line vertical alignment */
+.content-table{
+    display: table;
+}
+
+.content-table p{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+/* Block element with known height */
+.pos-relative{
+    position: relative;
+}
+
+/* .v-centered-block{
+    height: 100px;
+    margin-top: -50px;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+} */
+
+/* with unknown height */
+.v-centered-block{
+    height: 160px;
+    transform: translateY(-50%);
+    position: absolute;
+    top: 50%;
+    width: 100%;
+}
+
+/* block element vertically and horizontally centered - known height/width */
+.v-h-centered-block{
+    height: 140px;
+    width: 140px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    /* margin-top: -70px; /*half its height
+    margin-left: -70px; half its width */
+
+    /*if you cant calculate margins use transform translate*/
+
+    transform: translateY(-50%, -50%),
+}
+
+
+/* Helpful centering website:   https://css-tricks.com/centering-css-complete-guide/ */
