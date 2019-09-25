@@ -63,7 +63,7 @@ img{
 /*LARGE SIZE SCREENS*/
 @media(min-width:800px){
     .container{
-        width: 760%;
+        width: 760px;
         margin: auto;
     }
 
