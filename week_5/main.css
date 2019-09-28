@@ -5,6 +5,7 @@
 /* multi-line vertical alignment */
 .content-table{
     display: table;
+    height: 120px;
 }
 
 .content-table p{
@@ -48,7 +49,7 @@
 
     /*if you cant calculate margins use transform translate*/
 
-    transform: translateY(-50%, -50%),
+    transform: translate(-50%, -50%),
 }
 
 
