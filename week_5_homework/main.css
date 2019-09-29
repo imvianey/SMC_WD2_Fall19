@@ -23,13 +23,15 @@
     position: relative;
 }
 
-/* .v-centered-block{
-    height: 100px;
-    margin-top: -50px;
-    position: absolute;
-    top: 50%;
-    width: 100%;
-} */
+.v-centered-block-known{
+    width: 300px;
+padding: 20px;
+position: absolute;
+top: 19%;
+left: 50%;
+  
+    margin: -70px 0 0 -170px;
+  }
 
 /* with unknown height */
 .v-centered-block{
@@ -39,7 +41,7 @@ left: 70%;
 transform: translate(-50%, -50%);
 width: 50%;
 border: 3px aliceblue solid;
-  }
+}
 
 
 /* block element vertically and horizontally centered - known height/width */
