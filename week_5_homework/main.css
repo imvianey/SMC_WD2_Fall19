@@ -2,21 +2,10 @@
 @import "layout.css";
 @import "navbar.css";
 
-/* multi-line vertical alignment */
-/* .content-table{
-    display: table;
-    height: 120px;
-}
-
-.content-table p{
-    display: table-cell;
-    vertical-align: middle;
-} */
-
 .content-table {
     display: table;
     height: 260px;
-    margin: 10px;
+    margin: 0 auto;
   }
   .content-table p {
     display: table-cell;
@@ -44,29 +33,21 @@
 
 /* with unknown height */
 .v-centered-block{
-    height: 160px;
-    transform: translateY(-50%);
     position: absolute;
-    top: 50%;
-    width: 100%;
-}
+top: 46%;
+left: 70%;
+transform: translate(-50%, -50%);
+width: 50%;
+border: 3px aliceblue solid;
+  }
+
 
 /* block element vertically and horizontally centered - known height/width */
 .v-h-centered-block{
-    height: 140px;
-    width: 140px;
-
-    position: absolute;
-    top: 10%;
-    left: 63%;
-
-    /* margin-top: -70px; /*half its height
-    margin-left: -70px; half its width */
-
-    /*if you cant calculate margins use transform translate*/
-
-    transform: translate(-50%, -50%),
+    width: 512px;
+padding: 20px;
+position: absolute;
+top: 50%;
+left: 50%;
+margin: -205px 0 0 -275px;
 }
-
-
-/* Helpful centering website:   https://css-tricks.com/centering-css-complete-guide/ */
