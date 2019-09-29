@@ -23,16 +23,6 @@
     position: relative;
 }
 
-.v-centered-block-known{
-    width: 300px;
-padding: 20px;
-position: absolute;
-top: 19%;
-left: 50%;
-  
-    margin: -70px 0 0 -170px;
-  }
-
 /* with unknown height */
 .v-centered-block{
     position: absolute;
@@ -43,13 +33,28 @@ width: 50%;
 border: 3px aliceblue solid;
 }
 
-
-/* block element vertically and horizontally centered - known height/width */
 .v-h-centered-block{
-    width: 512px;
-padding: 20px;
 position: absolute;
 top: 50%;
 left: 50%;
-margin: -205px 0 0 -275px;
+transform: translate(-50%, -50%);
+}
+
+
+/* block element vertically and horizontally centered - known height/width */
+.v-h-centered-block-known{
+    width: 300px;
+padding: 20px;
+position: absolute;
+top: 19%;
+left: 50%;
+  
+    margin: -70px 0 0 -170px;
+  }
+.background{
+    background-image: url("links/team.jpg");
+    background-color: #8d1615;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
 }
