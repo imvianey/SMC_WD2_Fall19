@@ -49,11 +49,15 @@ nav ul a {
     line-height: 40px; /*for vertical centering */
 }
 
-h1{
+ header h1{
     position: absolute;
     top: 5px;
     left: 82px;
     font-size: 25px;
+}
+
+h1{
+    text-align: center;
 }
 
 @media(min-width: 540px){
