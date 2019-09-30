@@ -9,18 +9,18 @@
     margin: auto;
 }
 
-.container::after {
-    clear: both;
-    content: "";
-    display: block;
-}
-
 img {
     max-width: 100%;
 }
 
 .content {
     padding: 15px;
+}
+
+.content::after {
+    clear: both;
+    content: "";
+    display: block;
 }
 
 /*MEDIUM SIZE SCREENS*/
