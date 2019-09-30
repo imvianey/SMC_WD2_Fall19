@@ -1,7 +1,7 @@
 @import "colors.css";
 @import "layout.css";
 @import "navbar.css";
-@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lobster+Two:400,700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Oswald:400,500,600,700&display=swap');
 
 /* START OF CENTERING */
@@ -67,17 +67,22 @@
 
 h1 {
     text-align: center;
-    font-family: 'Pacifico', cursive;
+    font-family: 'Lobster Two', cursive;
 }
 
 h2{
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Lobster Two', cursive;
+    font-size: 30px;
     text-align: center;
+}
+
+h3{
+    font-family: 'Lobster Two', cursive;
+    font-size: 27px;
 }
 
 p{
     font-family: 'Oswald', sans-serif;
-    font-weight: 100;
 }
 
 /*MEDIUM SIZE SCREENS*/
