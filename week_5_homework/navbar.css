@@ -22,7 +22,7 @@ nav {
     display: none;
 }
 
-input#toggler:checked + nav{
+input#toggler:checked+nav {
     display: block;
 }
 
@@ -46,21 +46,22 @@ nav ul a {
     text-decoration: none;
     color: #212529;
     text-transform: uppercase;
-    line-height: 40px; /*for vertical centering */
+    line-height: 40px;
+    /*for vertical centering */
 }
 
- header h1{
+header h1 {
     position: absolute;
     top: 5px;
     left: 82px;
     font-size: 25px;
 }
 
-h1{
+h1 {
     text-align: center;
 }
 
-@media(min-width: 540px){
+@media(min-width: 540px) {
     nav ul li {
         display: inline-block;
         padding-bottom: 5px;

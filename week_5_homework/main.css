@@ -6,8 +6,9 @@
     display: table;
     height: 260px;
     margin: 0 auto;
-  }
-  .content-table p {
+}
+
+.content-table p {
     display: table-cell;
     margin: 0;
     background: white;
@@ -15,46 +16,46 @@
     padding: 20px;
     border: 10px solid black;
     vertical-align: middle;
-  }
+}
 
 
 /* Block element with known height */
-.pos-relative{
+.pos-relative {
     position: relative;
 }
 
 /* with unknown height */
-.v-centered-block{
+.v-centered-block {
     position: absolute;
-top: 46%;
-left: 70%;
-transform: translate(-50%, -50%);
-width: 50%;
-border: 3px aliceblue solid;
+    top: 79%;
+    left: 74%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    border: 3px aliceblue solid;
 }
 
-.v-h-centered-block{
-position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
+.v-h-centered-block {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 
 /* block element vertically and horizontally centered - known height/width */
-.v-h-centered-block-known{
-    width: 300px;
-padding: 20px;
-position: absolute;
-top: 19%;
-left: 50%;
-  
-    margin: -70px 0 0 -170px;
-  }
-.background{
+.v-h-centered-block-known {
+    width: 219px;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -168px 0 0 -130px;
+}
+
+.background {
     background-image: url("links/team.jpg");
     background-color: #8d1615;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
