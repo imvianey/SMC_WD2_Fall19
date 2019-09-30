@@ -3,7 +3,7 @@ body {
 }
 
 header {
-    background-color: lightcyan;
+    background-color: #8d1615;
     position: relative;
 }
 
@@ -15,6 +15,10 @@ header label img {
     width: 40px;
     height: auto;
     margin: 10px;
+}
+
+.logo{
+    display: none;
 }
 
 nav {
@@ -33,7 +37,7 @@ nav ul {
 }
 
 nav li {
-    border-bottom: 1px solid #212529;
+    border-bottom: 1px solid white;
     padding: 10px 0px;
     margin: 10px;
 }
@@ -44,21 +48,26 @@ nav li:first-child {
 
 nav ul a {
     text-decoration: none;
-    color: #212529;
     text-transform: uppercase;
     line-height: 40px;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-size: 18px;
+    padding-right: 35px;
     /*for vertical centering */
 }
 
-header h1 {
-    position: absolute;
-    top: 5px;
-    left: 82px;
-    font-size: 25px;
+.current {
+    background-image: url("links/bat.png");
+        background-repeat: no-repeat;
+        background-color: transparent;
+        background-size: 24px;
+        background-position-x: 45px;
 }
 
 h1 {
     text-align: center;
+    font-family: 'Pacifico', cursive;
 }
 
 @media(min-width: 540px) {
@@ -73,6 +82,15 @@ h1 {
         display: none;
     }
 
+    .logo{
+        display: block;
+        position: absolute;
+        top: 7px;
+        left: 40px;
+        height: 60px;
+        widows: auto;
+    }
+
     nav ul {
         text-align: right;
     }
@@ -80,5 +98,5 @@ h1 {
     nav {
         display: block;
         padding: 0px 10px;
-    }
+    }    
 }

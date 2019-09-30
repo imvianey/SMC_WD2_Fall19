@@ -1,6 +1,8 @@
 @import "colors.css";
 @import "layout.css";
 @import "navbar.css";
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,500,600,700&display=swap');
 
 .content-table {
     display: table;
