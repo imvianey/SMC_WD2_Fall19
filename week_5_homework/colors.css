@@ -1,21 +1,17 @@
-.purple{
-    background-color: rgb(112, 18, 150);
-}
-
 .red{
-    background-color: rgb(245, 65, 65);
+    background-color: #8d1615;
 }
 
-.green{
-    background-color: rgb(42, 211, 42);
+.peach{
+    background-color: #F1C29A;
 }
 
-.yellow{
-    background-color: rgb(204, 226, 83);
+.white{
+    background-color: #F1EAD9;
 }
 
-.blue{
-    background-color: rgb(39, 75, 238);
+.black{
+    background-color: #0D0D0D;
 }
 
 .transparent{
