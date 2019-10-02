@@ -1,0 +1,22 @@
+.red {
+    background-color: #8d1615;
+    color: #F1EAD9;
+}
+
+.peach {
+    background-color: #F1C29A;
+    color: #0D0D0D;
+}
+
+.white {
+    background-color: #F1EAD9;
+    color: #0D0D0D;
+}
+
+.black {
+    background-color: #0D0D0D;
+}
+
+.transparent {
+    background-color: transparent;
+}
