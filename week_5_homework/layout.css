@@ -1,7 +1,11 @@
 .floater-section {
     float: left;
-    min-height: 340px;
+    min-height: 955px;
     width: 100%;
+}
+
+.floater-section.fs-short {
+    min-height: 375px;
 }
 
 .container {
@@ -14,7 +18,7 @@ img {
 }
 
 .content {
-    padding: 15px;
+    padding: 44px 15px;;
 }
 
 .content::after {
@@ -29,10 +33,6 @@ img {
     .container {
         width: 520px;
         margin: auto;
-    }
-
-    .floater-section {
-        min-height: 375px;
     }
 
     .width-md-25 {
