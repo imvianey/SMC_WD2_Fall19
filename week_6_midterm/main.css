@@ -8,30 +8,59 @@ html {
     margin: 0;
 }
 
-.bg-index {
-    background-image: url("links/skates-circle.png");
-    height: 50%;
-}
-
-.bg-index, .bg-mskates {
-    position: relative;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 .caption{
-    position: absolute;
-    left: 0;
-    top: 50%;
     width: 100%;
     text-align: center;
     color: #000;
 }
 
-.v-h-centered-block {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+h1{
+    text-align: center;
+}
+
+.space{
+    padding: 10px 10px 0px 10px;
+}
+
+.box{
+    height: 288px;
+}
+
+/* START OF INDEX PAGE */
+.bg-index {
+    background-image: url("links/skates-circle.png");
+    position: relative;
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-classic-moxis{
+    background-image: url("links/skates-classic.jpg");
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover  
+}
+
+.bg-custom{
+    background-image: url("links/skates-custom.png");
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover  
+}
+/* END OF INDEX PAGE */
+
+@media(min-width:540px) {
+    .box{
+        height: 268px;
+    }
+}
+
+@media(min-width:800px) {
+    .box{
+        height: 340px;
+    }
 }

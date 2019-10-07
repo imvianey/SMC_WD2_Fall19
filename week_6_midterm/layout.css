@@ -1,6 +1,6 @@
 .floater-section {
     float: left;
-    min-height: 955px;
+    min-height: 206px;
     width: 100%;
 }
 
@@ -18,7 +18,7 @@ img {
 }
 
 .content {
-    padding: 44px 15px;
+    padding: 15px 15px;
     position: relative;
 }
 
@@ -28,12 +28,54 @@ img {
     display: block;
 }
 
+/* START OF CENTERING */
+
+/* multi-line vertical alignment */
+.content-table {
+    display: table;
+    height: 430px;
+    margin: 0 auto;
+}
+
+.content-table p{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+/* Block element with known height */
+.pos-relative {
+    position: relative;
+}
+
+/* with unknown height */
+.v-centered-block{
+    height: 160px;
+    transform: translateY(-50%);
+    position: absolute;
+    top: 50%;
+    width: 100%;
+}
+
+.v-h-centered-block {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/* END OF CENTERING */
+
 /*MEDIUM SIZE SCREENS*/
 @media(min-width:540px) {
 
-    .container {
+    /* .container {
         width: 520px;
         margin: auto;
+    } */
+
+    .floater-section {
+        min-height: 268px;
+        ;
     }
 
     .width-md-25 {
@@ -63,13 +105,13 @@ img {
 
 /*LARGE SIZE SCREENS*/
 @media(min-width:800px) {
-    .container {
+     /* .container {
         width: 760px;
         margin: auto;
-    }
+    }  */
 
     .floater-section {
-        min-height: 485px;
+        min-height: 200px;
         ;
     }
 
