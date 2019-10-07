@@ -22,6 +22,12 @@ h1{
     padding: 10px 10px 0px 10px;
 }
 
+.space::after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
 .box{
     height: 288px;
 }
