@@ -1,20 +1,29 @@
-.red {
-    background-color: #8d1615;
-    color: #F1EAD9;
-}
-
-.peach {
-    background-color: #F1C29A;
-    color: #0D0D0D;
-}
-
 .white {
-    background-color: #F1EAD9;
-    color: #0D0D0D;
+    background-color: #EAF2EF;
 }
 
 .black {
-    background-color: #0D0D0D;
+    background-color: #120309;
+}
+
+.orange {
+    background-color: rgb(226, 141, 30);
+}
+
+.green {
+    background-color: #17976A;
+}
+
+.yellow {
+    background-color: #E9A31C;
+}
+
+.blue {
+    background-color: #016C71;
+}
+
+.red{
+    background-color: rgb(202, 17, 17);
 }
 
 .transparent {
