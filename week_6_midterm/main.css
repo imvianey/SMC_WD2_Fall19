@@ -1,6 +1,7 @@
 @import url(layout.css);
 @import url(colors.css);
 @import url(navbar.css);
+@import url(background-images.css);
 
 body,
 html {
@@ -32,32 +33,11 @@ h1{
     height: 288px;
 }
 
-/* START OF INDEX PAGE */
-.bg-index {
-    background-image: url("links/skates-circle.png");
-    position: relative;
-    height: 50%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.square{
+    height: 150px;
+    width: 150px;
 }
 
-.bg-classic-moxis{
-    background-image: url("links/skates-classic.jpg");
-    width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover  
-}
-
-.bg-custom{
-    background-image: url("links/skates-custom.png");
-    width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover  
-}
-/* END OF INDEX PAGE */
 
 @media(min-width:540px) {
     .box{

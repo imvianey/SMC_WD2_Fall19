@@ -65,6 +65,19 @@ nav ul a {
     background-position-x: 45px;
 }
 
+footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: orange;
+    color: white;
+    text-align: center;}
+
+footer ul{
+    list-style: none;
+    display: block;
+}
+
 @media(min-width: 540px) {
     nav ul li {
         display: inline-block;

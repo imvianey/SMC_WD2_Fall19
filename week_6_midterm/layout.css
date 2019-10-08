@@ -75,7 +75,10 @@ img {
 
     .floater-section {
         min-height: 268px;
-        ;
+    }
+
+    .width-md-16{
+        width: 16.6666666667%;
     }
 
     .width-md-25 {

@@ -1,0 +1,32 @@
+.bg-index {
+    background-image: url("links/skates-circle.png");
+    position: relative;
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-classic-moxis{
+    background-image: url("links/skates-classic.jpg");
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover  
+}
+
+.bg-custom{
+    background-image: url("links/skates-custom.png");
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover  
+}
+
+.bg-wheels{
+    background-image: url("links/wheels.jpg");
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover  
+}
