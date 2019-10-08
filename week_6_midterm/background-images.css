@@ -30,3 +30,20 @@
     background-repeat: no-repeat;
     background-size: cover  
 }
+
+.bg-skates-line{
+    background-image: url("links/skates-line.png");
+    position: relative;
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-plates{
+    background-image: url("links/plates.jpg");
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
