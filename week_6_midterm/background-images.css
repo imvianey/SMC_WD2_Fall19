@@ -1,3 +1,5 @@
+/* HEADERS */
+
 .bg-index {
     background-image: url("links/skates-circle.png");
     position: relative;
@@ -6,6 +8,25 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.bg-skates-line{
+    background-image: url("links/skates-line.png");
+    position: relative;
+    height: 25%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-m-cutout{
+    background-image: url("links/m-cutout.jpg");
+    position: relative;
+    height: 25%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* END OF HEADERS */
 
 .bg-classic-moxis{
     background-image: url("links/skates-classic.jpg");
@@ -29,15 +50,6 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover  
-}
-
-.bg-skates-line{
-    background-image: url("links/skates-line.png");
-    position: relative;
-    height: 50%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .bg-plates{

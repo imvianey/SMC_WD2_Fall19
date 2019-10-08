@@ -15,7 +15,7 @@ html {
     color: #000;
 }
 
-h1{
+h1, h2, h4{
     text-align: center;
 }
 
@@ -36,6 +36,12 @@ h1{
 .square{
     height: 150px;
     width: 150px;
+}
+
+.icon{
+    height: 20px;
+    width: auto;
+    vertical-align: middle;
 }
 
 

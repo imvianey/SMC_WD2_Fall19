@@ -33,7 +33,7 @@ img {
 /* multi-line vertical alignment */
 .content-table {
     display: table;
-    height: 430px;
+    height: 95px;
     margin: 0 auto;
 }
 
@@ -41,7 +41,6 @@ img {
     display: table-cell;
     vertical-align: middle;
 }
-
 
 /* Block element with known height */
 .pos-relative {

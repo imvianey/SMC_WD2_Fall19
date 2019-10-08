@@ -11,7 +11,7 @@
 }
 
 .green {
-    background-color: #17976A;
+    background-color: rgb(16, 199, 135);
 }
 
 .yellow {
@@ -19,11 +19,19 @@
 }
 
 .blue {
-    background-color: #016C71;
+    background-color: rgb(16, 180, 189);
 }
 
 .red{
     background-color: rgb(202, 17, 17);
+}
+
+.pink{
+    background-color: rgb(224, 85, 171);
+}
+
+.purple{
+    background-color: rgb(174, 33, 209);
 }
 
 .transparent {
