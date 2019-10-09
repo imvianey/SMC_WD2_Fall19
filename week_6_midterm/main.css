@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Coiny&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap');
+
 @import url(layout.css);
 @import url(colors.css);
 @import url(navbar.css);
@@ -27,6 +30,12 @@ h1,
 h2,
 h4 {
     text-align: center;
+    font-family: 'Coiny', cursive;
+
+}
+
+p, a{
+    font-family: 'Lato', sans-serif;
 }
 
 .space {
@@ -52,6 +61,59 @@ h4 {
     width: auto;
     vertical-align: middle;
 }
+
+
+/* LOCATION-STAFF */
+.ashley {
+    position: absolute;
+    left: 140px;
+    top: 7px;
+}
+
+.emma {
+    position: absolute;
+    left: 80px;
+    top: 64px;
+}
+
+.liv {
+    position: absolute;
+    right: 107px;
+    bottom: 93px;
+}
+
+.millie {
+    position: absolute;
+    right: 107px;
+    bottom: 93px;
+}
+
+
+.sailor {
+    position: absolute;
+    left: 67px;
+    top: 81px;
+}
+
+.francis {
+    position: absolute;
+    right: 38px;
+    top: 23px;
+}
+
+.morgan {
+    position: absolute;
+    left: 42px;
+    bottom: 35px;
+}
+
+.vanna {
+    position: absolute;
+    right: 73px;
+    bottom: 49px;
+}
+/* Staff END */
+
 
 /* GRID */
 box-sizing: border-box;
@@ -92,30 +154,6 @@ box-sizing: border-box;
     width: 50%;
 }
 
-.col-7 {
-    width: 58.33%;
-}
-
-.col-8 {
-    width: 66.66%;
-}
-
-.col-9 {
-    width: 75%;
-}
-
-.col-10 {
-    width: 83.33%;
-}
-
-.col-11 {
-    width: 91.66%;
-}
-
-.col-12 {
-    width: 100%;
-}
-
 
 @media(min-width:540px) {
     .box {
@@ -125,7 +163,7 @@ box-sizing: border-box;
     .m-col-3 {
         width: 25%;
     }
-    
+
 }
 
 @media(min-width:800px) {

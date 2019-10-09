@@ -1,5 +1,5 @@
 .bg-index {
-    background-image: url("links/skates-circle.png");
+    background-image: url("links/skates-circle-2.jpg");
     position: relative;
     height: 50%;
     background-position: center;
@@ -26,7 +26,7 @@
 }
 
 .bg-classic-moxis {
-    background-image: url("links/skates-classic.jpg");
+    background-image: url("links/classic-moxi1.jpg");
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
