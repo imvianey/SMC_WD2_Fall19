@@ -59,3 +59,22 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+/* LOCATION PAGE */
+.bg-shop-lb{
+    background-image: url("links/shop-longbeach.jpg");
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+}
+
+.bg-shop-v{
+    background-image: url("links/shop-venice.jpg");
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+}
