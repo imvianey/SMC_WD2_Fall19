@@ -5,6 +5,13 @@ background-repeat: no-repeat;
 background-size: cover;
 }
 
+[class*="btn"] {
+    width: 100%;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
 /* INDEX */
 .bg-index {
     background-image: url("links/skates-line-lg.jpg");
@@ -12,15 +19,16 @@ background-size: cover;
     height: 62%;
 }
 
-.bg-moxi-skates {
+.btn-moxi-skates {
     background-image: url("links/jack-lolly.jpg");
+    background-position: bottom;
 }
 
-.bg-custom {
+.btn-custom {
     background-image: url("links/custom-vans-galaxy.png");
 }
 
-.bg-more-shopping {
+.btn-more-shopping {
     background-image: url("links/fanny-pack.jpg");
 }
 
@@ -39,6 +47,7 @@ background-size: cover;
 
 .bg-instagram-4 {
     background-image: url("links/instagram-4.jpg");
+    background-position: bottom;
 }
 
 .bg-instagram-5 {
@@ -71,6 +80,7 @@ background-size: cover;
 
 .bg-instagram-12 {
     background-image: url("links/instagram-12.jpg");
+    background-position: top;
 }
 
 .bg-instagram-13 {
@@ -80,9 +90,26 @@ background-size: cover;
 .bg-instagram-14 {
     background-image: url("links/instagram-14.jpg");
 }
-
-
 /* INDEX-INSTAGRAM END*/
+.btn-derby{
+    background-image: url("links/moxi-legs-kick.jpg");
+}
+
+.btn-tutorials {
+    background-image: url("links/moxi-legs-kick.jpg");
+}
+
+.btn-videos {
+    background-image: url("links/skates-star.jpg");
+}
+
+.btn-skate-team{
+    background-image: url("links/team-beach.jpg");
+}
+
+.btn-derby{
+    background-image: url("links/derby-skate-1.jpg");
+}
 
 
 
