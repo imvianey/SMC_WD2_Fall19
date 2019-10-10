@@ -1,77 +1,121 @@
+.bg{
+    width: 100%;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;}
+
+/* INDEX */
 .bg-index {
-    background-image: url("links/skates-circle-2.jpg");
+    background-image: url("links/skates-line-lg.jpg");
     position: relative;
-    height: 50%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    height: 62%;
 }
+
+.bg-moxi-skates {
+    background-image: url("links/jack-lolly.jpg");
+}
+
+.bg-custom {
+    background-image: url("links/custom-vans-galaxy.png");
+}
+
+.bg-more-shopping {
+    background-image: url("links/fanny-pack.jpg");
+}
+
+/* INDEX-INSTAGRAM */
+.bg-instagram-1 {
+    background-image: url("links/instagram-1.jpg");
+}
+
+.bg-instagram-2 {
+    background-image: url("links/instagram-2.jpg");
+}
+
+.bg-instagram-3 {
+    background-image: url("links/instagram-3.jpg");
+}
+
+.bg-instagram-4 {
+    background-image: url("links/instagram-4.jpg");
+}
+
+.bg-instagram-5 {
+    background-image: url("links/instagram-5.jpg");
+}
+
+.bg-instagram-6 {
+    background-image: url("links/instagram-6.jpg");
+}
+
+.bg-instagram-7 {
+    background-image: url("links/instagram-7.jpg");
+}
+
+.bg-instagram-8 {
+    background-image: url("links/instagram-8.jpg");
+}
+
+.bg-instagram-9 {
+    background-image: url("links/instagram-9.jpg");
+}
+
+.bg-instagram-10 {
+    background-image: url("links/instagram-10.jpg");
+}
+
+.bg-instagram-11 {
+    background-image: url("links/instagram-11.jpg");
+}
+
+.bg-instagram-12 {
+    background-image: url("links/instagram-12.jpg");
+}
+
+
+/* INDEX-INSTAGRAM END*/
+
+
 
 .bg-skates-line {
     background-image: url("links/skates-line.png");
     position: relative;
     height: 25%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .bg-m-cutout {
     background-image: url("links/m-cutout.jpg");
     position: relative;
     height: 25%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.bg-classic-moxis {
-    background-image: url("links/classic-moxi1.jpg");
-    width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover
-}
-
-.bg-custom {
-    background-image: url("links/skates-custom.png");
-    width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover
 }
 
 .bg-wheels {
     background-image: url("links/wheels.jpg");
-    width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover
 }
 
 .bg-plates {
     background-image: url("links/plates.jpg");
-    width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 /* LOCATION PAGE */
 .bg-shop-lb {
     background-image: url("links/shop-longbeach.jpg");
-    width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     height: 300px;
 }
 
 .bg-shop-v {
     background-image: url("links/shop-venice.jpg");
-    width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     height: 300px;
+}
+
+@media(min-width:540px){
+.bg-more-shopping{
+    background-image: url("links/toe-stops.jpg");
+}
+}
+
+@media(min-width:800px){
+    .bg-more-shopping{
+        background-image: url("links/laces-rainbow.jpg");
+    }
 }
