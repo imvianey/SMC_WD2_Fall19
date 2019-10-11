@@ -1,5 +1,9 @@
+/* font for body-works all */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap');
+/* font for head test */
 @import url('https://fonts.googleapis.com/css?family=Coiny&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Chango&display=swap');
+/* Font for head end- NEED TO CHECK */
 
 @import url(layout.css);
 @import url(colors.css);
@@ -31,15 +35,16 @@ h2,
 h4 {
     text-align: center;
     font-family: 'Coiny', cursive;
+    /* font-family: 'Chango', cursive; */
 
 }
 
 p, a{
-    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .space {
-    padding: 10px 10px 0px 10px;
+    padding: 50px 20px 0px 20px;
 }
 
 .space::after {

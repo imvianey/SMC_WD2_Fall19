@@ -23,6 +23,7 @@ header label img {
 nav {
     padding: 20px 10px;
     display: none;
+    overflow: hidden;
 }
 
 input#toggler:checked+nav {
@@ -37,7 +38,6 @@ nav ul {
 
 nav li {
     border-bottom: 1px solid #F1EAD9;
-    ;
     padding: 10px 0px;
     margin: 10px;
 }
@@ -52,9 +52,8 @@ nav ul a {
     line-height: 40px;
     font-family: 'Oswald', sans-serif;
     color: white;
-    font-size: 18px;
-    padding-right: 35px;
-    /*for vertical centering */
+    font-size: 16px;
+    float: right;
 }
 
 .current {
@@ -65,15 +64,63 @@ nav ul a {
     background-position-x: 45px;
 }
 
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    border: none;
+    background-color: inherit;
+    text-transform: uppercase;
+    line-height: 40px;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-size: 16px;
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
 footer {
     left: 0;
     bottom: 0;
     width: 100%;
     background-color: orange;
     color: white;
-    text-align: center;}
+    text-align: center;
+}
 
-footer ul{
+footer ul {
     list-style: none;
     display: block;
 }
