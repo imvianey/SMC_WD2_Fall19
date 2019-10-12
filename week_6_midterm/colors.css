@@ -1,5 +1,5 @@
 .white {
-    background-color: #EAF2EF;
+    background-color: #FFFFFF;
 }
 
 .black {
@@ -7,31 +7,19 @@
 }
 
 .orange {
-    background-color: rgb(226, 141, 30);
+    background-color: #E89005;
 }
 
-.green {
-    background-color: rgb(16, 199, 135);
-}
-
-.yellow {
-    background-color: #E9A31C;
+.yellow{
+    background-color: #F9D448;
 }
 
 .blue {
-    background-color: rgb(16, 180, 189);
-}
-
-.red {
-    background-color: rgb(202, 17, 17);
+    background-color: #2AB7CA;
 }
 
 .pink {
-    background-color: rgb(224, 85, 171);
-}
-
-.purple {
-    background-color: rgb(174, 33, 209);
+    background-color: #E83C64;
 }
 
 .transparent {

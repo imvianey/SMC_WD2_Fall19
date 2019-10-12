@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap');
 /* font for head test */
 @import url('https://fonts.googleapis.com/css?family=Coiny&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Chango&display=swap');
 /* Font for head end- NEED TO CHECK */
 
 @import url(layout.css);
@@ -22,49 +21,66 @@ html {
     color: #000;
 }
 
-.instagram a {
-    width: 100%;
-    text-align: center;
-    color: #000;
-    background-color: white;
-    padding: 20px;
-}
-
 h1,
 h2,
+h3,
 h4 {
     text-align: center;
     font-family: 'Coiny', cursive;
-    /* font-family: 'Chango', cursive; */
+    text-shadow: 6px 2px 5px black;
+}
 
+h1{
+    font-size: 50px;
+    color:#FFFFFF;
+}
+
+h2{
+    font-size: 65px;
+    margin: 0px;
+    color:#2AB7CA;
+}
+
+h3{
+    font-size: 50px;
+    line-height: 57px;
+    color:#F9D448;
 }
 
 p, a{
     font-family: 'Open Sans', sans-serif;
 }
 
-.space {
-    padding: 50px 20px 0px 20px;
-}
-
-.space::after {
-    clear: both;
-    content: "";
-    display: block;
-}
-
-.box {
-    height: 288px;
-}
-
-.square {
-    height: 150px;
-}
-
 .icon {
     height: 20px;
     width: auto;
     vertical-align: middle;
+}
+
+.button {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); 
+  }
+  
+  .button:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+  .instagram {
+    width: 100%;
+    text-align: center;
+    color: #000;
+    background-color: white;
+    padding: 20px;
 }
 
 
@@ -171,10 +187,20 @@ box-sizing: border-box;
     .l-col-2 {
         width: 16.66%;
     }
+
+    .width-lg-25 h3{
+        font-size: 30px;
+        line-height: 33px;
+    }
 }
 
 @media(min-width:1000px){
     .xl-col-1 {
         width: 14.28%;
+    }
+
+    .width-lg-25 h3{
+        font-size: 40px;
+        line-height: 42px;
     }
 }
