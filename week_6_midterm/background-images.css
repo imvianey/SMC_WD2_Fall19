@@ -14,7 +14,7 @@
 
 /* INDEX */
 .bg-index {
-    background-image: url("links/skates-line-lg.jpg");
+    background-image: url("links/team-beach.jpg");
     position: relative;
     height: 85%;
 }
@@ -132,6 +132,31 @@
 
 .bg-plates {
     background-image: url("links/plates.jpg");
+}
+
+/* SHOP PAGE */
+.bg-jack {
+    background-image: url("links/jack-red.jpg");
+}
+
+.bg-lolly {
+    background-image: url("links/lolly-rbg.jpg");
+}
+
+.bg-beach-bunny{
+    background-image: url("links/shop-venice.jpg");
+}
+
+.bg-moxi-custom {
+    background-image: url("links/shop-longbeach.jpg");
+}
+
+.bg-moxi-wheels {
+    background-image: url("links/shop-venice.jpg");
+}
+
+.bg-moxi-plates {
+    background-image: url("links/shop-venice.jpg");
 }
 
 /* LOCATION PAGE */

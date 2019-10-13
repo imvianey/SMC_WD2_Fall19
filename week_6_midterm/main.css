@@ -8,6 +8,7 @@
 @import url(colors.css);
 @import url(navbar.css);
 @import url(background-images.css);
+@import url(form.css);
 
 body,
 html {
@@ -39,6 +40,7 @@ h2 {
     font-size: 65px;
     margin: 0px;
     color: #2AB7CA;
+    line-height: 76px;
 }
 
 h3 {
@@ -87,56 +89,17 @@ a {
 }
 
 /* LOCATION-STAFF */
-.ashley {
+.staff-left{
     position: absolute;
-    left: 140px;
-    top: 7px;
+    left: 20px;
+    top: 20px;
 }
 
-.emma {
+.staff-right{
     position: absolute;
-    left: 80px;
-    top: 64px;
+    right: 39px;
+    bottom: -18px;
 }
-
-.liv {
-    position: absolute;
-    right: 107px;
-    bottom: 93px;
-}
-
-.millie {
-    position: absolute;
-    right: 107px;
-    bottom: 93px;
-}
-
-
-.sailor {
-    position: absolute;
-    left: 67px;
-    top: 81px;
-}
-
-.francis {
-    position: absolute;
-    right: 38px;
-    top: 23px;
-}
-
-.morgan {
-    position: absolute;
-    left: 42px;
-    bottom: 35px;
-}
-
-.vanna {
-    position: absolute;
-    right: 73px;
-    bottom: 49px;
-}
-
-/* Staff END */
 
 
 /* GRID */
@@ -159,7 +122,6 @@ a {
 .col-6 {
     width: 50%;
 }
-
 
 @media(min-width:540px) {
     .box {

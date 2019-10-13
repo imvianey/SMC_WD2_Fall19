@@ -98,7 +98,7 @@ ul li:hover>ul,
 }
 
 .current {
-    text-shadow: -1px 5px 0 #2AB7CA,
+    text-shadow: -1px 2px 0 #2AB7CA,
         0px -2px 0 #2AB7CA,
         -1px 2px 0 #2AB7CA,
         -1px 0px 0px #2AB7CA;

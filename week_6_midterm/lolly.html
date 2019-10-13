@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="main.css">
+    <title>Moxi Skate Shop</title>
+</head>
+
+<body class="white">
+    <header class="yellow">
+        <label for="toggler">
+            <img src="links/icons/skate-blue.png" alt="menu icon">
+        </label>
+        <img src="links/logo-sm.png" alt="Moxi Logo" class="logo">
+        <input type="checkbox" id="toggler">
+        <nav>
+            <ul>
+                <li><a class="current" href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a>
+                    <ul class="dropdown drop-shop">
+                        <li><a href="#">Moxi Skates</a></li>
+                        <li><a href="#">Custom Skates</a></li>
+                        <li><a href="#">Hardware</a></li>
+                        <li><a href="#">Accessories</a></li>
+                        <li><a href="#">Apparel</a></li>
+                    </ul>
+                </li>
+                <li><a href="locations.html">Locations</a>
+                    <ul class="dropdown drop-location">
+                        <li><a href="#">Long Beach</a></li>
+                        <li><a href="#">Venice</a></li>
+                    </ul>
+                </li>
+                <li><a href="rollout.html">Roll Out</a>
+                    <ul class="dropdown drop-roll">
+                        <li><a href="#">Roller Derby</a></li>
+                        <li><a href="#">Moxi Skate Team</a></li>
+                        <li><a href="#">Tutorials</a></li>
+                        <li><a href="#">Media</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <body>
+
+            <form class="myForm" method="get" enctype="application/x-www-form-urlencoded" action="/html/codes/html_form_handler.cfm">
+            
+            <p>
+            <label>Name
+            <input type="text" name="customer_name" required>
+            </label> 
+            </p>
+            
+            <p>
+            <label>Phone 
+            <input type="tel" name="phone_number">
+            </label>
+            </p>
+            
+            <p>
+            <label>Email 
+            <input type="email" name="email_address">
+            </label>
+            </p>
+            
+            <fieldset>
+            <legend>Color:</legend>
+            <p><label class="choice"> <input type="radio" name="taxi" required value="car"> Car </label></p>
+            <p><label class="choice"> <input type="radio" name="taxi" required value="van"> Van </label></p>
+            <p><label class="choice"> <input type="radio" name="taxi" required value="tuktuk"> Tuk Tuk </label></p>
+            </fieldset>
+            
+            <fieldset>
+            <legend>Size:</legend>
+            <p><label class="choice"> <input type="checkbox" name="extras" value="baby"> Baby Seat </label></p>
+            <p><label class="choice"> <input type="checkbox" name="extras" value="wheelchair"> Wheelchair Access </label></p>
+            <p><label class="choice"> <input type="checkbox" name="extras" value="tip"> Stock Tip </label></p>
+            </fieldset>
+            
+            <p>
+            <label>Qty:
+            <input type="datetime-local" name="pickup_time" required>
+            </label>
+            </p>
+                
+            <p>
+            <label>Pickup Place
+            <select id="pickup_place" name="pickup_place">
+            <option value="" selected="selected">Select One</option>
+            <option value="office" >Taxi Office</option>
+            <option value="town_hall" >Town Hall</option>
+            <option value="telepathy" >We'll Guess!</option>
+            </select>
+            </label> 
+            </p>
+            
+            <p>
+            <label>Dropoff Place
+            <input type="text" name="dropoff_place" required list="destinations">
+            </label>
+            
+            <datalist id="destinations">
+            <option value="Airport">
+            <option value="Beach">
+            <option value="Fred Flinstone's House">
+            </datalist>
+            </p>
+            
+            <p>
+            <label>Special Instructions
+            <textarea name="comments" maxlength="500"></textarea>
+            </label>
+            </p>
+            
+            <p><button>Submit Booking</button></p>
+            
+            </form>
+    </main>
+</body>
