@@ -58,20 +58,22 @@ p, a{
 }
 
 .button {
-    background-color: white; 
-    color: black; 
-    border: 2px solid #4CAF50;
+    background-color: #E83C64; 
+    color: #FFFFFF; 
+    border: 2px solid #FFFFFF;
+    border-radius: 95px;
     padding: 16px 32px;
+    font-family: 'Coiny', cursive;
     text-align: center;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 20px;
     margin: 4px 2px;
     transition-duration: 0.4s;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); 
   }
   
   .button:hover {
-    background-color: #4CAF50;
+    background-color: #E83C64;
     color: white;
   }
 
@@ -82,7 +84,6 @@ p, a{
     background-color: white;
     padding: 20px;
 }
-
 
 /* LOCATION-STAFF */
 .ashley {
