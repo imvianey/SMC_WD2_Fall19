@@ -30,24 +30,25 @@ h4 {
     text-shadow: 6px 2px 5px black;
 }
 
-h1{
+h1 {
     font-size: 50px;
-    color:#FFFFFF;
+    color: #FFFFFF;
 }
 
-h2{
+h2 {
     font-size: 65px;
     margin: 0px;
-    color:#2AB7CA;
+    color: #2AB7CA;
 }
 
-h3{
+h3 {
     font-size: 50px;
     line-height: 57px;
-    color:#F9D448;
+    color: #F9D448;
 }
 
-p, a{
+p,
+a {
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -58,8 +59,8 @@ p, a{
 }
 
 .button {
-    background-color: #E83C64; 
-    color: #FFFFFF; 
+    background-color: #E83C64;
+    color: #FFFFFF;
     border: 2px solid #FFFFFF;
     border-radius: 95px;
     padding: 16px 32px;
@@ -69,15 +70,15 @@ p, a{
     font-size: 20px;
     margin: 4px 2px;
     transition-duration: 0.4s;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); 
-  }
-  
-  .button:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.button:hover {
     background-color: #E83C64;
     color: white;
-  }
+}
 
-  .instagram {
+.instagram {
     width: 100%;
     text-align: center;
     color: #000;
@@ -134,12 +135,11 @@ p, a{
     right: 73px;
     bottom: 49px;
 }
+
 /* Staff END */
 
 
 /* GRID */
-box-sizing: border-box;
-}
 
 .row::after {
     content: "";
@@ -189,18 +189,18 @@ box-sizing: border-box;
         width: 16.66%;
     }
 
-    .width-lg-25 h3{
+    .width-lg-25 h3 {
         font-size: 30px;
         line-height: 33px;
     }
 }
 
-@media(min-width:1000px){
+@media(min-width:1000px) {
     .xl-col-1 {
         width: 14.28%;
     }
 
-    .width-lg-25 h3{
+    .width-lg-25 h3 {
         font-size: 40px;
         line-height: 42px;
     }

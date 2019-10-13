@@ -1,15 +1,15 @@
 [class*="bg"] {
     width: 100%;
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 [class*="btn"] {
     width: 100%;
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* INDEX */
@@ -90,8 +90,9 @@ background-size: cover;
 .bg-instagram-14 {
     background-image: url("links/instagram-14.jpg");
 }
+
 /* INDEX-INSTAGRAM END*/
-.btn-derby{
+.btn-derby {
     background-image: url("links/moxi-legs-kick.jpg");
 }
 
@@ -103,11 +104,11 @@ background-size: cover;
     background-image: url("links/skates-star.jpg");
 }
 
-.btn-skate-team{
+.btn-skate-team {
     background-image: url("links/team-beach.jpg");
 }
 
-.btn-derby{
+.btn-derby {
     background-image: url("links/derby-skate-1.jpg");
 }
 
@@ -144,14 +145,14 @@ background-size: cover;
     height: 300px;
 }
 
-@media(min-width:540px){
-.bg-more-shopping{
-    background-image: url("links/toe-stops.jpg");
-}
+@media(min-width:540px) {
+    .bg-more-shopping {
+        background-image: url("links/toe-stops.jpg");
+    }
 }
 
-@media(min-width:800px){
-    .bg-more-shopping{
+@media(min-width:800px) {
+    .bg-more-shopping {
         background-image: url("links/laces-rainbow.jpg");
     }
 }
