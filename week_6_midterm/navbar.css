@@ -76,19 +76,19 @@ li {
      top: 50px;
    }
 
-   ul li ul a:hover {
+  .dropdown a:hover {
     background-color: #ffffff;
     color: #2AB7CA;
   }
    
    ul li:hover > ul,
-   ul li ul:hover {
+   .dropdown:hover {
      visibility: visible;
      opacity: 1;
      display: block;
    }
    
-   ul li ul li {
+    .dropdown li {
      clear: both;
      width: 100%;
    }
@@ -140,12 +140,22 @@ nav a:hover{
         padding: 0px 10px;
     }
 
-    ul li ul {
+    .drop-shop {
         width: 212px;
-        padding: 0px 20px;
-        text-align: left;}
-
-    .dropdown{
         padding: 0px;
+        text-align: left;
+    }
+
+    .drop-location {
+        width: 168px;
+        padding: 0px;
+        text-align: left;
+    }
+
+    .drop-roll {
+        width: 229px;
+        padding: 0px;
+        text-align: right;
+        right: 15px;
     }
 }
