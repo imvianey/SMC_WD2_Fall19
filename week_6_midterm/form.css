@@ -1,61 +1,88 @@
 /* SHOP ITEM FORM */
+form{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
 
-.myForm {
-    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-    font-size: 0.8em;
-    width: 20em;
-    padding: 1em;
-    border: 1px solid #ccc;
-    }
-    
-    .myForm * {
-    box-sizing: border-box;
-    }
-    
-    .myForm fieldset {
+fieldset {
     border: none;
     padding: 0;
     }
     
-    .myForm legend,
-    .myForm label {
+  h4,label {
     padding: 0;
     font-weight: bold;
     }
-    
-    .myForm label.choice {
-    font-size: 0.9em;
-    font-weight: normal;
-    }
-    
-    .myForm input[type="text"],
-    .myForm input[type="tel"],
-    .myForm input[type="email"],
-    .myForm input[type="datetime-local"],
-    .myForm select,
-    .myForm textarea {
+
+input[id^=Color],
+input[id^=Color]~label,
+input[type=checkbox],
+input[type=checkbox]~label{
+    width: initial;
     display: block;
-    width: 100%;
-    border: 1px solid #ccc;
-    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-    font-size: 0.9em;
-    padding: 0.3em;
-    }
-    
-    .myForm textarea {
-    height: 100px;
-    }
-    
-    .myForm button {
-    padding: 1em;
-    border-radius: 0.5em;
-    background: #eee;
-    border: none;
-    font-weight: bold;
-    margin-top: 1em;
-    }
-    
-    .myForm button:hover {
-    background: #ccc;
-    cursor: pointer;
-    }
+}
+
+input[id^=Color] {
+    display: none;
+}
+
+input[id^=Color]~label::before{
+    content: "";
+position: absolute;
+width: 40px;
+height: 40px;
+border-radius: 50%;
+top: -41px;
+left: 14px;
+}
+
+input[id^=Color1]~label::before{
+    background-color:#2f65ca;
+}
+
+input[id^=Color2]~label::before{
+    background-color:#b30202;
+}
+
+input[id^=Color3]~label::before{
+    background-color:#2f65ca;
+}
+
+input[id^=Color4]~label::before{
+    background-color:#b30202;
+}
+input[id^=Color5]~label::before{
+    background-color:#2f65ca;
+}
+
+input[id^=Color6]~label::before{
+    background-color:#b30202;
+}
+input[id^=Color7]~label::before{
+    background-color:#2f65ca;
+}
+
+input[id^=Color8]~label::before{
+    background-color:#b30202;
+}
+input[id^=Color9]~label::before{
+    background-color:#2f65ca;
+}
+
+.radio-group {
+    padding-left: 20px;
+    position: relative;
+    display: inline-block;
+}
+
+input[id^=Color]:checked~label::after{
+    content: "";
+position: absolute;
+border-radius: 50%;
+width: 40px;
+height: 40px;
+background-color:transparent;
+top: -41px;
+left: 14px;
+box-shadow: 0 0 0 4px black;
+}

@@ -48,79 +48,112 @@
     </header>
 
     <main>
-        <body>
 
-            <form class="myForm" method="get" enctype="application/x-www-form-urlencoded" action="/html/codes/html_form_handler.cfm">
-            
-            <p>
-            <label>Name
-            <input type="text" name="customer_name" required>
-            </label> 
-            </p>
-            
-            <p>
-            <label>Phone 
-            <input type="tel" name="phone_number">
-            </label>
-            </p>
-            
-            <p>
-            <label>Email 
-            <input type="email" name="email_address">
-            </label>
-            </p>
-            
-            <fieldset>
-            <legend>Color:</legend>
-            <p><label class="choice"> <input type="radio" name="taxi" required value="car"> Car </label></p>
-            <p><label class="choice"> <input type="radio" name="taxi" required value="van"> Van </label></p>
-            <p><label class="choice"> <input type="radio" name="taxi" required value="tuktuk"> Tuk Tuk </label></p>
-            </fieldset>
-            
-            <fieldset>
-            <legend>Size:</legend>
-            <p><label class="choice"> <input type="checkbox" name="extras" value="baby"> Baby Seat </label></p>
-            <p><label class="choice"> <input type="checkbox" name="extras" value="wheelchair"> Wheelchair Access </label></p>
-            <p><label class="choice"> <input type="checkbox" name="extras" value="tip"> Stock Tip </label></p>
-            </fieldset>
-            
-            <p>
-            <label>Qty:
-            <input type="datetime-local" name="pickup_time" required>
-            </label>
-            </p>
-                
-            <p>
-            <label>Pickup Place
-            <select id="pickup_place" name="pickup_place">
-            <option value="" selected="selected">Select One</option>
-            <option value="office" >Taxi Office</option>
-            <option value="town_hall" >Town Hall</option>
-            <option value="telepathy" >We'll Guess!</option>
-            </select>
-            </label> 
-            </p>
-            
-            <p>
-            <label>Dropoff Place
-            <input type="text" name="dropoff_place" required list="destinations">
-            </label>
-            
-            <datalist id="destinations">
-            <option value="Airport">
-            <option value="Beach">
-            <option value="Fred Flinstone's House">
-            </datalist>
-            </p>
-            
-            <p>
-            <label>Special Instructions
-            <textarea name="comments" maxlength="500"></textarea>
-            </label>
-            </p>
-            
-            <p><button>Submit Booking</button></p>
-            
+        <body>
+            <div class="container">
+                <div class="space">
+                    <img src="links/lolly-rbg.jpg" alt="Moxi Lolly Roller Skates">
+            <form class="width-md-50" action="" method="GET">
+                <fieldset>
+                    <h4>Color:</h4>
+                    <div class="radio-group">
+                        <input type="radio" name="color" value="1" id="Color1">
+                        <label for="Color1">Poppy</label>
+                    </div>
+                    <div class="radio-group">
+                        <input type="radio" name="color" value="2" id="Color2">
+                        <label for="Color2">Empty Pool</label>
+                    </div>
+                    <div class="radio-group">
+                        <input type="radio" name="color" value="3" id="Color3">
+                        <label for="Color3">Fuchsia</label>
+                    </div>
+                    <div class="radio-group">
+                        <input type="radio" name="color" value="4" id="Color4">
+                        <label for="Color4">Strawberry</label>
+                    </div>
+                    <div class="radio-group">
+                        <input type="radio" name="color" value="5" id="Color5">
+                        <label for="Color5">Taffy</label>
+                    </div>
+                    <div class="radio-group">
+                        <input type="radio" name="color" value="6" id="Color6">
+                        <label for="Color6">Floss</label>
+                    </div>
+                    <div class="radio-group">
+                        <input type="radio" name="color" value="7" id="Color7">
+                        <label for="Color7">Clementine</label>
+                    </div>
+                    <div class="radio-group">
+                        <input type="radio" name="color" value="8" id="Color8">
+                        <label for="Color8">Pineapple</label>
+                    </div>
+                    <div class="radio-group">
+                        <input type="radio" name="color" value="9" id="Color9">
+                        <label for="Color9">Honeydew</label>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <h4>Size:</h4>
+                    <div class="radio-group">
+                        <input type="radio" name="size" value="1" id="Size1">
+                        <label for="Size1">10</label>
+                    </div>
+                    <div class="radio-group">
+                        <input type="radio" name="size" value="2" id="Size3">
+                        <label for="Size2">11</label>
+                    </div>
+                </fieldset>
+
+                <p>
+                    <label>Wheel Color:
+                        <select id="qty" name="qty">
+                            <option value="" selected="selected">Select One</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                        </select>
+                    </label>
+                </p>
+
+                <p>
+                        <label>Plate:
+                            <select id="qty" name="qty">
+                                <option value="" selected="selected">Select One</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                            </select>
+                        </label>
+                    </p>
+
+                <p>
+                    <label>Qty:
+                        <select id="qty" name="qty">
+                            <option value="" selected="selected">Select One</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                        </select>
+                    </label>
+                </p>
+
+                <p>
+                    <label>Size:
+                        <select id="qty" name="qty">
+                            <option value="" selected="selected">Select One</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                        </select>
+                    </label>
+                </p>
+
+                <p><button class="button">Submit Booking</button></p>
+
             </form>
+        </div>
+        </div>
     </main>
 </body>
