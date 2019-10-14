@@ -13,7 +13,7 @@ header input#toggler {
 header label img {
     width: 40px;
     height: auto;
-    margin: 10px;
+    padding: 10px 0px 5px 20px;
 }
 
 .logo {
@@ -67,13 +67,9 @@ li:hover {
 }
 
 .dropdown {
-    visibility: hidden;
-    position: absolute;
     display: none;
-    z-index: 2;
     background-color: #2AB7CA;
     color: #ffffff;
-    top: 50px;
 }
 
 .dropdown a:hover {
@@ -123,13 +119,13 @@ nav a:hover {
         position: absolute;
         top: 7px;
         left: 40px;
-        height: 60px;
+        height: 48px;
         widows: auto;
     }
 
     nav {
         display: block;
-        padding: 0px 10px;
+        padding: 4px 10px;
     }
 
     nav ul {
@@ -167,9 +163,24 @@ nav a:hover {
     nav li {
         border-bottom: 0px;
     }
+
+    .dropdown {
+        visibility: hidden;
+        position: absolute;
+        display: none;
+        z-index: 2;
+        background-color: #2AB7CA;
+        color: #ffffff;
+        top: 50px;
+    }
+    
 }
 
 @media(min-width: 800px) {
+    nav{
+        padding: 0px 10px;
+    }
+
     nav ul a {
         font-size: 20px;
     }

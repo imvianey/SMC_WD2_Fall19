@@ -50,8 +50,12 @@ h3 {
 
 p,
 a {
-    font-family: 'Open Sans', sans-serif;
+    font-family: pick-color'Open Sans', Arial, Helvetica, sans-serif;
     padding: 0px 20px;
+}
+
+ul,li{
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 }
 
 .icon {
@@ -86,6 +90,14 @@ a {
     color: #000;
     background-color: white;
     padding: 20px;
+}
+
+.hide-sm{
+    display: block;
+}
+
+.hide{
+    display: none;
 }
 
 /* LOCATION-STAFF */
@@ -154,6 +166,14 @@ a {
     .width-lg-25 h3 {
         font-size: 30px;
         line-height: 33px;
+    }
+
+    .hide-sm{
+        display: none;
+    }
+
+    .hide{
+        display: block;
     }
 }
 

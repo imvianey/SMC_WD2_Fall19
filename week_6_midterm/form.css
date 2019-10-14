@@ -1,6 +1,6 @@
 /* PICK COLOR */
 form {
-    font-family: 'Open Sans', sans-serif;
+    font-family: pick-color'Open Sans', Arial, Helvetica, sans-serif;
     font-size: 15px;
     display: inline-block;
     text-align: center;
@@ -114,12 +114,6 @@ input[id^=Color9]~label::before {
     background-color: #52388b;
 }
 
-.half{
-    width: 50%;
-    float: left;
-}
-
-
 
 input[type=text], select, textarea {
     width: 100%;
@@ -129,15 +123,9 @@ input[type=text], select, textarea {
     resize: vertical;
   }
   
-  label {
+  fieldset label {
     padding: 12px 12px 12px 0;
     display: inline-block;
-  }
-  
-  .container {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
   }
   
   .col-25 {
