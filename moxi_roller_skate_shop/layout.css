@@ -50,7 +50,7 @@ img {
 }
 
 .flush {
-    padding: 25px 0px 25px 0px;
+    padding: 65px 0px 25px 0px;
 }
 
 .box {
@@ -100,11 +100,6 @@ img {
 
 /*MEDIUM SIZE SCREENS*/
 @media(min-width:540px) {
-
-    /* .container {
-        width: 520px;
-        margin: auto;
-    } */
 
     .floater-section {
         min-height: 268px;

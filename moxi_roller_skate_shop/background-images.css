@@ -24,8 +24,8 @@
     background-position: bottom;
 }
 
-.btn-custom {
-    background-image: url("links/custom-vans-galaxy.png");
+.btn-visit{
+    background-image: url("links/skates-star.jpg");
 }
 
 /* INDEX-INSTAGRAM */
@@ -88,26 +88,6 @@
 }
 
 /* INDEX-INSTAGRAM END*/
-.btn-derby {
-    background-image: url("links/moxi-legs-kick.jpg");
-}
-
-.btn-tutorials {
-    background-image: url("links/moxi-legs-kick.jpg");
-}
-
-.btn-videos {
-    background-image: url("links/skates-star.jpg");
-}
-
-.btn-skate-team {
-    background-image: url("links/team-beach.jpg");
-}
-
-.btn-derby {
-    background-image: url("links/derby-skate-1.jpg");
-}
-
 .bg-m-cutout {
     background-image: url("links/m-cutout.jpg");
     position: relative;
