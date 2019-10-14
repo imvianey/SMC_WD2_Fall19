@@ -1,0 +1,149 @@
+/* PICK COLOR */
+form {
+    font-family: pick-color'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    display: inline-block;
+    text-align: center;
+}
+
+fieldset {
+    border: none;
+}
+
+.pick-color label {
+    padding-top: 54px;
+    font-weight: bold;
+}
+
+.pick-color {
+    height: 82px;
+    width: 100px;
+    display: inline-block;
+    position: relative;
+    margin: 10px 0px;
+}
+
+.color .radio-group {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+input[id^=Color],
+input[id^=Color]~label,
+input[type=checkbox],
+input[type=checkbox]~label {
+    width: initial;
+    display: block;
+}
+
+input[id^=Color] {
+    display: none;
+}
+
+input[id^=Color]~label::before {
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 31px;
+}
+
+input[id^=Color]:checked~label::after {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 31px;
+    box-shadow: 0 0 0 2px #fff, 0 0 0 5px #553c42, 0 0 10px 6px #0000006b;
+}
+
+input[id^=Color1]~label::before {
+    background-color: #ef0526;
+}
+
+input[id^=Color2]~label::before {
+    background-color: #fbb6b9;
+}
+
+
+input[id^=Color3]~label::before {
+    background-color: #dd7b2c;
+}
+
+input[id^=Color4]~label::before {
+    background-color: #ebcd2d;
+}
+
+input[id^=Color5]~label::before {
+    background-color: #b4d398;
+}
+
+
+input[id^=Color6]~label::before {
+    background-color: #bbe2dd;
+}
+
+input[id^=Color7]~label::before {
+    background-color: #049acc;
+}
+
+input[id^=Color8]~label::before {
+    background-color: #cb027e;
+}
+
+input[id^=Color9]~label::before {
+    background-color: #52388b;
+}
+
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  fieldset label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }

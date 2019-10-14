@@ -1,0 +1,213 @@
+/* font for body-works all */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap');
+/* font for head test */
+@import url('https://fonts.googleapis.com/css?family=Coiny&display=swap');
+/* Font for head end- NEED TO CHECK */
+
+@import url(layout.css);
+@import url(colors.css);
+@import url(navbar.css);
+@import url(background-images.css);
+@import url(form.css);
+
+body,
+html {
+    height: 100%;
+    margin: 0;
+}
+
+.caption {
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+
+h1,
+h2,
+h3{
+    text-align: center;
+    font-family: 'Coiny', cursive;
+    text-shadow: 6px 2px 5px black;
+}
+
+h1 {
+    font-size: 50px;
+    color: #FFFFFF;
+}
+
+h2 {
+    font-size: 65px;
+    margin: 0px;
+    color: #2AB7CA;
+    line-height: 60px;
+    margin-bottom: 35px;
+}
+
+h3 {
+    font-size: 50px;
+    line-height: 57px;
+    color: #F9D448;
+    margin-bottom: 10px;
+}
+
+h4 {
+    padding: 7px;
+    font-weight: bold;
+    margin: 0px;
+    text-align: left;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+}
+
+.price{
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: black;
+    text-align: left;
+    text-shadow: 0 0 0;
+    font-size: 35px;
+    margin: -10px 20px;
+}
+
+p, a {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    padding: 0px 20px;
+}
+
+ul,li{
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+}
+
+.icon {
+    height: 20px;
+    width: auto;
+    vertical-align: middle;
+}
+
+.button {
+    background-color: #E83C64;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    border-radius: 95px;
+    padding: 16px 32px;
+    font-family: 'Coiny', cursive;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.button:hover {
+    background-color: #E83C64;
+    color: white;
+}
+
+.instagram {
+    width: 100%;
+    text-align: center;
+    color: #000;
+    background-color: white;
+    padding: 20px;
+}
+
+/* STORE */
+.hide-sm{
+    display: block;
+}
+
+.hide{
+    display: none;
+}
+
+label{
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+}
+
+/* LOCATION-STAFF */
+.staff-left{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+.staff-right{
+    position: absolute;
+    right: 39px;
+    bottom: -18px;
+}
+
+
+/* GRID */
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 0px;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+@media(min-width:540px) {
+    .box {
+        height: 268px;
+    }
+
+    .box-short {
+        height: 200px;
+    }
+
+    .m-col-3 {
+        width: 25%;
+    }
+
+}
+
+@media(min-width:800px) {
+    .box {
+        height: 340px;
+    }
+
+    .box-short {
+        height: 340px;
+    }
+
+    .l-col-2 {
+        width: 16.66%;
+    }
+
+    .width-lg-25 h3 {
+        font-size: 30px;
+        line-height: 33px;
+    }
+
+    .hide-sm{
+        display: none;
+    }
+
+    .hide{
+        display: block;
+    }
+}
+
+@media(min-width:1000px) {
+    .xl-col-1 {
+        width: 14.28%;
+    }
+
+    .width-lg-25 h3 {
+        font-size: 40px;
+        line-height: 42px;
+    }
+}

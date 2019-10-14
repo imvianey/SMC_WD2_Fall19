@@ -1,0 +1,177 @@
+.floater-section {
+    float: left;
+    min-height: 206px;
+    width: 100%;
+}
+
+.floater-section.fs-short {
+    min-height: 375px;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+    padding: 50px 20p 0p 20px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.content {
+    padding: 15px 15px;
+    position: relative;
+}
+
+.content::after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.clearfix {
+    position: relative;
+}
+
+.clearfix::after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.space {
+    padding: 30px 20px 30px 20px;
+}
+
+.space::after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.flush {
+    padding: 25px 0px 25px 0px;
+}
+
+.box {
+    height: 288px;
+}
+
+.square {
+    height: 150px;
+}
+
+/* START OF CENTERING */
+
+/* multi-line vertical alignment */
+.content-table {
+    display: table;
+    height: 95px;
+    margin: 0 auto;
+}
+
+.content-table p {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+/* Block element with known height */
+.pos-relative {
+    position: relative;
+}
+
+/* with unknown height */
+.v-centered-block {
+    height: 160px;
+    transform: translateY(-50%);
+    position: absolute;
+    top: 50%;
+    width: 100%;
+}
+
+.v-h-centered-block {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* END OF CENTERING */
+
+/*MEDIUM SIZE SCREENS*/
+@media(min-width:540px) {
+
+    /* .container {
+        width: 520px;
+        margin: auto;
+    } */
+
+    .floater-section {
+        min-height: 268px;
+    }
+
+    .width-md-16 {
+        width: 16.6666666667%;
+    }
+
+    .width-md-25 {
+        width: 25%;
+    }
+
+    .width-md-33 {
+        width: 33.333333%;
+    }
+
+    .width-md-50 {
+        width: 50%;
+    }
+
+    .width-md-66 {
+        width: 66.66666%;
+    }
+
+    .width-md-75 {
+        width: 75%;
+    }
+
+    .width-md-100 {
+        width: 100%;
+    }
+}
+
+/*LARGE SIZE SCREENS*/
+@media(min-width:800px) {
+    /* .container {
+        width: 760px;
+        margin: auto;
+    }  */
+
+    .floater-section {
+        min-height: 200px;
+        ;
+    }
+
+    .width-lg-25 {
+        width: 25%;
+    }
+
+    .width-lg-33 {
+        width: 33.333333%;
+    }
+
+    .width-lg-50 {
+        width: 50%;
+    }
+
+    .width-lg-66 {
+        width: 66.66666%;
+    }
+
+    .width-lg-75 {
+        width: 75%;
+    }
+
+    .width-lg-100 {
+        width: 100%;
+    }
+}
