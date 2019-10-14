@@ -24,7 +24,7 @@ html {
 
 h1,
 h2,
-h3{
+h3 {
     text-align: center;
     font-family: 'Coiny', cursive;
     text-shadow: 4px 5px 6px black, 4px -3px 6px black;
@@ -35,7 +35,7 @@ h3{
     color: #FFFFFF;
 }
 
-h1{
+h1 {
     font-size: 65px;
     color: #FFFFFF;
 }
@@ -56,7 +56,7 @@ h3 {
     margin-bottom: 10px;
 }
 
-.click-shop{
+.page-link {
     font-size: 45px;
     line-height: 57px;
     color: #F9D448;
@@ -72,7 +72,7 @@ h4 {
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 }
 
-.price{
+.price {
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
     font-weight: 700;
     color: black;
@@ -82,12 +82,14 @@ h4 {
     margin: -10px 20px;
 }
 
-p, a {
+p,
+a {
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
     padding: 0px 20px;
 }
 
-ul,li{
+ul,
+li {
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 }
 
@@ -126,31 +128,55 @@ ul,li{
 }
 
 /* STORE */
-.hide-sm{
+.hide-sm {
     display: block;
 }
 
-.hide{
+.hide {
     display: none;
 }
 
-label{
+label {
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 }
 
-/* LOCATION-STAFF */
-.staff-left{
-    position: absolute;
-    left: 20px;
-    top: 20px;
+/* LOCATION */
+.text-band h3 {
+    font-size: 31px;
+    line-height: 46px;
+    color: #F9D448;
+    margin-bottom: 10px;
+    padding: 35px;
+    text-align: left;
+    text-shadow: 3px 2px 6px black;
 }
 
-.staff-right{
-    position: absolute;
-    right: 39px;
-    bottom: -18px;
+#long_beach_shop h2,
+#venice_shop h2 {
+    font-size: 45px;
+    padding: 25px 0px 0px 0px;
 }
 
+.hours p {
+    margin: 5px;
+    font-size: 34px;
+    text-align: center;
+}
+
+div[class^="contact"] {
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+}
+
+div[class^="contact"]:hover {
+    font-size: 25px;
+}
+
+div[class^="contact"] a {
+    text-decoration: none;
+    color: black;
+}
 
 /* GRID */
 
@@ -186,9 +212,14 @@ label{
         width: 25%;
     }
 
-    h1{
+    h1 {
         font-size: 90px;
         color: #FFFFFF;
+    }
+
+    .text-band h3 {
+        font-size: 31px;
+        line-height: 54px;
     }
 
 }
@@ -202,7 +233,7 @@ label{
         height: 340px;
     }
 
-    .click-shop{
+    .page-link {
         font-size: 60px;
         line-height: 62px;
     }
@@ -216,11 +247,17 @@ label{
         line-height: 33px;
     }
 
-    .hide-sm{
+    .text-band h3 {
+        font-size: 40px;
+        line-height: 57px;
+        padding: 68px;
+    }
+
+    .hide-sm {
         display: none;
     }
 
-    .hide{
+    .hide {
         display: block;
     }
 }

@@ -4,6 +4,10 @@
     width: 100%;
 }
 
+.floater-section.fs-long{
+   min-height: 650px;
+}
+
 .floater-section.fs-short {
     min-height: 375px;
 }
