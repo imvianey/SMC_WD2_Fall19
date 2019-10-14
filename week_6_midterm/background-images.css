@@ -112,14 +112,6 @@
     background-image: url("links/derby-skate-1.jpg");
 }
 
-
-
-.bg-skates-line {
-    background-image: url("links/skates-line.png");
-    position: relative;
-    height: 25%;
-}
-
 .bg-m-cutout {
     background-image: url("links/m-cutout.jpg");
     position: relative;
@@ -135,6 +127,12 @@
 }
 
 /* SHOP PAGE */
+.bg-shop {
+    background-image: url("links/skates-line1.png");
+    position: relative;
+    height: 25%;
+}
+
 .bg-jack {
     background-image: url("links/jack-red.jpg");
 }
