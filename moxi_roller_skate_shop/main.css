@@ -91,6 +91,10 @@ a {
     padding: 0px 20px;
 }
 
+.logo-link{
+    padding: 0px;
+}
+
 ul,
 li {
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
