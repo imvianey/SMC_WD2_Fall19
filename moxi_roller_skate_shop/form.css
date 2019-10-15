@@ -103,6 +103,8 @@ input[id^=Color8]~label::before {
     background-color: #cb027e;
 }
 
+/* Jack */
+
 input[id^=Color9]~label::before {
     background-color: #52388b;
 }
@@ -113,6 +115,19 @@ input[id^=Color10]~label::before {
 
 input[id^=Color11]~label::before {
     background-color: #00aba8;
+}
+/* Beach Bunny */
+
+input[id^=Color12]~label::before {
+    background-color: #b7dde8;
+}
+
+input[id^=Color13]~label::before {
+    background-color: #6e76d7;
+}
+
+input[id^=Color14]~label::before {
+    background-color: #e9a07f;
 }
 
 

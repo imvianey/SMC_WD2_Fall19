@@ -30,22 +30,6 @@ h3 {
     text-shadow: 4px 5px 6px black, 4px -3px 6px black;
 }
 
-.index h1 {
-    font-size: 59px;
-    color:#FFFFFF;
-    margin: 0px;
-    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
-    font-weight: 600;
-}
-
-.index h1:first-child {
-    transform: rotate(-17deg);
-    position: absolute;
-    left: 343px;
-    top: -42px;
-    font-size: 50px;
-}
-
 h1 {
     font-size: 65px;
     color: #FFFFFF;
@@ -120,7 +104,7 @@ li {
     text-align: center;
     text-decoration: none;
     font-size: 20px;
-    margin: 4px 2px;
+    margin: 25px 2px;
     transition-duration: 0.4s;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -209,6 +193,8 @@ div[class^="contact"] a {
 .col-6 {
     width: 50%;
 }
+
+
 
 @media(min-width:540px) {
     .box {
