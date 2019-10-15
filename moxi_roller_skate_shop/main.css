@@ -128,9 +128,11 @@ li {
     color: #000;
     background-color: white;
     padding: 20px;
+    font-size: 30px;
+    text-decoration: none;
 }
 
-.flush .row{
+.flush .row {
     padding: 0px;
 }
 
@@ -148,7 +150,7 @@ label {
 }
 
 /* WHEELS */
-.shop-list h2{
+.shop-list h2 {
     font-size: 30px;
     margin: 0px;
     padding: 0px;
@@ -159,19 +161,20 @@ label {
     line-height: 40px;
 }
 
-.shop-list strong{
+.shop-list strong {
     font-size: 25px;
 }
 
 /* LOCATION */
 .text-band h3 {
-    font-size: 31px;
-    line-height: 46px;
+    font-size: 24px;
+    line-height: 36px;
     color: #F9D448;
     margin-bottom: 10px;
     padding: 35px;
     text-align: left;
     text-shadow: 3px 2px 6px black;
+    word-spacing: 10px;
 }
 
 #long_beach_shop h2,
@@ -186,17 +189,17 @@ label {
     text-align: center;
 }
 
-#location[class^="contact"] {
+.contact {
     font-size: 20px;
     text-align: center;
     padding: 10px;
 }
 
-#location[class^="contact"]:hover {
+.contact:hover {
     font-size: 25px;
 }
 
-#location[class^="contact"] a {
+.contact a {
     text-decoration: none;
     color: black;
 }
@@ -242,7 +245,7 @@ label {
 
     .text-band h3 {
         font-size: 31px;
-        line-height: 54px;
+        line-height: 45px;
     }
 
     #long_beach_shop h2,
@@ -277,22 +280,24 @@ label {
 
     .text-band h3 {
         font-size: 40px;
-        line-height: 57px;
+        line-height: 50px;
         padding: 68px;
-    }
+        word-spacing: 10px;
 
-    .hide-sm {
-        display: none;
     }
+}
 
-    .hide {
-        display: block;
-    }
+.hide-sm {
+    display: none;
+}
 
-    #long_beach_shop h2,
-    #venice_shop h2 {
-        font-size: 48px;
-    }
+.hide {
+    display: block;
+}
+
+#long_beach_shop h2,
+#venice_shop h2 {
+    font-size: 48px;
 }
 
 @media(min-width:1000px) {
