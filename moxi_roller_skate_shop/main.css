@@ -31,8 +31,19 @@ h3 {
 }
 
 .index h1 {
+    font-size: 59px;
+    color:#FFFFFF;
+    margin: 0px;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+.index h1:first-child {
+    transform: rotate(-17deg);
+    position: absolute;
+    left: 343px;
+    top: -42px;
     font-size: 50px;
-    color: #FFFFFF;
 }
 
 h1 {
@@ -222,6 +233,11 @@ div[class^="contact"] a {
         line-height: 54px;
     }
 
+    #long_beach_shop h2,
+#venice_shop h2 {
+    font-size: 39px;
+}
+
 }
 
 @media(min-width:800px) {
@@ -260,6 +276,11 @@ div[class^="contact"] a {
     .hide {
         display: block;
     }
+
+    #long_beach_shop h2,
+#venice_shop h2 {
+    font-size: 48px;
+}
 }
 
 @media(min-width:1000px) {

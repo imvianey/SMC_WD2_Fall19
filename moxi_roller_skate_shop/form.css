@@ -107,6 +107,14 @@ input[id^=Color9]~label::before {
     background-color: #52388b;
 }
 
+input[id^=Color10]~label::before {
+    background-color: #0b0e0f;
+}
+
+input[id^=Color11]~label::before {
+    background-color: #00aba8;
+}
+
 
 input[type=text], select, textarea {
     width: 100%;
