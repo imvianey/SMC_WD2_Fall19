@@ -158,7 +158,6 @@
 
 .bg-shop-v {
     background-image: url("links/shop-venice-lg.jpg");
-    /* height: 300px; */
 }
 
 @media(min-width:540px) {

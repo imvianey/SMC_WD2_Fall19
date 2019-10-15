@@ -79,7 +79,7 @@ img {
 }
 
 .content-table p {
-    display: table-cell;
+    display: inline;
     vertical-align: middle;
 }
 
@@ -144,6 +144,11 @@ img {
     .width-md-100 {
         width: 100%;
     }
+
+    .content-table p {
+        display: table-cell;
+        vertical-align: middle;
+    }
 }
 
 /*LARGE SIZE SCREENS*/
@@ -203,4 +208,5 @@ img {
     .width-xlg-100 {
         width: 100%;
     }
+    
 }
