@@ -89,11 +89,7 @@
 }
 
 /* INDEX-INSTAGRAM END*/
-.bg-m-cutout {
-    background-image: url("links/m-cutout.jpg");
-    position: relative;
-    height: 25%;
-}
+
 
 .bg-wheels {
     background-image: url("links/wheels.jpg");
@@ -128,6 +124,29 @@
 
 .bg-accessories {
     background-image: url("links/toe-stops-rx.jpg");
+}
+
+/* WHEELS PAGE */
+.bg-wheels {
+    background-image: url("links/wheels-stacked.jpg");
+    position: relative;
+    height: 45%;
+}
+
+.bg-wheels-gummy {
+    background-image: url("links/wheels-circle.jpg");
+}
+
+.bg-wheels-fundae {
+    background-image: url("links/wheels-fundae.jpg");
+}
+
+.bg-wheels-trick {
+    background-image: url("links/wheels-moxi-trick.jpg");
+}
+
+.bg-wheels-energy {
+    background-image: url("links/wheels-energy.jpg");
 }
 
 /* LOCATION PAGE */

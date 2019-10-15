@@ -43,10 +43,10 @@ h1 {
     color: #FFFFFF;
 }
 
-
 h2 {
     font-size: 65px;
     margin: 0px;
+    padding: 0px;
     color: #2AB7CA;
     line-height: 60px;
     padding: 35px;
@@ -130,6 +130,10 @@ li {
     padding: 20px;
 }
 
+.flush .row{
+    padding: 0px;
+}
+
 /* STORE */
 .hide-sm {
     display: block;
@@ -141,6 +145,22 @@ li {
 
 label {
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+}
+
+/* WHEELS */
+.shop-list h2{
+    font-size: 30px;
+    margin: 0px;
+    padding: 0px;
+    color: black;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    text-shadow: 0px 0px 0px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.shop-list strong{
+    font-size: 25px;
 }
 
 /* LOCATION */

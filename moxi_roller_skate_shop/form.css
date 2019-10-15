@@ -159,6 +159,10 @@ fieldset label {
     margin-top: 6px;
 }
 
+.row{
+    padding: 10px;
+}
+
 /* Clear floats after the columns */
 .row:after {
     content: "";

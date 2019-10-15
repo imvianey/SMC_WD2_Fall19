@@ -30,16 +30,20 @@
 
 .border-orange {
     border: 10px solid #E89005;
+    margin: 10px;
 }
 
 .border-yellow {
     border: 10px solid #F9D448;
+    margin: 10px;
 }
 
 .border-blue {
     border: 10px solid #2AB7CA;
+    margin: 10px;
 }
 
 .border-pink {
     border: 10px solid #E83C64;
+    margin: 10px;
 }
