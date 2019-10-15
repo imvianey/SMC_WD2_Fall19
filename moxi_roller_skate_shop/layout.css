@@ -48,6 +48,7 @@ img {
 
 .box {
     height: 288px;
+    overflow: ;
 }
 
 .square {
@@ -107,6 +108,7 @@ img {
 .center {
     text-align: center;
 }
+
 
 /* END OF CENTERING */
 

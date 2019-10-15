@@ -127,6 +127,7 @@
     background-image: url("links/toe-stops-rx.jpg");
 }
 
+
 /* WHEELS PAGE */
 .bg-wheels-page {
     background-image: url("links/wheels-mixed-lg.jpg");
@@ -151,6 +152,55 @@
     background-image: url("links/wheels-energy.jpg");
 }
 
+/* ACCESSORIES PAGE */
+.bg-accessories-page {
+    background-image: url("links/toe-stops-rx.jpg");
+    position: relative;
+    height: 45%;
+    background-position: top;
+}
+
+.bg-accessories-laces {
+    background-image: url("links/accessories-laces-rainbow.jpg");
+}
+
+.bg-accessories-laces-shiny {
+    background-image: url("links/accessories-laces-shiny.jpg");
+}
+
+.bg-accessories-leashes{
+    background-image: url("links/accessories-leashes.jpg");
+}
+
+.bg-accessories-socks {
+    background-image: url("links/accessories-socks-stacks.jpg");
+}
+
+.bg-accessories-protector {
+    background-image: url("links/accessories-toe-protector.jpg");
+}
+
+.bg-accessories-dance {
+    background-image: url("links/accessories-toe-stop-jam.jpg");
+}
+
+.bg-accessories-stops {
+    background-image: url("links/accessories-toe-stops.jpg");
+}
+
+.bg-accessories-tools {
+    background-image: url("links/accessories-tools.jpg");
+}
+
+.bg-accessories-hats {
+    background-image: url("links/accessories-hats-venice.jpg");
+}
+
+.bg-accessories-fanny {
+    background-image: url("links/accessories-fanny-pack.jpg");
+}
+
+
 /* LOCATION PAGE */
 .bg-shop-lb {
     background-image: url("links/shop-longbeach-lg.jpg");
@@ -168,7 +218,7 @@
 
 @media(min-width:800px) {
     .bg-shop {
-        background-image: url("links/toe-stop-jam.jpg");
+        background-image: url("links/accessories-toe-stop-jam.jpg");
         background-position: bottom;
     }
 }
