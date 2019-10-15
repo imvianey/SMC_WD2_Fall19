@@ -25,7 +25,7 @@
     background-position: bottom;
 }
 
-.btn-visit{
+.btn-visit {
     background-image: url("links/skates-star.jpg");
 }
 
@@ -118,22 +118,22 @@
     background-image: url("links/lolly-rbg.jpg");
 }
 
-.bg-beach-bunny{
+.bg-beach-bunny {
     background-image: url("links/beach-bunny.jpg");
 }
 
-.bg-wheels{
+.bg-wheels {
     background-image: url("links/wheels-mixed-lg.jpg");
 }
 
-.bg-accessories{
+.bg-accessories {
     background-image: url("links/toe-stops-rx.jpg");
 }
 
 /* LOCATION PAGE */
-    .bg-shop-lb{
-        background-image: url("links/shop-longbeach-lg.jpg");
-    }
+.bg-shop-lb {
+    background-image: url("links/shop-longbeach-lg.jpg");
+}
 
 .bg-shop-v {
     background-image: url("links/shop-venice-lg.jpg");

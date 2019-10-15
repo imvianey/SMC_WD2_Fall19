@@ -22,6 +22,14 @@ html {
     color: #000;
 }
 
+header p {
+    font-family: 'Coiny', cursive;
+    font-size: 40px;
+    color: #E83C64;
+    margin: 0px 15px;
+    float: left;
+}
+
 h1,
 h2,
 h3 {
@@ -158,17 +166,17 @@ label {
     text-align: center;
 }
 
-div[class^="contact"] {
+#location[class^="contact"] {
     font-size: 20px;
     text-align: center;
     padding: 10px;
 }
 
-div[class^="contact"]:hover {
+#location[class^="contact"]:hover {
     font-size: 25px;
 }
 
-div[class^="contact"] a {
+#location[class^="contact"] a {
     text-decoration: none;
     color: black;
 }
@@ -194,8 +202,6 @@ div[class^="contact"] a {
     width: 50%;
 }
 
-
-
 @media(min-width:540px) {
     .box {
         height: 268px;
@@ -220,9 +226,9 @@ div[class^="contact"] a {
     }
 
     #long_beach_shop h2,
-#venice_shop h2 {
-    font-size: 39px;
-}
+    #venice_shop h2 {
+        font-size: 39px;
+    }
 
 }
 
@@ -264,9 +270,9 @@ div[class^="contact"] a {
     }
 
     #long_beach_shop h2,
-#venice_shop h2 {
-    font-size: 48px;
-}
+    #venice_shop h2 {
+        font-size: 48px;
+    }
 }
 
 @media(min-width:1000px) {

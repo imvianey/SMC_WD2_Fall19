@@ -93,7 +93,7 @@ ul li:hover>ul,
     margin: 0px;
 }
 
-.current {
+nav .current {
     text-shadow: -1px 2px 0 #2AB7CA,
         0px -2px 0 #2AB7CA,
         -1px 2px 0 #2AB7CA,
@@ -102,7 +102,7 @@ ul li:hover>ul,
     color: #ffffff;
 }
 
-.current2 {
+nav .current2 {
     text-shadow: -1px 2px 0 #ffffff,
         0px -2px 0 #ffffff,
         -1px 2px 0 #ffffff,
@@ -182,11 +182,64 @@ nav a:hover {
         color: #ffffff;
         top: 50px;
     }
-    
+
+}
+
+/* FOOTER */
+footer {
+    overflow: auto;
+}
+
+footer p,
+footer a {
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    margin: 0px;
+}
+
+footer img {
+    width: 140px;
+}
+
+footer ul {
+    padding: 0px;
+}
+
+footer ul li {
+    display: inline-block;
+}
+
+footer ul li a {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+footer .current {
+    color: #2AB7CA;
+}
+
+.instagram-footer {
+    font-weight: 600;
+    display: inline;
+    vertical-align: middle;
+}
+
+.instagram-footer img {
+    width: 30px;
+    vertical-align: middle;
+}
+
+footer .floater-section {
+    min-height: 135px;
+    padding-top: 15px;
 }
 
 @media(min-width: 800px) {
-    nav{
+    nav {
         padding: 0px 10px;
     }
 

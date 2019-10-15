@@ -4,8 +4,8 @@
     width: 100%;
 }
 
-.floater-section.fs-long{
-   min-height: 650px;
+.floater-section.fs-long {
+    min-height: 650px;
 }
 
 .floater-section.fs-short {
@@ -23,7 +23,7 @@ img {
 }
 
 .content {
-    padding: 15px 15px;
+    padding: 45px 15px;
     position: relative;
 }
 
@@ -43,18 +43,8 @@ img {
     display: block;
 }
 
-.space {
-    padding: 30px 20px 30px 20px;
-}
-
-.space::after {
-    clear: both;
-    content: "";
-    display: block;
-}
-
 .flush {
-    padding: 35px 0px 25px 0px;
+    padding: 35px 0px;
 }
 
 .box {
@@ -63,6 +53,16 @@ img {
 
 .square {
     height: 150px;
+}
+
+.space {
+    padding: 30px 20px 30px 20px;
+}
+
+.space::after {
+    clear: both;
+    content: "";
+    display: block;
 }
 
 /* START OF CENTERING */
@@ -98,6 +98,10 @@ img {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.center {
+    text-align: center;
 }
 
 /* END OF CENTERING */
