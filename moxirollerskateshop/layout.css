@@ -52,13 +52,13 @@ img {
 
 .square {
     width: 50%;
-  }
-  
-  .square:after {
+}
+
+.square:after {
     content: "";
     display: block;
     padding-bottom: 100%;
-  }
+}
 
 .space {
     padding: 30px 20px 30px 20px;
@@ -209,5 +209,5 @@ img {
     .width-xlg-100 {
         width: 100%;
     }
-    
+
 }
