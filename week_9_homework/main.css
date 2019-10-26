@@ -1,0 +1,17 @@
+#myDIV {
+    background-image: url("links/ghost-wave.gif");
+    position: relative;
+    height: 440px;
+    background-repeat: no-repeat;
+    animation: mymove 1s infinite;
+  }
+  
+  @keyframes mymove {
+    from {left: 0px;}
+    to {left: 200px;}
+  }
+  
+  @keyframes mynewmove {
+    from {top: 0px;}
+    to {top: 200px;}
+  }

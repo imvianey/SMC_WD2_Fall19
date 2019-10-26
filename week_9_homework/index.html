@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="main.css">
+    <title>Homework-Week9 Boo!</title>
+</head>
+<body>
+    <header>
+        <nav id="navBar">
+            <button id="colorButton">Color Me!</button>
+        </nav>
+    </header>
+
+    <main>
+        <div id="contentMain">
+            <h1>Happy Halloween</h1>
+        </div>
+
+        <button id="ghostButton">Boo!</button>
+        <div id="myDIV"></div>
+    </main>
+
+    <footer></footer>
+
+    <script>
+        document.getElementById("colorButton").addEventListener("click",function(){
+            console.log("running");
+            var mainContent = document.getElementById("contentMain");
+            var redComponent = Math.random()*255;
+            var greenComponent = Math.random()*255;
+            var blueComponent = Math.random()*255;
+
+            console.log("Red: " + redComponent);
+            console.log("Green: " + greenComponent);
+            console.log("Blue: " + blueComponent);
+
+            var compRGBstring = "rgb(" + redComponent + "," + greenComponent + "," + blueComponent + ")";
+
+            console.log(compRGBstring);
+
+            mainContent.style.backgroundColor = compRGBstring;
+
+            mainContent.style.height = "768px";
+        })
+
+// Ghost Moves
+        document.getElementById("ghostButton").addEventListener("click",function(){
+        document.getElementById("myDIV").style.animation = "mynewmove 4s 2";
+        })
+
+        // document.getElementById("contentMain").style.backgroundColor = "rgb(255, 0, 0)";
+
+        // alert("This is our very first JavaScript written!");
+        // // prompt("Hey, what's your name");
+    </script>
+</body>
+</html>
