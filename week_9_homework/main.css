@@ -1,8 +1,5 @@
 #ghostImage {
-    background-image: url("links/ghost-wave.gif");
     position: relative;
-    height: 440px;
-    background-repeat: no-repeat;
     animation: moveSide 4s infinite;
   }
   
