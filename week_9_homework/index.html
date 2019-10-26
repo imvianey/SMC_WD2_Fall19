@@ -12,15 +12,17 @@
     <header>
         <nav id="navBar">
             <button id="colorButton">Color Me!</button>
+            <button id="wordsButton">Columns!</button>
+            <button id="ghostButton">Boo!</button>
         </nav>
     </header>
 
     <main>
+            <div class="container">
         <div id="contentMain">
             <h1>Happy Halloween</h1>
         </div>
 
-        <button id="wordsButton">Columns!</button>
         <p id="words">Cas-per the friend-ly ghost,
             the friend-li-est ghost you know.
             Though grown-ups might look at him with fright,
@@ -32,16 +34,15 @@
             Where - ev-er he may go he's kind to ev-'ry liv-ing creat-ure.
             Grown-ups don't un-der-stand why chil-dren love him the most,
             But kids all know he loves them so, Cas-per the friend-ly ghost.</p>
-
-        <button id="ghostButton">Boo!</button>
-        <div>
+    
         <img id="ghostImage" src="links/ghost-wave.gif" alt="Floating ghost">
-    </div>
+        </div>
     </main>
 
     <footer></footer>
 
     <script>
+// Header Color
         document.getElementById("colorButton").addEventListener("click",function(){
             console.log("running header");
             var mainContent = document.getElementById("contentMain");
@@ -62,7 +63,7 @@
 
 // Paragraph Columns
         document.getElementById("wordsButton").addEventListener("click",function(){
-  document.getElementById("words").style.columnCount = "2";
+  document.getElementById("words").style.columnCount = "3";
 })
 
 // Ghost Moves

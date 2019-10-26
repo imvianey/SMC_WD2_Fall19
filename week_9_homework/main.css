@@ -1,3 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Creepster&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+
+
+body{
+    background-color: black;
+}
+
+#navBar{
+  text-align: center;
+}
+
+button {
+  background-color: #940194;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  display: inline-block;
+  font-size: 20px;
+  margin: 5px 10px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Creepster', cursive;
+    font-size: 80px;
+}
+
+p{
+    background-color: white;
+    border: 10px #fc4605 groove;
+    padding: 15px;
+    margin: 50px;
+    font-family: 'Oswald', sans-serif;
+}
+
 #ghostImage {
     position: relative;
     animation: moveSide 4s infinite;
