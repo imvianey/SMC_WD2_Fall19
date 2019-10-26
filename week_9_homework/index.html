@@ -20,15 +20,28 @@
             <h1>Happy Halloween</h1>
         </div>
 
+        <button id="wordsButton">Columns!</button>
+        <p id="words">Cas-per the friend-ly ghost,
+            the friend-li-est ghost you know.
+            Though grown-ups might look at him with fright,
+            the child-ren all love him so.
+            Cas-per the friend-ly ghost, he couldn't be bad or mean.
+            He'll romp and play, sing and dance all day,
+            the friend-li-est ghost you've seen.
+            He al-ways says "Hel-lo, " and he's real-ly glad to meet-cha.
+            Where - ev-er he may go he's kind to ev-'ry liv-ing creat-ure.
+            Grown-ups don't un-der-stand why chil-dren love him the most,
+            But kids all know he loves them so, Cas-per the friend-ly ghost.</p>
+
         <button id="ghostButton">Boo!</button>
-        <div id="myDIV"></div>
+        <div id="ghostImage"></div>
     </main>
 
     <footer></footer>
 
     <script>
         document.getElementById("colorButton").addEventListener("click",function(){
-            console.log("running");
+            console.log("running header");
             var mainContent = document.getElementById("contentMain");
             var redComponent = Math.random()*255;
             var greenComponent = Math.random()*255;
@@ -43,19 +56,18 @@
             console.log(compRGBstring);
 
             mainContent.style.backgroundColor = compRGBstring;
-
-            mainContent.style.height = "768px";
         })
+
+// Paragraph Columns
+        document.getElementById("wordsButton").addEventListener("click",function(){
+  document.getElementById("words").style.columnCount = "2";
+})
 
 // Ghost Moves
-        document.getElementById("ghostButton").addEventListener("click",function(){
-        document.getElementById("myDIV").style.animation = "mynewmove 4s 2";
+document.getElementById("ghostButton").addEventListener("click",function(){
+            console.log("running ghost")
+        document.getElementById("ghostImage").style.animation = "moveDown 3s infinite";
         })
-
-        // document.getElementById("contentMain").style.backgroundColor = "rgb(255, 0, 0)";
-
-        // alert("This is our very first JavaScript written!");
-        // // prompt("Hey, what's your name");
     </script>
 </body>
 </html>
