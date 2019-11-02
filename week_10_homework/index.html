@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Week 10 Homework</title>
+</head>
+<body>
+
+    <main>
+        <section>
+            <div>
+            <img src="https://www.pitara.com/wordpress/wp-content/uploads/2002/05/group-of-wild-animals.jpg" id="imageToSwitch" alt="Group of Animals">
+        </div>
+        <div>
+            <button id="imgToggle">More Animals!</button>
+        </div>
+        </section>
+    </main>
+    
+</body>
+</html>
+
+<script>
+    var boxAnimalURL="https://www.winnipegsd.ca/schools/RalphBrown/StudentResources/eal/PublishingImages/Pages/Default/0e9c587096e4d6927ea064deedadda87.jpg";
+    var boxAnimalALT="Animals in boxes.";
+    var switchingImage = document.getElementById ("imageToSwitch");
+
+    var allAnimalURL = switchingImage.src;
+    var allAnimalALT = switchingImage.alt;
+
+    document.getElementById('imgToggle').addEventListener('click', function(){
+        console.log(allAnimalURL);
+
+        if(switchingImage.src === boxAnimalURL){
+            switchingImage.src = allAnimalURL;
+            switchingImage.alt = allAnimalALT;
+        }
+        else {
+            switchingImage.src = boxAnimalURL;
+            switchingImage.alt = boxAnimalALT;
+        }
+    })
+
+</script>
