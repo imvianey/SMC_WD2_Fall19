@@ -9,6 +9,7 @@
 <body>
 
     <main>
+        <!-- Image Switch Start -->
         <section>
             <div>
             <img src="https://www.pitara.com/wordpress/wp-content/uploads/2002/05/group-of-wild-animals.jpg" id="imageToSwitch" alt="Group of Animals">
@@ -17,12 +18,31 @@
             <button id="imgToggle">More Animals!</button>
         </div>
         </section>
+        <!-- Image Switch End -->
+
+        <!-- Option Selection Start -->
+        <section>
+            <form action="" method="GET">
+                <select id="animal-class">
+                    <option value="amphibs">Amphibians</option>
+                    <option value="birds">Birds</option>
+                    <option value="fish">Fish</option>
+                    <option value="inverts">Invertebrates</option>
+                    <option value="mammals">Mammals</option>
+                    <option value="reptiles">Reptiles</option>
+                </select>
+
+                <select id="animals"></select>
+            </form>
+        </section>
+        <!-- Option Selection End -->
     </main>
     
 </body>
 </html>
 
 <script>
+    // Image Switch JavaScript Start ------------------------
     var boxAnimalURL="https://www.winnipegsd.ca/schools/RalphBrown/StudentResources/eal/PublishingImages/Pages/Default/0e9c587096e4d6927ea064deedadda87.jpg";
     var boxAnimalALT="Animals in boxes.";
     var switchingImage = document.getElementById ("imageToSwitch");
@@ -42,5 +62,64 @@
             switchingImage.alt = boxAnimalALT;
         }
     })
+    // Image Switch JavaScript End --------------------------
+
+    // Option Selection JavaScript Start --------------------
+    var classSelect = document.getElementById('animal-class');
+    var animalSelect = document.getElementById('animals');
+
+    classSelect.addEventListener( 'change', function(){
+        console.log(classSelect.value);
+
+        if(classSelect.value === 'amphibs') {
+            animalSelect.innerHTML = '<option           value="frogs">Frogs</option>\
+                                <option value="toads">Toads</option>\
+                                <option value="salamanders">Salamanders</option>\
+                                <option value="newts">Newts</option>\
+                                ';
+        }
+
+        if(classSelect.value === 'birds') {
+            animalSelect.innerHTML = '<option           value="BoP">Birds of Prey</option>\
+                                <option value="ducks">Ducks</option>\
+                                <option value="geese">Geese</option>\
+                                <option value="finches">Finches</option>\
+                                <option value="buntings">Buntings</option>\
+                                <option value="hummingbirds">Hummingbirds</option>\
+                                <option value="swifts">Swifts</option>\
+                                <option value="swallows">Swallows</option>\
+                                <option value="sparrows">Sparrows</option>\
+                                <option value="blackbirds">Blackbirds</option>\
+                                <option value="songbirds">Songbirds</option>\
+                                <option value="warblers">Warblers</option>\
+                                ';
+        }
+
+        if(classSelect.value === 'fish') {
+            animalSelect.innerHTML = '<option value="fresh">Freshwater Fish</option>\
+                                <option value="marine">Marine Fish</option>\
+                                <option value="tropical">Tropical Fish</option>\
+                                value="cold">Coldwater Fish</option>\
+                                value="aquarium">Aquarium Fish</option>\
+                                <option value="deepsea">Deep Sea Fish</option>\
+                                ';
+        }
+
+        if(classSelect.value === 'inverts') {
+            animalSelect.innerHTML = '<option           value="sponges">Sponges</option>\
+                                <option value="jellies">Coelenterates</option>\
+                                <option value="flatworms">Flatworms</option>\
+                                <option value="starfishType">Echinoderms</option>\
+                                <option value="mollusks">Mollusks</option>\
+                                <option value="nematodes">Nematodes</option>\
+                                <option value="anthropods">Arthropods</option>\
+                                <option value="wormies">Annelids</option>\
+                                <option value="chordates">Chordates</option>\
+                                ';
+        }
+    } ) 
+    // Option Selection JavaScript End ----------------------
+
+
 
 </script>
