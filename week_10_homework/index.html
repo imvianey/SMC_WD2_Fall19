@@ -1,125 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="main.css">
+
     <title>Week 10 Homework</title>
 </head>
+
 <body>
+    <header class="pos-relative">
+            <!-- Image Switch Start -->
+                <label for="toggler" id="imgToggle">
+                    <img src="https://static.thenounproject.com/png/198549-200.png" id="imageToSwitch"
+                        alt="Hippo mouth open">
+                </label>
+            <!-- Image Switch End -->
+        <input type="checkbox" id="toggler">
+        <nav class="v-h-centered-block">
+            <!-- Option Selection Start -->
+            <p>Choose an animal class:</p>
+                <form action="" method="GET">
+                    <select id="animal-class">
+                        <option value="amphibs">Amphibians</option>
+                        <option value="birds">Birds</option>
+                        <option value="fish">Fish</option>
+                        <option value="inverts">Invertebrates</option>
+                        <option value="mammals">Mammals</option>
+                        <option value="reptiles">Reptiles</option>
+                    </select>
+                </form>
+            <!-- Option Selection End -->
+            </nav>
+    </header>
 
     <main>
-        <!-- Image Switch Start -->
-        <section>
-            <div>
-            <img src="https://www.pitara.com/wordpress/wp-content/uploads/2002/05/group-of-wild-animals.jpg" id="imageToSwitch" alt="Group of Animals">
+        <div class="container">
+        <h1>Animals</h1>
+            <h2 id="text"></h2>
         </div>
-        <div>
-            <button id="imgToggle">More Animals!</button>
-        </div>
-        </section>
-        <!-- Image Switch End -->
-
-        <!-- Option Selection Start -->
-        <section>
-            <form action="" method="GET">
-                <select id="animal-class">
-                    <option value="amphibs">Amphibians</option>
-                    <option value="birds">Birds</option>
-                    <option value="fish">Fish</option>
-                    <option value="inverts">Invertebrates</option>
-                    <option value="mammals">Mammals</option>
-                    <option value="reptiles">Reptiles</option>
-                </select>
-
-                <select id="animals"></select>
-            </form>
-        </section>
-        <!-- Option Selection End -->
     </main>
-    
+
 </body>
+
 </html>
 
 <script>
     // Image Switch JavaScript Start ------------------------
-    var boxAnimalURL="https://www.winnipegsd.ca/schools/RalphBrown/StudentResources/eal/PublishingImages/Pages/Default/0e9c587096e4d6927ea064deedadda87.jpg";
-    var boxAnimalALT="Animals in boxes.";
-    var switchingImage = document.getElementById ("imageToSwitch");
+    var image2URL = "https://static.thenounproject.com/png/564429-200.png";
+    var image2ALT = "Hippo mouth closed";
+    var switchingImage = document.getElementById("imageToSwitch");
 
-    var allAnimalURL = switchingImage.src;
-    var allAnimalALT = switchingImage.alt;
+    var image1URL = switchingImage.src;
+    var image1ALT = switchingImage.alt;
 
-    document.getElementById('imgToggle').addEventListener('click', function(){
-        console.log(allAnimalURL);
+    document.getElementById('imgToggle').addEventListener('click', function () {
+        console.log(image1URL);
 
-        if(switchingImage.src === boxAnimalURL){
-            switchingImage.src = allAnimalURL;
-            switchingImage.alt = allAnimalALT;
-        }
-        else {
-            switchingImage.src = boxAnimalURL;
-            switchingImage.alt = boxAnimalALT;
+        if (switchingImage.src === image2URL) {
+            switchingImage.src = image1URL;
+            switchingImage.alt = image1ALT;
+        } else {
+            switchingImage.src = image2URL;
+            switchingImage.alt = image2ALT;
         }
     })
     // Image Switch JavaScript End --------------------------
 
     // Option Selection JavaScript Start --------------------
     var classSelect = document.getElementById('animal-class');
-    var animalSelect = document.getElementById('animals');
+    var animalText = document.getElementById('text');
+    // var animalText = document.createTextNode("This is a paragraph.");
 
-    classSelect.addEventListener( 'change', function(){
+    classSelect.addEventListener('change', function () {
         console.log(classSelect.value);
 
-        if(classSelect.value === 'amphibs') {
-            animalSelect.innerHTML = '<option           value="frogs">Frogs</option>\
-                                <option value="toads">Toads</option>\
-                                <option value="salamanders">Salamanders</option>\
-                                <option value="newts">Newts</option>\
-                                ';
+        if (classSelect.value === 'amphibs') {
+            animalText.innerHTML = 'Amphibians are small vertebrates that need water, or a moist environment, to survive.';
         }
 
-        if(classSelect.value === 'birds') {
-            animalSelect.innerHTML = '<option           value="BoP">Birds of Prey</option>\
-                                <option value="ducks">Ducks</option>\
-                                <option value="geese">Geese</option>\
-                                <option value="finches">Finches</option>\
-                                <option value="buntings">Buntings</option>\
-                                <option value="hummingbirds">Hummingbirds</option>\
-                                <option value="swifts">Swifts</option>\
-                                <option value="swallows">Swallows</option>\
-                                <option value="sparrows">Sparrows</option>\
-                                <option value="blackbirds">Blackbirds</option>\
-                                <option value="songbirds">Songbirds</option>\
-                                <option value="warblers">Warblers</option>\
-                                ';
+        if (classSelect.value === 'birds') {
+            animalText.innerHTML = 'Birds are vertebrate animals adapted for flight.';
         }
 
-        if(classSelect.value === 'fish') {
-            animalSelect.innerHTML = '<option value="fresh">Freshwater Fish</option>\
-                                <option value="marine">Marine Fish</option>\
-                                <option value="tropical">Tropical Fish</option>\
-                                value="cold">Coldwater Fish</option>\
-                                value="aquarium">Aquarium Fish</option>\
-                                <option value="deepsea">Deep Sea Fish</option>\
-                                ';
+        if (classSelect.value === 'fish') {
+            animalText.innerHTML = 'All fish share two traits: they live in water and they have a backbone—they are vertebrates.';
         }
 
-        if(classSelect.value === 'inverts') {
-            animalSelect.innerHTML = '<option           value="sponges">Sponges</option>\
-                                <option value="jellies">Coelenterates</option>\
-                                <option value="flatworms">Flatworms</option>\
-                                <option value="starfishType">Echinoderms</option>\
-                                <option value="mollusks">Mollusks</option>\
-                                <option value="nematodes">Nematodes</option>\
-                                <option value="anthropods">Arthropods</option>\
-                                <option value="wormies">Annelids</option>\
-                                <option value="chordates">Chordates</option>\
-                                ';
+        if (classSelect.value === 'inverts') {
+            animalText.innerHTML = 'Invertebrates are animals without a backbone or bony skeleton.';
         }
-    } ) 
+
+        if (classSelect.value === 'mammals') {
+            animalText.innerHTML = 'Mammals are among the most adaptable animals on the planet.';
+        }
+
+        if (classSelect.value === 'reptiles') {
+            animalText.innerHTML = 'Reptiles are air-breathing vertebrates covered in special skin made up of scales, bony plates, or a combination of both.';
+        }
+    })
     // Option Selection JavaScript End ----------------------
-
-
-
 </script>
