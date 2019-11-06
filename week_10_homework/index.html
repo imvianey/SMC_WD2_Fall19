@@ -15,7 +15,7 @@
     <header class="pos-relative">
             <!-- Image Switch Start -->
                 <label for="toggler" id="imgToggle">
-                    <img src="https://static.thenounproject.com/png/198549-200.png" id="imageToSwitch"
+                    <img src= "https://static.thenounproject.com/png/564429-200.png" id="imageToSwitch"
                         alt="Hippo mouth open">
                 </label>
             <!-- Image Switch End -->
@@ -25,6 +25,7 @@
             <p>Choose an animal class:</p>
                 <form action="" method="GET">
                     <select id="animal-class">
+                        <option default>Pick a class</option>
                         <option value="amphibs">Amphibians</option>
                         <option value="birds">Birds</option>
                         <option value="fish">Fish</option>
@@ -49,9 +50,11 @@
 </html>
 
 <script>
+document.getElementById('toggler').checked = false;
+
     // Image Switch JavaScript Start ------------------------
-    var image2URL = "https://static.thenounproject.com/png/564429-200.png";
-    var image2ALT = "Hippo mouth closed";
+    var image2URL = "https://static.thenounproject.com/png/198549-200.png";
+    var image2ALT = "Hippo mouth open";
     var switchingImage = document.getElementById("imageToSwitch");
 
     var image1URL = switchingImage.src;
