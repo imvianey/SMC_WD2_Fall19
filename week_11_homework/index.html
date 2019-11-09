@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Week 11 - HW</title>
+</head>
+<body>
+    <header class="pos-relative">
+        <nav class="v-h-centered-block">
+            <div class="buttons">
+                <button role="buttons" class="button-empty">Empty!</button>
+                <button role="buttons" class="button-clone">Clone!</button>
+                <button role="buttons" class="button-replace">Replace!</button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <h1>A Bunch of Hocus Pocus</h1>
+            <div class="div-empty">
+                <p>This will disappear!</p>
+                <img src="http://www.farehamcreekvets.co.uk/storage/app/media/Rabbits-services.png" alt="It's a bunny!">
+            </div>
+            <h2 class="magic-words">Abracadabra</h2>
+        </div>
+    </main>
+    
+</body>
+</html>
+
+<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+<script>
+    $(document).ready(function(){
+        $('.button-empty').click(function(){
+            $('.div-empty').empty();
+        })
+
+        $('.button-clone').click(function(){
+            $('.magic-words').clone().appendTo("body");
+        })
+
+        $('.button-replace').click(function(){
+            $('<h2>Oooh Magic!</h2>').replaceAll('.magic-words');
+        })
+
+    });
+</script>
