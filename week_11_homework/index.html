@@ -4,11 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="main.css">
+
     <title>Week 11 - HW</title>
 </head>
 <body>
-    <header class="pos-relative">
-        <nav class="v-h-centered-block">
+    <header>
+            <label for="toggler" class="imgToggle">
+                    <img src="bunny-hat.png" alt="Magic hat with bunny" class="icon">
+                    <img src="hat.png" alt="Magic hat" class="icon" id="d-none">
+                </label>
+                <input type="checkbox" id="toggler">
+        <nav>
             <div class="buttons">
                 <button role="buttons" class="button-empty">Empty!</button>
                 <button role="buttons" class="button-clone">Clone!</button>
@@ -34,6 +42,10 @@
 <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
 <script>
     $(document).ready(function(){
+        $('.imgToggle').click(function(){
+            $('.icon').toggle();
+        })
+
         $('.button-empty').click(function(){
             $('.div-empty').empty();
         })
