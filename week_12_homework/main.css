@@ -63,3 +63,23 @@ h1{
 p{
     font-family: 'Open Sans', sans-serif;
 }
+
+@media(min-width:540px){
+    .container {
+        width: 95%;
+        margin: auto;
+    }
+}
+
+@media(min-width:800px){
+    [class^="gallery-"]{
+        max-width: 90%;
+        display: block;
+        margin: auto;
+    }
+
+    .gallery-bottom{
+        position: relative;
+        top: 210px;
+    }
+}

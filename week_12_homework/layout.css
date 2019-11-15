@@ -1,6 +1,6 @@
 .floater-section {
     float: left;
-    min-height: 955px;
+    min-height: 295px;
     width: 100%;
 }
 
@@ -68,7 +68,7 @@ img {
     }
 
     .floater-section {
-        min-height: 485px;
+        min-height: 423px;
         ;
     }
 
