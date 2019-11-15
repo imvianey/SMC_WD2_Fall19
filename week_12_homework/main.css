@@ -1,0 +1,52 @@
+@import url(layout.css);
+
+/* HEADER */
+body {
+    margin: 0px;
+}
+
+header {
+    background-color: black;
+    padding: 0px 15px 0px 15px;
+}
+
+nav{
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+}
+
+header input#toggler {
+    display: none;
+}
+
+input#toggler:checked+nav {
+    display: block;
+}
+
+nav{
+    display: none;
+    float: right;
+}
+
+.icon{
+    height: 60px;
+}
+
+#d-none{
+    display: none;
+}
+
+button[class^="button-"]{
+    border-radius: 3px;
+    background-color:red;
+    color:white;
+    padding: 5px 10px;
+    margin: 9px 10px;
+    border: none;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 15px;
+}
