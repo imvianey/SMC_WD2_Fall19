@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Petit+Formal+Script&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 @import url(layout.css);
 
 /* HEADER */
@@ -49,4 +51,15 @@ button[class^="button-"]{
     border: none;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 15px;
+}
+
+/* BODY */
+h1{
+    font-family: 'Petit Formal Script', cursive;
+    text-align: center;
+    font-size: 45px;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
 }
