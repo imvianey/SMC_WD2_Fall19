@@ -5,12 +5,21 @@ $(document).ready(function () {
 
     // Hover over image, caption slides up
     $(".gallery-01").hover(function () {
-            $('.caption').slideDown(1000);
+            $('.caption').slideDown(400);
         },
         function () {
-            $('.caption').slideUp(1000);
+            $('.caption').slideUp(400);
         }
     );
+
+    // $('.gallery').hover(function(){
+    //     var hoverOver = $(this).getElementsByClassName();
+
+    //     if(hoverOver === '.gallery-01' ){
+    //         $('.caption').slideDown(1000)
+    //     }
+    // })
+
 
     // Modal:  Click gallery image,  image full screen
     var modal = document.getElementById("myModal");
