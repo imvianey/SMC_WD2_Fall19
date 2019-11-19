@@ -4,22 +4,15 @@ $(document).ready(function () {
     })
 
     // Hover over image, caption slides up
-    $(".gallery-01").hover(function () {
-            $('.caption').slideDown(400);
+    var captionDrop = $("#gallery").find(".caption");
+
+    $(".gallery-01, .gallery-02, .gallery-03").hover(function () {
+            $(captionDrop, this).slideDown(400);
         },
         function () {
-            $('.caption').slideUp(400);
+            $(captionDrop, this).slideUp(400);
         }
     );
-
-    // $('.gallery').hover(function(){
-    //     var hoverOver = $(this).getElementsByClassName();
-
-    //     if(hoverOver === '.gallery-01' ){
-    //         $('.caption').slideDown(1000)
-    //     }
-    // })
-
 
     // Modal:  Click gallery image,  image full screen
     var modal = document.getElementById("myModal");
