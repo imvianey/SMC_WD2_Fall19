@@ -43,27 +43,36 @@ nav{
 }
 
 button[class^="button-"]{
-    border-radius: 3px;
-    background-color:red;
-    color:white;
+    background-color:#fbcdd7;
+    color:black;
     padding: 5px 10px;
-    margin: 9px 10px;
+    margin: 15px 9px 10px 9px;
     border: none;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
     font-size: 15px;
 }
 
 /* BODY */
+.cap-img{
+    max-width: 90%;
+    display: block;
+    margin: auto;
+}
+
 .caption{
     display: none;
     border: 5px double black;
+    background-color: #fbcdd7;
     text-align: center;
+    margin-bottom: 5px;
 }
 
 h1{
     font-family: 'Petit Formal Script', cursive;
     text-align: center;
     font-size: 45px;
+    margin-bottom: 50px;
 }
 
 h2{
@@ -141,24 +150,36 @@ p{
   }
 
 
-
 @media(min-width:540px){
     .container {
         width: 95%;
         margin: auto;
     }
+
+    .floater-section{
+        min-height: 235px;
+    }
+
+    h2{
+        font-size: 15px;
+    }
+
+    h3{
+        font-size: 12px;
+    }
 }
 
 @media(min-width:800px){
 
-    .gallery{
-        max-width: 90%;
-        display: block;
-        margin: auto;
+    .floater-section{
+        min-height: 320px;
     }
 
-    .bottom{
-        position: relative;
-        top: 210px;
+    h2{
+        font-size: 20px;
+    }
+
+    h3{
+        font-size: 15px;
     }
 }

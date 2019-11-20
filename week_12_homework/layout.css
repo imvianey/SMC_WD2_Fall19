@@ -1,11 +1,7 @@
 .floater-section {
     float: left;
-    min-height: 295px;
+    min-height: 355px;;
     width: 100%;
-}
-
-.floater-section.fs-short {
-    min-height: 375px;
 }
 
 .container {

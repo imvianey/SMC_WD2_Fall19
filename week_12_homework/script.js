@@ -3,23 +3,34 @@ $(document).ready(function () {
         $('.icon').toggle();
     })
 
-    // Hover over image, caption slides up
-    var captionDrop = $("#gallery").find(".caption");
-    $(".gallery-01, .gallery-02, .gallery-03, .gallery-04, .gallery-05, .gallery-06, .gallery-07, .gallery-08, .gallery-09, .gallery-10, .gallery-11, .gallery-12")
+    // Hover over image, caption slides
+    $(".cap-img")
         .hover(function () {
-                $(this).siblings(".caption").slideDown(400);
+                $(this).children(".caption").slideDown(400);
             },
             function () {
-                $(this).siblings(".caption").slideUp(400);
+                $(this).children(".caption").slideUp(400);
             }
         );
 
+    // Buttons hides/shows color images
+        $( ".button-colors" ).click(function() {
+            $( ".colors" ).toggle( "slow" );
+            });
+
+    // Button hides/shows black and white images
+          $( ".button-bw" ).click(function() {
+            $( ".bw" ).toggle( "slow" )
+        });
+        
+
+
     // Modal:  Click gallery image,  image full screen
     var modal = document.getElementById("myModal");
-
     var img = document.getElementById("gallery-image");
     var modalImg = document.getElementById("img01");
-    var captionText = document.getElementById("caption");
+    var captionText = document.getElementsByClassName(".modal-caption");
+
     img.onclick = function () {
         modal.style.display = "block";
         modalImg.src = this.src;
