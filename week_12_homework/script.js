@@ -1,4 +1,6 @@
 $(document).ready(function () {
+console.log(window.innerWidth);
+
     $('.imgToggle').click(function () {
         $('.icon').toggle();
     })
@@ -23,24 +25,32 @@ $(document).ready(function () {
             $( ".bw" ).toggle( "slow" )
         });
         
-
-
-    // Modal:  Click gallery image,  image full screen
-    var modal = document.getElementById("myModal");
-    var img = document.getElementById("gallery-image");
-    var modalImg = document.getElementById("img01");
-    var captionText = document.getElementsByClassName(".modal-caption");
-
-    img.onclick = function () {
-        modal.style.display = "block";
-        modalImg.src = this.src;
-        captionText.innerHTML = this.alt;
-    }
-
-    // Close modal
-    var span = document.getElementsByClassName("close")[0];
-
-    span.onclick = function () {
-        modal.style.display = "none";
-    }
+$('.gallery-image').click(function(){
+    var modal = $(this).parent('.cap-img').sibling('.modal');
+    $('img', modal).attr('src', $(this).attr('src'));
+    $('.modal-caption', modal).prepend('<p>' + $(this).attr('alt') + '<p>');
 });
+
+$('.close').click(function(){
+$(this).parent('.modal').hide();
+})
+
+    // // Modal:  Click gallery image,  image full screen
+    // var modal = document.getElementById("myModal");
+    // var img = document.getElements("gallery-image");
+    // var modalImg = document.getElementById("img01");
+    // var captionText = document.getElementsByClassName(".modal-caption");
+
+    // img.onclick = function () {
+    //     modal.style.display = "block";
+    //     modalImg.src = this.src;
+    //     captionText.innerHTML = this.alt;
+    // }
+
+    // // Close modal
+    // var span = document.getElementsByClassName("close")[0];
+
+    // span.onclick = function () {
+    //     modal.style.display = "none";
+    // }
+ });
