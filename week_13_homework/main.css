@@ -1,0 +1,24 @@
+body{
+    margin: 0px;
+}
+
+.nav-bar {
+    background-color: darkorange;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-item{
+    margin: 10px;
+}
+
+.nav-bar img{
+    height: 40px;
+    width: auto;
+}
+
+.hidden {
+    display: none;
+  }

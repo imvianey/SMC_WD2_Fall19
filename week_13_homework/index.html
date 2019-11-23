@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Instruments - Flexbox</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+    <link href="main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="nav-bar">
+        <img class="nav-item logo" src="images/music_logo.png" alt="Music Logo">
+        <a class="nav-item nav-list" href="brass.html">Brass</a>
+        <a class="nav-item nav-list" href="strings.html">Strings</a>
+        <a class="nav-item nav-list" href="woodwind.html">Woodwind</a>
+        <a class="nav-item nav-list" href="percussion.html">Percussion</a>
+        <a class="nav-item nav-list" href="keyboard.html">Keyboard</a>
+    </div>
+
+<script>
+    $(document).ready(function () {
+        $(".logo").click(function(){
+            $(".nav-bar a").toggleClass("hidden");
+        })
+    });
+</script>
+
+</body>
+</html>
