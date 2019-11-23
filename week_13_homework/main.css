@@ -19,6 +19,25 @@ body{
     width: auto;
 }
 
-.hidden {
+.hidden{
     display: none;
   }
+
+.web{
+    display: none;
+}
+
+/*MEDIUM SIZE SCREENS*/
+@media(min-width:540px) {
+    .nav-bar{
+        flex-direction: row;
+    }
+
+    .web {
+        display: block;
+    }
+
+    .mobile{
+        display: none;
+    }
+}
