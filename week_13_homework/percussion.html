@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Percussion</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+    <link href="main.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="nav-bar">
+        <img class="nav-item logo mobile" src="images/music_logo.png" alt="Music Logo">
+        <a href="index.html" class="nav-item logo web"><img src="images/music_logo.png" alt="Music Logo"></a>
+        <a class="nav-item mobile" href="index.html">Home</a>
+        <a class="nav-item" href="history.html">History</a>
+        <a class="nav-item" href="brass.html">Brass</a>
+        <a class="nav-item" href="strings.html">Strings</a>
+        <a class="nav-item" href="woodwind.html">Woodwind</a>
+        <a class="nav-item current" href="percussion.html">Percussion</a>
+        <a class="nav-item" href="keyboard.html">Keyboard</a>
+    </div>
+
+    <div class="flex-content">
+
+        <h1>Percussion Instruments</h1>
+
+        <div class="page">
+            <img src="images/percussion/close.jpg" alt="Xylophone close up">
+        </div>
+
+
+        <div class="page">
+            <p>
+                A percussion instrument is a musical instrument that is sounded by being struck or scraped by a beater
+                including attached or enclosed beaters or rattles struck, scraped or rubbed by hand or struck against
+                another similar instrument. The percussion family is believed to include the oldest musical instruments,
+                following the human voice.
+            </p>
+
+            <p>
+                The percussion section of an orchestra most commonly contains instruments such as timpani, snare drum,
+                bass drum, cymbals, triangle and tambourine. However, the section can also contain non-percussive
+                instruments, such as whistles and sirens, or a blown conch shell. Percussive techniques can also be
+                applied to the human body, as in body percussion. On the other hand, keyboard instruments, such as the
+                celesta, are not normally part of the percussion section, but keyboard percussion instruments such as
+                the glockenspiel and xylophone (which do not have piano keyboards) are included.
+            </p>
+
+            <p>
+                Percussion instruments are most commonly divided into two classes: Pitched percussion instruments, which
+                produce notes with an identifiable pitch, and unpitched percussion instruments, which produce notes or
+                sounds without an identifiable pitch.
+            </p>
+        </div>
+        <div class="page-list">
+            <img src="images/percussion/bell.jpg" alt="Bell">
+            <h2>Bell</h2>
+        </div>
+
+        <div class="page-list">
+            <img src="images/percussion/bongo.jpg" alt="Bongo">
+            <h2>Bongo</h2>
+        </div>
+
+        <div class="page-list">
+            <img src="images/percussion/Cymbal.jpg" alt="Cymbal">
+            <h2>Cymbal</h2>
+        </div>
+
+        <div class="page-list">
+            <img src="images/percussion/drum.jpg" alt="Drum">
+            <h2>Drum</h2>
+        </div>
+
+        <div class="page-list">
+            <img src="images/percussion/gong.jpg" alt="Gong">
+            <h2>Gong</h2>
+        </div>
+
+        <div class="page-list">
+            <img src="images/percussion/Steelpan.jpg" alt="Steelpan">
+            <h2>Steelpan</h2>
+        </div>
+
+        <div class="page-list">
+            <img src="images/percussion/tambourine.jpg" alt="Tambourine">
+            <h2>Tambourine</h2>
+        </div>
+
+        <div class="page-list">
+            <img src="images/percussion/Xylophone.jpg" alt="Xylophone">
+            <h2>Xylophone</h2>
+        </div>
+    </div>
+
+    <script>
+        $(document).ready(function () {
+            $(".logo").click(function () {
+                $(".nav-bar a").toggleClass("hidden");
+            })
+        });
+    </script>
+
+</body>
+
+</html>
