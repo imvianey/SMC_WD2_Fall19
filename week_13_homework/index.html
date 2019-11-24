@@ -20,11 +20,40 @@
         <a class="nav-item" href="percussion.html">Percussion</a>
     </div>
 
+    <div class="flex-content">
+        <img src="images/brass.jpg" alt="Brass Instruments">
+        <h2>Brass Instruments</h2>
+        <p class="caption">A brass instrument is a musical instrument that produces sound by sympathetic vibration of air in a tubular resonator in sympathy with the vibration of the player's lips. Brass instruments are also called labrosones, literally meaning "lip-vibrated instruments".</p>
+    </div>
+
+    <div class="flex-content">
+        <img src="images/strings.jpg" alt="String Instruments">
+        <h2>String Instruments</h2>
+        <p class="caption">String instruments, stringed instruments, or chordophones are musical instruments that produce sound from vibrating strings when the performer plays or sounds the strings in some manner. </p>
+    </div>
+    <div class="flex-content">
+        <img src="images/woodwind.jpg" alt="Woodwind Instruments">
+        <h2>Woodwind Instruments</h2>
+        <p class="caption">Woodwind instruments are a family of musical instruments within the more general category of wind instruments. There are two main types of woodwind instruments: flutes and reed instruments (otherwise called reed pipes).</p>
+    </div>
+    <div class="flex-content">
+        <img src="images/percussion.jpg" alt="Percussion Instruments">
+        <h2>Percussion Instruments</h2>
+        <p class="caption">A percussion instrument is a musical instrument that is sounded by being struck or scraped by a beater including attached or enclosed beaters or rattles struck, scraped or rubbed by hand or struck against another similar instrument.</p>
+    </div>
+
 <script>
     $(document).ready(function () {
         $(".logo").click(function(){
             $(".nav-bar a").toggleClass("hidden");
         })
+
+        // Hover over image, caption slides
+    $(".flex-content")
+        .click(function () {
+                $(this).children(".caption").slideToggle("slow");
+            }
+        );
     });
 
 </script>
