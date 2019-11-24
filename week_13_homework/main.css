@@ -1,9 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Text+Me+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
 body {
     margin: 0px;
 }
 
+/* NAVBAR */
 .nav-bar {
-    background-color: darkorange;
+    background-color: #CABBAE;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -12,6 +16,10 @@ body {
 
 .nav-item {
     margin: 10px;
+    font-family: 'Text Me One', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
 }
 
 .nav-bar img {
@@ -23,17 +31,33 @@ body {
     display: none;
 }
 
+.current{
+    text-decoration: underline double;
+}
 
+/* MAIN */
 .flex-content{
-    background-color: aqua;
     display: flex;
     flex-direction: column;
-    margin: 25px 0px;
+    flex-flow: wrap;
+}
+
+h1{
+    font-family: 'Text Me One', sans-serif;
+    text-align: center;
+    font-size: 50px;
+    margin: 15px;
+    width: 100%;
+}
+
+.title{
+    width: 100%;
 }
 
 .flex-content h2{
     margin: 5px;
     text-align: center;
+    font-family: 'Text Me One', sans-serif;
 }
 
 .flex-content img{
@@ -43,6 +67,12 @@ body {
 
 .flex-content p{
     margin: 10px;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+}
+
+.flex-content div{
+    margin: 10px 0px;
 }
 
 /*MEDIUM SIZE SCREENS*/
@@ -54,6 +84,10 @@ body {
     .nav-bar img {
         height: 70px;
         width: auto;
+    }
+
+    h1{
+        font-size: 70px;
     }
 
     .web {
@@ -77,10 +111,44 @@ body {
         order: 4;
     }
 
+    /* MAIN */
+
     .flex-content{
-        background-color: aqua;
-        display: flex;
         flex-direction: row;
-        margin: 25px 0px;
+        margin: 0px 10px;
+    }
+
+    .flex-content div{
+        margin: 20px;
+    }
+
+    .brass{
+        order: 1;
+        flex-grow: 1;
+        width: 25%;
+    }
+    
+    .string{
+        order: 2;
+        flex-grow: 1;
+        width: 25%;
+    }
+    
+    .woodwind{
+        order: 3;
+        flex-grow: 1;
+        width: 25%;
+    }
+    
+    .percussion{
+        order: 4;
+        flex-grow: 1;
+        width: 25%;
+    }
+    
+    .keyboard{
+        width: 25%;
+        order: 5;
+        flex-grow: 2;
     }
 }
