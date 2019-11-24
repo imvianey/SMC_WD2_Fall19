@@ -117,6 +117,10 @@ h1{
         order: 6;
     }
 
+    .page-list{
+        margin: 20px 0px;
+    }
+
     /* MAIN */
 
     .flex-content{
@@ -165,6 +169,11 @@ h1{
 
     .page p{
         font-size: 17px;
+    }
+
+    .page-list{
+        width: 20%;
+        flex-grow: 1;
     }
 
     .history{

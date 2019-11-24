@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Keyboard</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+    <link href="main.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="nav-bar">
+        <img class="nav-item logo mobile" src="images/music_logo.png" alt="Music Logo">
+        <a href="index.html" class="nav-item logo web"><img src="images/music_logo.png" alt="Music Logo"></a>
+        <a class="nav-item mobile" href="index.html">Home</a>
+        <a class="nav-item" href="history.html">History</a>
+        <a class="nav-item" href="brass.html">Brass</a>
+        <a class="nav-item" href="strings.html">Strings</a>
+        <a class="nav-item" href="woodwind.html">Woodwind</a>
+        <a class="nav-item" href="percussion.html">Percussion</a>
+        <a class="nav-item current" href="keyboard.html">Keyboard</a>
+    </div>
+
+    <div class="flex-content">
+
+        <h1>Keyboard Instruments</h1>
+
+        <div class="page">
+            <img src="images/keyboard/keys.jpg" alt="Piano keys">
+        </div>
+
+
+        <div class="page">
+            <p>
+                A keyboard instrument is a musical instrument played using a keyboard, a row of levers which are pressed
+                by the fingers. The most common of these are the piano, organ, and various electronic keyboards,
+                including synthesizers and digital pianos. Other keyboard instruments include celestas, which are struck
+                idiophones operated by a keyboard, and carillons, which are usually housed in bell towers or belfries of
+                churches or municipal buildings.
+            </p>
+
+            <p>
+                Today, the term keyboard often refers to keyboard-style synthesizers. Under the fingers of a sensitive
+                performer, the keyboard may also be used to control dynamics, phrasing, shading, articulation, and other
+                elements of expression—depending on the design and inherent capabilities of the instrument.
+            </p>
+
+            <p>
+                Another important use of the word keyboard is in historical musicology, where it means an instrument
+                whose identity cannot be firmly established. Particularly in the 18th century, the harpsichord, the
+                clavichord, and the early piano were in competition, and the same piece might be played on more than
+                one. Hence, in a phrase such as "Mozart excelled as a keyboard player," the word keyboard is typically
+                all-inclusive.
+            </p>
+        </div>
+
+        <div class="page-list">
+            <img src="images/keyboard/accordion.jpg" alt="Accordion">
+            <h2>Accordion</h2>
+        </div>
+
+        <div class="page-list">
+            <img src="images/keyboard/celesta.jpg" alt="Celesta">
+            <h2>Celesta</h2>
+        </div>
+
+        <div class="page-list">
+            <img src="images/keyboard/harmonium.jpg" alt="Harmonium">
+            <h2>Harmonium</h2>
+        </div>
+
+        <div class="page-list">
+            <img src="images/keyboard/harpsichord.jpg" alt="Harpsichord">
+            <h2>Harpsichord</h2>
+        </div>
+
+        <div class="page-list">
+            <img src="images/keyboard/organ.jpg" alt="Organ">
+            <h2>Organ</h2>
+        </div>
+
+        <div class="page-list">
+            <img src="images/keyboard/piano.jpg" alt="Piano">
+            <h2>Piano</h2>
+        </div>
+
+        <div class="page-list">
+            <img src="images/keyboard/synthesizer.jpg" alt="Synthesizer">
+            <h2>ASynthesizer</h2>
+        </div>
+    </div>
+
+    <script>
+        $(document).ready(function () {
+            $(".logo").click(function () {
+                $(".nav-bar a").toggleClass("hidden");
+            })
+        });
+    </script>
+
+</body>
+
+</html>
