@@ -12,6 +12,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+    padding-bottom: 15px;
 }
 
 .nav-item {
@@ -79,6 +80,7 @@ h1{
 @media(min-width:540px) {
     .nav-bar {
         flex-direction: row;
+        padding-bottom: 0px;
     }
 
     .nav-bar img {
@@ -103,12 +105,16 @@ h1{
         order: 2;
     }
 
-    .nav-item:nth-child(6) {
-        order: 3;
-    }
-
     .nav-item:nth-child(7) {
         order: 4;
+    }
+
+    .nav-item:nth-child(8) {
+        order: 5;
+    }
+
+    .nav-item:nth-child(9) {
+        order: 6;
     }
 
     /* MAIN */
@@ -150,5 +156,18 @@ h1{
         width: 25%;
         order: 5;
         flex-grow: 2;
+    }
+
+    .page{
+        width: 40%;
+        flex-grow: 1;
+    }
+
+    .page p{
+        font-size: 17px;
+    }
+
+    .history{
+        font-size: 55px;
     }
 }

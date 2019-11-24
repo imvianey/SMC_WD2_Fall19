@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>History</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+    <link href="main.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="nav-bar">
+        <img class="nav-item logo mobile" src="images/music_logo.png" alt="Music Logo">
+        <a href="index.html" class="nav-item logo web"><img src="images/music_logo.png" alt="Music Logo"></a>
+        <a class="nav-item mobile" href="index.html">Home</a>
+        <a class="nav-item current" href="history.html">History</a>
+        <a class="nav-item" href="brass.html">Brass</a>
+        <a class="nav-item" href="strings.html">Strings</a>
+        <a class="nav-item" href="woodwind.html">Woodwind</a>
+        <a class="nav-item" href="percussion.html">Percussion</a>
+        <a class="nav-item" href="keyboard.html">Keyboard</a>
+    </div>
+
+    <div class="flex-content">
+
+        <h1 class="history">History of Musical Instruments</h1>
+
+        <div class="page">
+            <img src="images/history-flute.jpg" alt="First known instrument">
+        </div>
+
+
+        <div class="page">
+            <p>
+                Music is a form of art, which derives from the Greek word meaning "art of the Muses." In ancient Greece,
+                the
+                Muses were the goddesses who inspired the arts, such as literature, music, and poetry.
+            </p>
+
+            <p>
+                Music has been performed since the dawn of human time with instruments and through vocal song. While it
+                is
+                not certain how or when the first musical instrument was invented, most historians point to early flutes
+                made from animal bones that are at least 37,000 years old. The oldest known written song dates back
+                4,000
+                years and was written in ancient cuneiform.
+            </p>
+        </div>
+
+        <div class="page">
+            <p>The Ancient Egyptians played many instruments. They played castanets, drums and bells. They also played
+                stringed instruments like the harp, the lyre (a kind of vertical harp) and the lute. They also played
+                wind instruments like flutes and trumpets. The Egyptians also played a rattle called a sistrum.</p>
+
+
+            <p>The Greeks played stringed instruments like the harp and the lyre. They also played a large lyre called a
+                Kithara. Its strings were plucked with a plectrum. The Greeks also played wind instruments like the
+                syrinx or panpipes, which was made of reeds of different lengths. They also played cymbals.
+
+                <p>The Romans had similar musical instruments, the lyre and harp, the trumpet and flutes. The Romans
+                    also played the bagpipes and they made organs.</p>
+
+                <p>In ancient times people played animal horns but in Bronze Age Scandinavia they played metal horns
+                    called lurs.</p>
+            </p>
+        </div>
+
+        <div class="page">
+            <img src="images/history-egypt.jpg" alt="Egyptian hieroglyphics">
+        </div>
+    </div>
+
+    <script>
+        $(document).ready(function () {
+            $(".logo").click(function () {
+                $(".nav-bar a").toggleClass("hidden");
+            })
+        });
+    </script>
+
+</body>
+
+</html>
