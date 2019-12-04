@@ -1,10 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Arbutus+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,900&display=swap');
+
+/* Color Theme Swatches in Hex */
+.Welcome-to-Art-School-|-RISD-1-hex { color: #D95284; }
+.Welcome-to-Art-School-|-RISD-2-hex { color: #044BD9; }
+.Welcome-to-Art-School-|-RISD-3-hex { color: #0442BF; }
+.Welcome-to-Art-School-|-RISD-4-hex { color: #0476D9; }
+.Welcome-to-Art-School-|-RISD-5-hex { color: #F27E63; }
+
 body {
     margin: 0px;
 }
 
 /* NAVBAR */
 nav {
-    background-color: #CABBAE;
+    background-color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -14,7 +24,7 @@ nav {
 
 .nav-item {
     margin: 10px;
-    font-family: 'Text Me One', sans-serif;
+    font-family: 'Arbutus Slab', serif;
     font-size: 20px;
     text-decoration: none;
     color: black;
@@ -43,20 +53,34 @@ nav img {
 
 .top-img{
     background-color: slategray;
-    height: 300px;
+    background-image: url("images/bg-color-sm.png");
+    background-position: right;
+    height: 400px;
+    position: relative;
+}
+
+.top-img img{
+    position: absolute;
+bottom: 0;
+right: -47px;
+height: 200px;
+}
+
+.top-img h1{
+    margin: 50px;
 }
 
 .w-25 {
     height: 200px;
-    background-color: slategray;
+    background-color: #0442BF;
 }
 
 .w-33 {
-    background-color: tomato;
+    background-color: #D95284;
 }
 
 .w-50{
-    background-color: tomato;
+    background-color: #D95284;
 }
 
 /* GRID */
@@ -71,7 +95,7 @@ nav img {
 .grid-item{
     width: 100%;
     height: 100px;
-    background-color: aquamarine;
+    background-color: #F27E63;
 }
 
 .grid-layout p{
@@ -93,6 +117,7 @@ nav img {
 
     h1 {
         font-size: 70px;
+        font-family: 'Lato', sans-serif;
     }
 
     .web {
@@ -112,6 +137,19 @@ nav img {
     .content {
         flex-direction: row;
         flex-flow: nowrap;
+    }
+
+    .top-img{
+        background-color: #0442BF;
+        background-image: url("images/bg-color-lg.png");
+        background-position: center;
+        background-repeat: round;
+        height: 400px;
+    }
+    
+    .top-img h1{
+        margin: 30px;
+        font-size: 39px;
     }
 
     .w-25 {
