@@ -4,18 +4,8 @@
 /* Color Theme Swatches in Hex */
 .Sleep-Sense-color-theme-1-hex {
     color: #024873;
-}
-
-.Sleep-Sense-color-theme-2-hex {
     color: #0396A6;
-}
-
-/* .Sleep-Sense-color-theme-3-hex { color: #04BFAD; } */
-.Sleep-Sense-color-theme-4-hex {
     color: #AEE6D1;
-}
-
-.Sleep-Sense-color-theme-5-hex {
     color: #F25E5E;
 }
 
@@ -193,17 +183,18 @@ button[class^='button']{
     font-family: 'Open Sans', sans-serif;
     border: 1px solid #F25E5E;
     font-weight: 700;
-    font-size: 13px;
 }
 
 .button-lg {
     position: absolute;
-    bottom: 25px;
-    right: 27px;
+    bottom: 42px;
+    right: 17px;
+    font-size: 16px;
 }
 
 .button-sm {
     display: block;
 margin-left: auto;
 margin-right: auto;
+font-size: 13px;
 }

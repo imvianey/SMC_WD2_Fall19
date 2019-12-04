@@ -1,6 +1,6 @@
 $(document).ready(function () {
     $(".logo").click(function(){
-        $(".nav-bar a").toggleClass("hidden");
+        $("nav a").toggleClass("hidden");
     })
 
     // Hover over image, caption slides
