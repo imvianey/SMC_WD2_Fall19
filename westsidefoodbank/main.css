@@ -2,11 +2,22 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
 
 /* Color Theme Swatches in Hex */
-.Sleep-Sense-color-theme-1-hex { color: #024873; }
-.Sleep-Sense-color-theme-2-hex { color: #0396A6; }
+.Sleep-Sense-color-theme-1-hex {
+    color: #024873;
+}
+
+.Sleep-Sense-color-theme-2-hex {
+    color: #0396A6;
+}
+
 /* .Sleep-Sense-color-theme-3-hex { color: #04BFAD; } */
-.Sleep-Sense-color-theme-4-hex { color: #AEE6D1; }
-.Sleep-Sense-color-theme-5-hex { color: #F25E5E; }
+.Sleep-Sense-color-theme-4-hex {
+    color: #AEE6D1;
+}
+
+.Sleep-Sense-color-theme-5-hex {
+    color: #F25E5E;
+}
 
 body {
     margin: 0px;
@@ -46,7 +57,7 @@ nav img {
 }
 
 /* MAIN */
-.banner{
+.banner {
     width: 100%;
     height: 400px;
     background-color: #AEE6D1;
@@ -57,22 +68,48 @@ nav img {
     position: relative;
 }
 
-.banner h1{
-    margin: 50px;
+.banner h1 {
+    margin: 0px;
     font-family: 'Arya', sans-serif;
+    text-align: center;
+    font-size: 36px;
+    padding: 12px;
+    color: #024873;
+}
+
+.info {
+    background-color: #024873;
+    padding: 20px;
+}
+
+.info img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 87%;
+}
+
+.info p {
+    text-align: left;
+    color: white;
+    font-size: 23px;
+    font-family: 'Open Sans', sans-serif;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 87%;
 }
 
 /* GRID */
-.grid-index1{
+.grid-index1 {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
-
     grid-gap: 20px;
     margin: 15px;
 }
 
-.grid-index2{
+.grid-index2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -81,24 +118,28 @@ nav img {
     margin: 15px;
 }
 
-.grid-item{
+.grid-item {
     width: 100%;
-    height: 100px;
+    /* height: 100px; */
     background-color: #024873;
 }
 
-.grid-layout p{
+.grid-layout p {
     display: flex;
     padding: 10px;
 }
 
 /* BUTTONS */
-.button-lg{
+.button-lg {
     position: absolute;
-    bottom: 50px;
+    bottom: 25px;
     right: 27px;
     background-color: #F25E5E;
     padding: 10px;
-    border-radius: 4px;
-    border: 2px solid #024873;
+    /* box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2), 0 5px 10px 0 rgba(0,0,0,0.19); */
+    color: #024873;
+    font-size: 13px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    border: 1px solid #F25E5E;
 }
