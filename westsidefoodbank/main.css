@@ -190,10 +190,6 @@ button[class^='button'] {
 }
 
 /* ABOUT ---------------------------*/
-.about{
-    padding: 15px;
-}
-
 .about-pg .banner{
     background-image: url("images/about/spoon-blue.png");
 }
@@ -216,8 +212,16 @@ line-height: 36px;
     margin: 27px;
 }
 
+.blurb{
+    padding: 15px;
+}
 
-.about p{
+.drop-sib h2{
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+.blurb p, .blurb li{
     font-family: 'Open Sans', sans-serif;
     text-align: left;
     font-size: 15px;
@@ -225,6 +229,17 @@ line-height: 36px;
     padding: 20px;
     margin: 0px;
     line-height: 23px;
+    list-style-type: none;
+}
+
+.blurb li{
+    padding: 0px;
+}
+
+.blurb a{
+    text-decoration: none;
+    font-weight: 600;
+    color: #024873;
 }
 
 .grid-about .caption{
@@ -271,7 +286,7 @@ p{
 .help-pg h2{
     font-family: 'Open Sans', sans-serif;
     color: #F25E5E;
-    margin: 0px;
+    margin-top: -4px;
     font-size: 21px;
 line-height: 29px;
 }
@@ -321,6 +336,14 @@ font-size: 22px;
     }
 
     .grid-about{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    
+        grid-gap: 20px;
+    }
+
+    /* HELP */
+    .grid-help{
         display: grid;
         grid-template-columns: 1fr 1fr;
     
