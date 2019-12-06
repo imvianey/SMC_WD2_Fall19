@@ -168,14 +168,6 @@ footer .bottom {
     .box {
         padding: 20px;
     }
-
-    .awards-mobile{
-        display: flex;
-    }
-
-    .awards-web{
-        display: none;
-    }
 }
 
 /*LARGE SIZE SCREENS---------------------------------------------------------------------------*/
@@ -200,6 +192,14 @@ footer .bottom {
 
     .contact{
         order: 0;
+    }
+
+    .awards-mobile{
+        display: flex;
+    }
+
+    .awards-web{
+        display: none;
     }
 }
 
