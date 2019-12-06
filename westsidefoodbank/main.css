@@ -17,7 +17,7 @@
     background-color: white;
 }
 
-.light-blue {
+.mint {
     color: #024873;
     background-color: #AEE6D1;
 
@@ -189,7 +189,7 @@ button[class^='button'] {
     font-size: 15px;
 }
 
-/* ABOUT */
+/* ABOUT ---------------------------*/
 .about{
     padding: 15px;
 }
@@ -250,6 +250,32 @@ iframe{
 p{
     max-width: 1000px;
 }
+
+/* HELP--------------------------- */
+.help-pg .banner{
+    background-image: url("images/help/plate-red.png");
+}
+
+.help-pg .banner h1{
+    color: #024873;
+    text-align: center;
+    padding: 10px 20px;
+    display: block;
+}
+
+.help-pg h2:first-child{
+    color: white;
+    padding-bottom: 12px;
+}
+
+.help-pg h2{
+    font-family: 'Open Sans', sans-serif;
+    color: #F25E5E;
+    margin: 0px;
+    font-size: 21px;
+line-height: 29px;
+}
+
 
 /*MEDIUM SIZE SCREENS------------------------------------------------------------*/
 @media(min-width:540px) {
