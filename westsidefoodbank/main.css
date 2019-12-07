@@ -361,6 +361,10 @@ h4 {
         font-size: 22px;
     }
 
+    button[class^='button']:hover {
+        background-color: #D95555;
+    }
+
     .grid-index1 {
         text-align: center;
     }
