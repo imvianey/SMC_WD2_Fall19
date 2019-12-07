@@ -408,6 +408,11 @@ h4 {
         display: flex;
         align-items: flex-start;
     }
+
+    .help-pg h2 {
+        font-size: 25px;
+        line-height: 40px;
+    }
 }
 
 /*LARGE SIZE SCREENS---------------------------------------------------------------------------*/
@@ -514,6 +519,11 @@ h4 {
         padding: 35px 20px;
     }
 
+    .help-pg h2 {
+        font-size: 32px;
+        line-height: 50px;
+    }
+
     .help-pg h3{
         font-size: 38px;
     }
@@ -583,6 +593,11 @@ h4 {
 
     .grid-l {
         grid-template-columns: 3fr 1fr;
+    }
+
+    .help-pg h2 {
+        font-size:35px;
+        line-height: 55px;
     }
 
     .help-pg h3{
