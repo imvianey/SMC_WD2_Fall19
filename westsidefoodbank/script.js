@@ -9,10 +9,4 @@ $(".drop")
             $(this).children(".caption").slideToggle("slow");
         }
     );
-
-$(".drop-sib")
-    .click(function () {
-            $(this).siblings(".caption").slideToggle("slow");
-        }
-    );
 });

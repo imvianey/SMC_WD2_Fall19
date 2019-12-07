@@ -36,12 +36,12 @@ body {
     position: relative;
 }
 
-.flex{
+.flex {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-align-content: center;
+    align-content: center;
 }
 
 .banner {
@@ -53,7 +53,7 @@ align-content: center;
     background-size: cover;
 }
 
-.index-pg .banner{
+.index-pg .banner {
     background-image: url("images/fork.png");
 }
 
@@ -157,7 +157,7 @@ a {
     padding: 10px;
 }
 
-.double-space{
+.double-space {
     grid-column-start: 1;
     grid-column-end: 4;
 }
@@ -185,115 +185,163 @@ button[class^='button'] {
     justify-content: space-evenly;
 }
 
-.button{
+.button {
     font-size: 15px;
 }
 
 /* ABOUT ---------------------------*/
-.about-pg .banner{
+.about-pg .banner {
     background-image: url("images/about/spoon-blue.png");
 }
 
-.about-pg .banner h1{
+.about-pg .banner h1 {
     color: white;
     text-align: left;
     padding: 10px 20px;
     display: block;
 }
 
-.about-pg .banner h2{
+.about-pg .banner h2 {
     color: #AEE6D1;
     margin: 0px;
     font-size: 23px;
-line-height: 36px;
+    line-height: 36px;
 }
 
-.about-pg .words{
+.about-pg .words {
     margin: 27px;
 }
 
-.blurb{
-    padding: 15px;
-}
-
-.drop-sib h2{
-    margin-bottom: 15px;
-    padding: 10px;
-}
-
-.blurb p, .blurb li{
-    font-family: 'Open Sans', sans-serif;
-    text-align: left;
-    font-size: 15px;
-    color: #024873;
-    padding: 20px;
-    margin: 0px;
-    line-height: 23px;
-    list-style-type: none;
-}
-
-.blurb li{
-    padding: 0px;
-}
-
-.blurb a{
-    text-decoration: none;
-    font-weight: 600;
-    color: #024873;
-}
-
-.grid-about .caption{
+.grid-about .caption {
     font-weight: 700;
 }
 
-iframe{
-    width:100%;
+iframe {
+    width: 100%;
     height: 315px;
 }
 
-.grid-about{
+.grid-about {
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 20px;
 }
 
-.about-pg .pg-img{
+.about-pg .pg-img {
     height: 350px;
     overflow: hidden;
 }
 
-p{
+p {
     max-width: 1000px;
 }
 
 /* HELP--------------------------- */
-.help-pg .banner{
+.help-pg .banner {
     background-image: url("images/help/plate-red.png");
 }
 
-.help-pg .banner h1{
+.help-pg .banner h1 {
     color: #024873;
     text-align: center;
     padding: 10px 20px;
     display: block;
 }
 
-.help-pg h2:first-child{
+.help-pg h2:first-child {
     color: white;
     padding-bottom: 12px;
 }
 
-.help-pg h2{
+.help-pg h2 {
     font-family: 'Open Sans', sans-serif;
     color: #F25E5E;
-    margin-top: -4px;
     font-size: 21px;
-line-height: 29px;
+    line-height: 29px;
+}
+
+.help-pg h3 {
+    font-family: 'Arya', sans-serif;
+    color: #F25E5E;
+    font-size: 25px;
+    margin: 0px;
+    text-align: center;
+}
+
+.grid-r {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+    padding: 20px 0px;
+    border-bottom: 1px solid #024873;
+}
+
+.grid-l {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+    padding: 20px 0px;
+    border-bottom: 1px solid #024873;
+}
+
+.grid-l .flex {
+    order: 2;
+}
+
+.grid-l p,
+.grid-r p {
+    padding: 10px 0px;
+}
+
+.grid-r .flex-row {
+    display: block;
+}
+
+/* BLURB ------------------*/
+.blurb {
+    padding: 20px;
+}
+
+.blurb p,
+.blurb li,
+h4 {
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+    font-size: 16px;
+    color: #024873;
+    padding: 20px;
+    margin: 0px;
+}
+
+ul {
+    display: list-item;
+}
+
+.blurb li {
+    list-style-type: none;
+    padding: 0px 20px;
+}
+
+.blurb p {
+    line-height: 24px;
+}
+
+.blurb a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #024873;
+}
+
+h4 {
+    padding: 0px;
+    padding-top: 20px;
+    font-weight: 700;
 }
 
 
 /*MEDIUM SIZE SCREENS------------------------------------------------------------*/
 @media(min-width:540px) {
+
     /* MAIN */
     .index-pg .banner h1 {
         display: flex;
@@ -307,21 +355,21 @@ line-height: 29px;
     }
 
 
-    .button-donate{
+    .button-donate {
         bottom: 102px;
-right: 60px;
-font-size: 22px;
+        right: 60px;
+        font-size: 22px;
     }
 
-    .grid-index1{
+    .grid-index1 {
         text-align: center;
     }
 
-    .grid-index1 p{
+    .grid-index1 p {
         font-size: 29px;
     }
 
-    h2{
+    h2 {
         font-size: 32px;
     }
 
@@ -335,40 +383,52 @@ font-size: 22px;
         margin: 2px;
     }
 
-    .grid-about{
+    .grid-about {
         display: grid;
         grid-template-columns: 1fr 1fr;
-    
+
         grid-gap: 20px;
     }
 
     /* HELP */
-    .grid-help{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    
-        grid-gap: 20px;
+    .grid-r {
+        grid-template-columns: 1fr 2fr;
+    }
+
+    .grid-l {
+        grid-template-columns: 2fr 1fr;
+    }
+
+    .grid-l img,
+    .grid-l .flex {
+        order: 0;
+    }
+
+    .grid-r .flex-row {
+        display: flex;
+        align-items: flex-start;
     }
 }
 
 /*LARGE SIZE SCREENS---------------------------------------------------------------------------*/
 @media(min-width:800px) {
-    .index-pg .banner{
+    .index-pg .banner {
         height: 550px;
     }
 
     .index-pg .banner h1 {
-         justify-content: center;
-         font-size: 67px;
-         line-height: 86px;
+        justify-content: center;
+        font-size: 67px;
+        line-height: 86px;
     }
 
-    .button-donate{
+    .button-donate {
         right: 60px;
         font-size: 30px;
     }
 
-    .info img, .info p{
+    .info img,
+    .info p {
         padding: 10px;
     }
 
@@ -376,7 +436,7 @@ font-size: 22px;
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
-    
+
         grid-gap: 20px;
         margin: 15px;
     }
@@ -388,30 +448,30 @@ font-size: 22px;
         grid-gap: 60px;
     }
 
-    .grid-index1 .grid-item{
+    .grid-index1 .grid-item {
         font-size: 31px;
     }
 
-    .grid-index3{
+    .grid-index3 {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-gap:60px;
+        grid-gap: 60px;
     }
 
-    .events{
+    .events {
         border-bottom: none;
     }
 
-    .info{
+    .info {
         padding: 45px;
     }
 
-    h2{
+    h2 {
         font-size: 43px;
     }
 
     /* BUTTON */
-    .button{
+    .button {
         font-size: 20px;
     }
 
@@ -425,54 +485,63 @@ font-size: 22px;
         margin: -27px;
     }
 
-    .about-pg .pg-img{
+    .about-pg .pg-img {
         height: auto;
         overflow: hidden;
     }
 
-    .grid-about{
+    .grid-about {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-    
+
         grid-gap: 20px;
     }
 
     .grid-about-p {
         display: grid;
         grid-template-columns: 2fr 1fr;
-    
+
         margin: 15px;
     }
 
-    .grid-about-p img{
+    .grid-about-p img {
         height: 520px;
         width: auto;
+    }
+
+    /* HELP */
+    .help-pg .banner h1 {
+        padding: 35px 20px;
+    }
+
+    .help-pg h3{
+        font-size: 38px;
     }
 }
 
 /*EXTRA LARGE SIZE SCREENS*/
 @media(min-width:1000px) {
-    .index-pg .banner{
+    .index-pg .banner {
         height: 550px;
     }
 
     .index-pg .banner h1 {
-         justify-content: left;
-         font-size: 77px;
-         line-height: 86px;
-         padding-left: 4%;
+        justify-content: left;
+        font-size: 77px;
+        line-height: 86px;
+        padding-left: 4%;
     }
 
     .index-pg .banner br {
         display: block;
     }
 
-    .button-donate{
+    .button-donate {
         right: 73px;
 
     }
 
-    .grid-index1 .grid-item{
+    .grid-index1 .grid-item {
         font-size: 50px;
     }
 
@@ -482,7 +551,7 @@ font-size: 22px;
         grid-gap: 60px;
     }
 
-    h2{
+    h2 {
         line-height: 50px;
     }
 
@@ -491,10 +560,10 @@ font-size: 22px;
         margin: -49px;
     }
 
-    .grid-about{
+    .grid-about {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
-    
+
         grid-gap: 20px;
     }
 
@@ -502,8 +571,21 @@ font-size: 22px;
         grid-template-columns: 1fr 1fr;
     }
 
-    .grid-about-p img{
+    .grid-about-p img {
         height: 520px;
         width: auto;
+    }
+
+    /* HELP */
+    .grid-r {
+        grid-template-columns: 1fr 3fr;
+    }
+
+    .grid-l {
+        grid-template-columns: 3fr 1fr;
+    }
+
+    .help-pg h3{
+        font-size: 45px;
     }
 }
