@@ -16,4 +16,14 @@ $(document).ready(function () {
 
         $(this).find("input").focus();
     });
+
+    // Replace form with replace message
+    $( ".donate-submit" ).click(function() {
+        $("form").replaceWith( $( ".replace" ) );
+      });
+    
+    //   Remove hidden class from replace message
+      $(".donate-submit").click(function(){
+        $(".replace").removeClass("hidden-all");
+      });
 });

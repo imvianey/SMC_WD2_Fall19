@@ -98,8 +98,6 @@ select {
     margin: 0 auto;
 }
 
-
-
 .donate-form .amount .selected {
     background-color: #024873;
 }
@@ -128,6 +126,14 @@ input {
 
 .set-amount {
     max-width: 96px;
+}
+
+.replace{
+    margin: 50px;
+}
+
+.hidden-all{
+    display: none;
 }
 
 @media (min-width: 540px) {
