@@ -1,15 +1,31 @@
-.donate-pg .banner{
+.donate-pg .banner {
     height: 200px;
-    background-image: url("images/fork.png");
+    background-color: white;
+    border-bottom: 1px solid #024873;
 }
 
-.donate-pg .banner h1{
+.donate-pg .banner h1 {
     font-size: 40px;
     line-height: 40px;
+    color: #F25E5E;
 }
 
-.donate-pg h2{
+.donate-pg .banner p {
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    color: #024873;
+    margin: 0px 20px;
+}
+
+fieldset {
+    border: none;
+    padding: 0px;
+    margin-bottom: 30px;
+}
+
+.donate-pg h2 {
     font-size: 40px;
+    line-height: 49px;
 }
 
 .donate-form {
@@ -17,20 +33,33 @@
     flex-flow: row wrap;
     align-items: center;
     font-family: 'Open Sans', sans-serif;
-    margin: 20px;
     color: #024873;
+    margin: 20px;
 }
 
 .donate-form label {
     margin: 5px 10px 5px 0;
+    font-family: 'Open Sans', sans-serif;
+    color: #024873;
 }
 
-.donate-form input {
+.donate-form input,
+select {
     vertical-align: middle;
     margin: 5px 10px 5px 0;
     padding: 10px;
     background-color: white;
     border: 1px solid #AEE6D1;
+    width: 100%;
+}
+
+.donate-form option {
+    color: #024873;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.donate-form .field {
+    margin: 10px 0px;
 }
 
 .donate-form button {
@@ -41,7 +70,7 @@
     cursor: pointer;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
-    font-size: 16px;
+    font-size: 25px;
 }
 
 .donate-form .amount {
@@ -54,9 +83,9 @@
     width: 45%;
     height: 50px;
     background-color: #F25E5E;
-	margin-bottom: 10px;
-	text-align: center;
-	color: white;
+    margin-bottom: 10px;
+    text-align: center;
+    color: white;
     font-size: 20px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
@@ -64,45 +93,49 @@
     align-items: center;
 }
 
-.donate-form .amount input, .amount p{
+.donate-form .amount input,
+.amount p {
     margin: 0 auto;
 }
 
 
 
 .donate-form .amount .selected {
-    background-color:#024873;
+    background-color: #024873;
 }
 
 .donate-form .amount .button input {
-	font-size: 20px;
-	font-weight: 700;
-	border: none;
-	background-color: transparent;
-	color: white;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    background-color: transparent;
+    color: white;
     font-family: 'Open Sans', sans-serif;
-	font-size: 20px;
-	font-stretch: normal;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 500;
-	border-bottom: 2px solid white;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    border-bottom: 2px solid white;
 }
 
-.button input{
+.button input {
     padding: 0px;
 }
 
+input {
+    box-sizing: border-box
+}
+
 .set-amount {
-	max-width: 96px;
+    max-width: 96px;
 }
 
 @media (min-width: 540px) {
     .donate-form .amount .button:hover {
-        background-color:#D95555;
+        background-color: #D95555;
     }
 
-    .button:hover{
+    .button:hover {
         background-color: #D95555;
     }
 }
