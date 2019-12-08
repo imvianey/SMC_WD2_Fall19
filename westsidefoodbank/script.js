@@ -1,6 +1,6 @@
 $(document).ready(function () {
     $(".menu").click(function () {
-        $("nav a").toggleClass("hidden");
+        $(".nav-item").toggleClass("hidden");
     })
 
     // CLICK, CAPTION DROPS
