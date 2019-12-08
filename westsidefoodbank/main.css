@@ -234,6 +234,7 @@ iframe {
 .about-pg .pg-img {
     height: 350px;
     overflow: hidden;
+    background-color: #F25E5E;
 }
 
 p {
@@ -242,7 +243,7 @@ p {
 
 /* HELP--------------------------- */
 .help-pg .banner {
-    background-image: url("images/plate-red.png");
+    background-image: url("images/help/plate-red.png");
 }
 
 .help-pg h2:first-child {
@@ -459,6 +460,11 @@ h4 {
         line-height: 40px;
     }
 
+    
+    .pg-img a{
+        width: 60%;
+    }
+
     /* NEWS */
     .news-pg .banner {
         height: 350px;
@@ -566,9 +572,6 @@ h4 {
     }
 
     /* HELP */
-    /* .help-pg .banner h1 {
-        padding: 35px 20px;
-    } */
 
     .help-pg h2 {
         font-size: 32px;
