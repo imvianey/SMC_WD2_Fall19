@@ -1,33 +1,7 @@
-.donate-pg .banner {
-    height: 200px;
-    background-color: white;
-    border-bottom: 1px solid #024873;
-}
-
-.donate-pg .banner h1 {
-    font-size: 40px;
-    line-height: 40px;
-    color: #F25E5E;
-    margin: 0px 20px;
-}
-
-.donate-pg .banner p {
-    font-size: 15px;
-    font-family: 'Open Sans', sans-serif;
-    color: #024873;
-    margin: 0px 20px;
-    padding: 20px;
-}
-
 fieldset {
     border: none;
     padding: 0px;
     margin-bottom: 30px;
-}
-
-.donate-pg h2 {
-    font-size: 40px;
-    line-height: 49px;
 }
 
 .donate-form {
@@ -97,6 +71,7 @@ select {
 }
 
 .donate-form .amount input,
+
 .amount p {
     margin: 0 auto;
 }
@@ -131,71 +106,39 @@ input {
     max-width: 96px;
 }
 
-.replace{
+.replace {
     margin: 50px;
 }
 
-.hidden-all{
+.hidden-all {
     display: none;
 }
 
 @media(min-width:540px) {
-.donate-pg .banner{
-    height: 250px;
-}
-
-    .donate-pg .banner h1 {
-        font-size: 55px;
-        line-height: 64px;
-    }
-
-    .donate-pg .banner p {
-      font-size: 18px;
-    }
-
-
     .donate-form .amount .button:hover {
         background-color: #D95555;
     }
-    
+
     .button:hover {
         background-color: #D95555;
-    }
-
-    .replace h2{
-        font-size: 70px;
-        line-height: 82px;
     }
 }
 
 
 @media (min-width: 800px) {
-    .donate-pg .banner{
-        height: 300px;
-    }
-    
-    .donate-pg .banner h1 {
-        font-size: 80px;
-line-height: 83px;
-    }
-
-    .donate-pg .banner p {
-      font-size: 20px;
-    }
-
     .donate-form input {
         margin: 10px 0;
     }
 
     .donate-form {
-    flex-direction: column;    
+        flex-direction: column;
     }
 
-    fieldset{
+    fieldset {
         padding: 25px;
     }
 
-    .form-content{
+    .form-content {
         display: flex;
         flex-direction: row;
     }
@@ -203,20 +146,10 @@ line-height: 83px;
     .donate-form button {
         padding: 10px 100px;
     }
-
-    .replace h2{
-        font-size: 90px;
-        line-height: 101px;
-    }
 }
 
 @media(min-width:1000px) {
     .donate-form button {
         padding: 10px 180px;
     }
-
-    .donate-pg .banner p {
-        font-size: 22px;
-      }
-  
 }

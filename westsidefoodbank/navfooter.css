@@ -184,6 +184,10 @@ footer .bottom {
 
     }
 
+    .grid-nav .logo{
+        justify-content: start;
+    }
+
     .web {
         display: flex;
     }
@@ -198,6 +202,10 @@ footer .bottom {
 
     .box {
         padding: 20px;
+    }
+
+    .img-toggle {
+        display: none;
     }
 }
 

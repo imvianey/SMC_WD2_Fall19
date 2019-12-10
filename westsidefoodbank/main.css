@@ -87,6 +87,7 @@ h2 {
     margin: 0px;
     margin-bottom: 0px;
     margin-bottom: 17px;
+    line-height: 25px;
 }
 
 .info {
@@ -378,18 +379,46 @@ h4 {
     align-self: flex-end;
 }
 
-.replace img{
+.replace img {
     width: 50%;
     padding: 30px;
+}
+
+/* DONATE------------------------------------------- */
+.donate-pg .banner {
+    height: 335px;
+    background-color: white;
+    border-bottom: 1px solid #024873;
+}
+
+.donate-pg .banner h1 {
+    font-size: 40px;
+    line-height: 40px;
+    color: #F25E5E;
+    padding: 40px;
+    padding-bottom: 20px;
+}
+
+.donate-pg .banner p {
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    color: #024873;
+    margin: 0px 20px;
+    padding: 20px;
+}
+
+.donate-pg h2 {
+    font-size: 40px;
+    line-height: 49px;
 }
 
 /*MEDIUM SIZE SCREENS------------------------------------------------------------*/
 @media(min-width:540px) {
 
     /* MAIN */
-.banner h1{
-    text-align: left;
-}
+    .banner h1 {
+        text-align: left;
+    }
 
     .index-pg .banner h1 {
         font-size: 48px;
@@ -464,14 +493,36 @@ h4 {
         line-height: 40px;
     }
 
-    
-    .pg-img a{
+
+    .pg-img a {
         width: 60%;
     }
 
     /* NEWS */
     .news-pg .banner {
         height: 350px;
+    }
+
+    /* Donate */
+    .donate-pg .banner {
+        height: 370px;
+    }
+
+    .donate-pg .banner h1 {
+        font-size: 55px;
+        line-height: 64px;
+        text-align: center;
+        padding-top: 60px;
+    }
+
+    .donate-pg .banner p {
+        font-size: 22px;
+        text-align: left;
+    }
+
+    .replace h2 {
+        font-size: 70px;
+        line-height: 82px;
     }
 }
 
@@ -591,8 +642,27 @@ h4 {
         height: 450px;
     }
 
+    /* Donate */
     .replace img {
         width: 40%;
+    }
+
+    .replace h2 {
+        font-size: 90px;
+        line-height: 101px;
+    }
+
+    .donate-pg .banner {
+        height: 460px;
+    }
+
+    .donate-pg .banner h1 {
+        font-size: 80px;
+        line-height: 83px;
+    }
+
+    .donate-pg .banner p {
+        font-size: 30px;
     }
 
 }
@@ -673,13 +743,29 @@ h4 {
     }
 
     .blurb p,
-.blurb li,
-h4 {
-    font-size: 20px;
- line-height: 30px;
-}
+    .blurb li,
+    h4 {
+        font-size: 20px;
+        line-height: 30px;
+    }
 
-.replace img {
-    width: 30%;
-}
+    /* Donate */
+    .donate-pg .banner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .donate-pg .banner h1 {
+        padding-top: 0px;
+    }
+
+    .donate-pg .banner p {
+        font-size: 35px;
+    }
+
+    .replace img {
+        width: 30%;
+    }
 }
