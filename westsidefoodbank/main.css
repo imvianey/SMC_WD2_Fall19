@@ -642,8 +642,8 @@ h4 {
     }
 
     .grid-about-p img {
-        height: 520px;
-        width: auto;
+        height: auto;
+        width: 100%;
     }
 
     /* HELP */
@@ -661,6 +661,13 @@ h4 {
     }
 
     .help-pg h3 {
-        font-size: 45px;
+        font-size: 50px;
     }
+
+    .blurb p,
+.blurb li,
+h4 {
+    font-size: 20px;
+ line-height: 30px;
+}
 }
