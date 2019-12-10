@@ -486,6 +486,10 @@ h4 {
         grid-gap: 20px;
     }
 
+    .drop:hover {
+        transform: scale(1.1);
+    }
+
     /* HELP */
     .grid-r {
         grid-template-columns: 1fr 2fr;
