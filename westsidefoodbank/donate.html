@@ -18,13 +18,19 @@
 <body>
     <nav>
         <div class="grid-nav">
-            <img class="menu mobile" src="images/logo-icon.png" alt="Westside Food Bank">
+            <label for="toggler" class="img-toggle">
+                <img src="images/menu.png" alt="Fork Spoon Knife Menu" class="icon mobile">
+                <img src="images/close.png" alt="Fork Knife Close" class="icon hidden">
+            </label>
+            <input type="checkbox" id="toggler">
+            
             <a href="index.html"><img class="logo mobile" src="images/logo-blue.png" alt="Westside Food Bank"></a>
         </div>
         <a href="index.html" class="nav-item logo web"><img src="images/logo-blue.png" alt="Westside Food Bank"></a>
         <a class="nav-item hidden" href="about.html">About</a>
         <a class="nav-item hidden" href="help.html">How to Help</a>
         <a class="nav-item hidden" href="news.html">News</a>
+        <a class="nav-item hidden box" href="donate.html">DONATE</a>
     </nav>
 
     <!-- END OF NAV -->

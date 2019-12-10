@@ -1,3 +1,11 @@
+input#toggler {
+    display: none;
+}
+
+input#toggler:checked+nav {
+    display: block;
+}
+
 /* NAVBAR */
 nav {
     background-color: white;
@@ -34,10 +42,20 @@ nav img {
     margin: 10px;
 }
 
-.menu {
-    margin: 10px;
-    height: 40px;
+.img-toggle{
+    display: flex;
+    flex-direction: row;
+}
+
+.icon {
+    margin: 20px;
+    height: 30px;
+    width: auto;
     align-self: center;
+}
+
+.icon:first-child{
+    height: 25px;
 }
 
 .hidden,

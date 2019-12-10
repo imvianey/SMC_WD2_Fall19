@@ -1,7 +1,11 @@
 $(document).ready(function () {
-    $(".menu").click(function () {
+    $(".icon").click(function () {
         $(".nav-item").toggleClass("hidden");
     })
+
+    $('.img-toggle').click(function () {
+      $('.icon').toggle();
+  })
 
     // CLICK, CAPTION DROPS
     $(".drop")
