@@ -51,4 +51,6 @@ $(document).ready(function () {
   $(".donate-submit").click(function () {
     $(".replace").removeClass("hidden-all");
   });
+
+  $('form').submit(function(event){ event.preventDefault(); });
 });
