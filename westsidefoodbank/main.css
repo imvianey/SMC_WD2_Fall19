@@ -329,7 +329,8 @@ ul {
     line-height: 24px;
 }
 
-.blurb a {
+.blurb a,
+.need-grid a {
     text-decoration: none;
     font-weight: 600;
     color: #024873;
@@ -341,6 +342,64 @@ h4 {
     font-weight: 700;
 }
 
+/* NEED---------------------------------- */
+
+.need-pg .banner {
+    background-image: url("images/needs.png");
+    background-position: bottom;
+    height: 400px;
+}
+
+.need-pg .banner h1 {
+    color:
+        white;
+    text-align: center;
+    padding: 11px 40px;
+    display: block;
+    font-size: 40px;
+    line-height: 43px;
+}
+
+.need-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+    padding: 40px 0px;
+    border-bottom: 1px solid #024873;
+}
+
+.need-burb,
+.need-pg p {
+    padding: 20px;
+}
+
+.need-blurb h2,
+.need-blurb p {
+    padding: 20px;
+}
+
+.need-info,
+.need-info p {
+    text-align: center;
+}
+
+.need-info h3 {
+    margin-bottom: 0px;
+}
+
+.need-info .hours {
+    margin: 5px 0px;
+    border-bottom: none;
+}
+
+.need-info .hours h3 {
+    margin: 0px;
+}
+
+.need-grid p {
+    padding: 0px;
+}
+
 /* NEWS----------------------------------------------- */
 .news-pg .banner {
     background-image: url("images/news/bag.png");
@@ -349,7 +408,9 @@ h4 {
 }
 
 .news-pg h2,
-.news-pg h3 {
+.news-pg h3,
+.need-pg h2,
+.need-pg h3 {
     font-family: 'Arya', sans-serif;
     font-size: 20px;
     color: #024873;
@@ -358,7 +419,8 @@ h4 {
     font-size: 30px;
 }
 
-.news-pg h3 {
+.news-pg h3,
+.need-pg h3 {
     font-size: 18px;
     font-family: 'Open Sans', sans-serif;
     margin-bottom: 20px;
@@ -377,7 +439,8 @@ h4 {
     border: none;
 }
 
-.news-pg .blog a {
+.news-pg .blog a,
+.need-grid a {
     font-family: 'Arya', sans-serif;
     font-size: 20px;
     color: #024873;
@@ -517,6 +580,40 @@ h4 {
 
     .pg-img a {
         width: 60%;
+    }
+
+    /* NEED */
+    .need-pg .banner {
+        background-position: center;
+    }
+
+    .need-pg .banner h1 {
+        text-align: left;
+        font-size: 50px;
+    }
+
+    .need-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .need-info,
+    .need-info p {
+        text-align: left;
+    }
+
+    .need-info h3 {
+        margin-bottom: 0px;
+    }
+
+    .need-info .hours {
+        margin: 5px 0px;
+        border-bottom: none;
+    }
+
+    .need-grid h2 {
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-right: 40px;
     }
 
     /* NEWS */

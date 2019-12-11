@@ -213,11 +213,6 @@ footer .bottom {
 /*LARGE SIZE SCREENS---------------------------------------------------------------------------*/
 @media(min-width:800px) {
 
-    /* NAV */
-    .nav-item {
-        font-size: 29px;
-    }
-
     /* FOOTER */
     .grid-footer {
         display: grid;
@@ -245,4 +240,9 @@ footer .bottom {
 }
 
 /*EXTRA LARGE SIZE SCREENS*/
-@media(min-width:1000px) {}
+@media(min-width:1000px) {
+        /* NAV */
+        .nav-item {
+            font-size: 29px;
+        }
+}
