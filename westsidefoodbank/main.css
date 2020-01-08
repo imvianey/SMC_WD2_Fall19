@@ -91,7 +91,6 @@ h2 {
 }
 
 .info {
-    background-color: #024873;
     padding: 20px;
 }
 
@@ -111,7 +110,6 @@ a {
 
 .info p {
     text-align: left;
-    color: white;
     font-size: 23px;
     font-family: 'Open Sans', sans-serif;
     display: block;
@@ -237,11 +235,6 @@ iframe {
     grid-gap: 20px;
 }
 
-.about-pg .pg-img {
-    height: 350px;
-    overflow: hidden;
-}
-
 p {
     max-width: 1000px;
 }
@@ -302,7 +295,7 @@ p {
 
 /* BLURB ------------------*/
 .blurb {
-    padding: 20px;
+    padding: 25px;
 }
 
 .blurb p,
@@ -312,7 +305,7 @@ h4 {
     text-align: left;
     font-size: 16px;
     color: #024873;
-    padding: 20px;
+    padding: 20px 0px;
     margin: 0px;
 }
 
@@ -729,8 +722,12 @@ h4 {
     }
 
     .about-pg .pg-img {
+        height: 350px;
+        overflow: hidden;
         height: auto;
         overflow: hidden;
+        margin: 25px;
+        margin-top: 0px;
     }
 
     .grid-about {
