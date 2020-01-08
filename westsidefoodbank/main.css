@@ -32,6 +32,11 @@ body {
 
 
 /* MAIN--------------------------- */
+.content {
+    max-width: 1000px;
+    margin: auto;
+}
+
 .relative {
     position: relative;
 }
@@ -52,6 +57,55 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.about-banner-full {
+    background-color: #273b79;
+    height: 340px;
+    position: relative;
+}
+
+.about-banner-full:before {
+    content: "";
+    background-color: #273b79;
+    position: absolute;
+    height: 100%;
+    width: 4000px;
+    left: -2000px;
+    z-index: -1;
+}
+
+.about-mint-full {
+    background-color: #AEE6D1;
+    height: 340px;
+    position: relative;
+}
+
+.about-mint-full:before {
+    content: "";
+    background-color: #AEE6D1;
+    position: absolute;
+    height: 100%;
+    width: 4000px;
+    left: -2000px;
+    z-index: -1;
+}
+
+.footer-full {
+    background-color: #024873;
+    height: 360px;
+    position: relative;
+}
+
+.footer-full:before {
+    content: "";
+    background-color: #024873;
+    position: absolute;
+    height: 100%;
+    width: 4000px;
+    left: -2000px;
+    z-index: -1;
+}
+
 
 .index-pg .banner {
     background-image: url("images/fork.png");
@@ -387,11 +441,11 @@ h4 {
     padding: 0px;
 }
 
-.locations{
+.locations {
     border-bottom: 1px solid #024873;
 }
 
-.locations h2{
+.locations h2 {
     padding: 15px 0px;
 }
 
@@ -593,10 +647,10 @@ h4 {
         grid-template-columns: 1fr;
     }
 
-    .locations{
+    .locations {
         display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 20px;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px;
     }
 
     .need-info,

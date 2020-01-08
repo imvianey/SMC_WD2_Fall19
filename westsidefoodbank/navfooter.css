@@ -318,6 +318,11 @@ footer .bottom {
 @media(min-width:800px) {
 
     /* FOOTER */
+    .double-footer {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+
     .grid-footer {
         display: grid;
         grid-template-columns: 1fr 1fr;
