@@ -91,7 +91,15 @@ h2 {
 }
 
 .info {
-    padding: 20px;
+    padding: 20px 35px;
+}
+
+.info a{
+    color: #F25E5E;
+    font-family: 'Arya', sans-serif;
+    font-size: 35px;
+    line-height: 0px;
+    padding-left: 20px;
 }
 
 img {
@@ -100,8 +108,7 @@ img {
 
 .index-pg img {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
 }
 
 a {
@@ -116,6 +123,12 @@ a {
     margin-left: auto;
     margin-right: auto;
     width: 100%;
+}
+
+.info-people p{
+    font-size: 21px;
+    font-family: 'Open Sans', sans-serif;
+    color: #024873;
 }
 
 .involved {
@@ -153,7 +166,7 @@ a {
 }
 
 .contain {
-    max-width: 1000px;
+    max-width: 960px;
     margin: auto;
 }
 
@@ -495,11 +508,6 @@ h4 {
         padding: 30px;
     }
 
-    /* br {
-        display: none;
-    } */
-
-
     .button-donate {
         bottom: 45px;
         left: 60px;
@@ -513,21 +521,27 @@ h4 {
     .make-red:hover {
         transform: scale(1.1);
     }
+    
+    .info p {
+        font-size: 29px;
+    }
+
+    .info-people p{
+        font-size: 25px;
+    }
+
+    .info a{
+        font-size: 40px;
+        line-height: 0px;
+        padding-left: 20px;
+    }
 
     .involved {
         height: 750px;
     }
 
-    .grid-index1 {
-        text-align: center;
-    }
-
     .grid-index2 {
         grid-gap: 60px 0px;
-    }
-
-    .grid-index1 p {
-        font-size: 29px;
     }
 
     h2 {
@@ -669,11 +683,6 @@ h4 {
         font-size: 30px;
     }
 
-    .info img,
-    .info p {
-        padding: 10px;
-    }
-
     .grid-index2 {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -690,8 +699,12 @@ h4 {
         grid-gap: 60px;
     }
 
-    .grid-index1 .grid-item {
+    .info p {
         font-size: 31px;
+    }
+
+    .info-people p{
+        font-size: 25px;
     }
 
     .grid-index3 {
