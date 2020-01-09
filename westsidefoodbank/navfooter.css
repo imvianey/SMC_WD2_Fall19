@@ -74,10 +74,24 @@ nav img {
     color: #024873;
     width: 100%;
     text-align: center;
-    padding: 10px;
 }
 
 /* FOOTER */
+.footer-full {
+    background-color: #024873;
+    height: 100%;
+    position: relative;
+}
+
+.footer-full:before {
+    content: "";
+    background-color: #024873;
+    position: absolute;
+    height: 100%;
+    width: 4000px;
+    left: -2000px;
+    z-index: -1;
+}
 
 footer hr {
     width: 100%;
@@ -220,9 +234,8 @@ footer .bottom {
     .nav-item {
         border-bottom: none;
         justify-content: center;
-        font-size: 22px;
+        font-size: 20px;
         line-height: 24px;
-
     }
 
     .grid-nav .logo {
@@ -356,6 +369,6 @@ footer .bottom {
 
     /* NAV */
     .nav-item {
-        font-size: 29px;
+        font-size: 25px;
     }
 }
