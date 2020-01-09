@@ -19,7 +19,7 @@
 
 .mint {
     color: #024873;
-    background-color: #AEE6D1;
+    background-color: #c4e6d1;
 
 }
 
@@ -32,11 +32,6 @@ body {
 
 
 /* MAIN--------------------------- */
-.content {
-    max-width: 1000px;
-    margin: auto;
-}
-
 .relative {
     position: relative;
 }
@@ -49,150 +44,6 @@ body {
     align-content: center;
 }
 
-.index-banner-full {
-    background-color: #a9dbca;
-    height: 100%;
-    position: relative;
-}
-
-.index-banner-full:before {
-    content: "";
-    background-color: #a9dbca;
-    position: absolute;
-    height: 100%;
-    width: 4000px;
-    left: -2000px;
-    z-index: -1;
-}
-
-.index-mint-full {
-    background-color: #AEE6D1;
-    height: 100%;
-    position: relative;
-}
-
-.index-mint-full:before {
-    content: "";
-    background-color: #AEE6D1;
-    position: absolute;
-    height: 100%;
-    width: 4000px;
-    left: -2000px;
-    z-index: -1;
-}
-
-.index-blue-full {
-    background-color: #024873;
-    height: 100%;
-    position: relative;
-}
-
-.index-blue-full:before {
-    content: "";
-    background-color: #024873;
-    position: absolute;
-    height: 100%;
-    width: 4000px;
-    left: -2000px;
-    z-index: -1;
-}
-
-.about-banner-full {
-    background-color: #273b79;
-    height: 100%;
-    position: relative;
-}
-
-.about-banner-full:before {
-    content: "";
-    background-color: #273b79;
-    position: absolute;
-    height: 100%;
-    width: 4000px;
-    left: -2000px;
-    z-index: -1;
-}
-
-.about-mint-full {
-    background-color: #AEE6D1;
-    height: 100%;
-    position: relative;
-}
-
-.about-mint-full:before {
-    content: "";
-    background-color: #AEE6D1;
-    position: absolute;
-    height: 100%;
-    width: 4000px;
-    left: -2000px;
-    z-index: -1;
-}
-
-.help-banner-full {
-    background-color: #f6b3b3;
-    height: 100%;
-    position: relative;
-}
-
-.help-banner-full:before {
-    content: "";
-    background-color: #f6b3b3;
-    position: absolute;
-    height: 100%;
-    width: 4000px;
-    left: -2000px;
-    z-index: -1;
-}
-
-.help-blue-full {
-    background-color: #024873;
-    height: 100%;
-    position: relative;
-}
-
-.help-blue-full:before {
-    content: "";
-    background-color: #024873;
-    position: absolute;
-    height: 100%;
-    width: 4000px;
-    left: -2000px;
-    z-index: -1;
-}
-
-.help-red-full {
-    background-color: #F25E5E;
-    height: 100%;
-    position: relative;
-}
-
-.help-red-full:before {
-    content: "";
-    background-color: #F25E5E;
-    position: absolute;
-    height: 100%;
-    width: 4000px;
-    left: -2000px;
-    z-index: -1;
-}
-
-.need-banner-full {
-    background-color: #003567;
-    height: 100%;
-    position: relative;
-}
-
-.need-banner-full:before {
-    content: "";
-    background-color: #003567;
-    position: absolute;
-    height: 100%;
-    width: 4000px;
-    left: -2000px;
-    z-index: -1;
-}
-
 .banner {
     width: 100%;
     height: 450px;
@@ -203,7 +54,7 @@ body {
 }
 
 .index-pg .banner {
-    background-image: url("images/fork.png");
+    background-image: url("images/people-kids-eating-lg-b.png");
 }
 
 .index-pg .banner h1 {
@@ -214,7 +65,7 @@ body {
 
 .banner h1 {
     color: #024873;
-    text-align: center;
+    text-align: left;
     padding: 20px 40px;
     display: block;
 }
@@ -301,6 +152,11 @@ a {
     font-size: 15px;
 }
 
+.contain {
+    max-width: 1000px;
+    margin: auto;
+}
+
 /* INDEX-GRID */
 
 .grid-index2 {
@@ -336,7 +192,7 @@ button[class^='button'] {
 .button-donate {
     position: absolute;
     bottom: 42px;
-    right: 17px;
+    left: 125px;
     font-size: 16px;
 }
 
@@ -359,7 +215,7 @@ button[class^='button'] {
 }
 
 .about-pg .banner h2 {
-    color: #AEE6D1;
+    color: #c4e6d1;
     margin: 0px;
     font-size: 23px;
     line-height: 36px;
@@ -384,7 +240,7 @@ iframe {
     grid-gap: 20px;
 }
 
-p {
+.max {
     max-width: 1000px;
 }
 
@@ -639,14 +495,14 @@ h4 {
         padding: 30px;
     }
 
-    br {
+    /* br {
         display: none;
-    }
+    } */
 
 
     .button-donate {
-        bottom: 102px;
-        right: 60px;
+        bottom: 45px;
+        left: 60px;
         font-size: 22px;
     }
 
@@ -804,13 +660,12 @@ h4 {
 
     .index-pg .banner h1 {
         text-align: left;
-
         font-size: 67px;
-        line-height: 86px;
+        line-height: 71px;
     }
 
     .button-donate {
-        right: 60px;
+        bottom: 60px;
         font-size: 30px;
     }
 
@@ -962,13 +817,12 @@ h4 {
         padding-left: 4%;
     }
 
-    .index-pg .banner br {
+    .index-pg br {
         display: block;
     }
 
     .button-donate {
-        right: 73px;
-
+       bottom: 76px;
     }
 
     .grid-index1 .grid-item {
