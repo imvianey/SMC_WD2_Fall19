@@ -622,7 +622,7 @@ p {
         grid-gap: 20px;
     }
 
-    .drop:hover {
+    a:hover {
         transform: scale(1.1);
     }
 

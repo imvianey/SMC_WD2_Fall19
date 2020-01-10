@@ -28,10 +28,10 @@ $(document).ready(function () {
     $('.red-h2', this).css("color", "#024873");
   })
 
-  // CLICK, CAPTION DROPS
+  // hover, CAPTION DROPS
   $(".drop")
-    .click(function () {
-      $(this).children(".caption").slideToggle("slow");
+    .hover(function () {
+      $(this).children(".caption").slideToggle("fast");
     });
 
   //Set & Highlight Donation Amount
@@ -52,5 +52,10 @@ $(document).ready(function () {
     $(".replace").removeClass("hidden-all");
   });
 
-  $('form').submit(function(event){ event.preventDefault(); });
+  $('form').submit(function (event) {
+    event.preventDefault();
+  });
+
+  // Go to top of donation
+  $('#donationTop').click(function(){ window.location = '#thanks'; });
 });
