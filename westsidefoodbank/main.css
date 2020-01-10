@@ -430,11 +430,11 @@ h4 {
     height: 250px;
 }
 
-.news-pg .banner h1{
+.news-pg .banner h1 {
     padding: 10px 20px;
 }
 
-.news-pg .blurb{
+.news-pg .blurb {
     padding: 0px 25px;
 }
 
@@ -486,6 +486,7 @@ h4 {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
+    right: 0px;
 }
 
 .donate-pg .banner {
@@ -574,14 +575,22 @@ p {
         padding-left: 20px;
     }
 
+    .info-people {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
     .info-people .grid-item {
         order: 1;
     }
 
+    .info-people img,
+    .info-people p {
+        margin: auto;
+    }
+
     .info-people img {
-        grid-column-start: 1;
-        grid-column-end: 3;
-        width: 70%;
+        width: 250px;
     }
 
     .involved {
@@ -756,6 +765,15 @@ p {
 
     .info p {
         font-size: 31px;
+    }
+
+    .info-people {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .info-people .double-space {
+        grid-column-start: 3;
     }
 
     .info-people p {
@@ -967,7 +985,7 @@ p {
         padding: 20px 30px;
     }
 
-    .words h3{
+    .words h3 {
         font-size: 40px;
         line-height: 14px;
     }

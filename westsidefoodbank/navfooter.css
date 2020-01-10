@@ -33,10 +33,10 @@ nav {
     grid-gap: 20px;
 }
 
-.grid-nav a{
+.grid-nav a {
     display: flex;
-flex-direction: column;
-justify-content: center;
+    flex-direction: column;
+    justify-content: center;
 }
 
 nav img {
