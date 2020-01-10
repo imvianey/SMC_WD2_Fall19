@@ -33,6 +33,12 @@ nav {
     grid-gap: 20px;
 }
 
+.grid-nav a{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
 nav img {
     height: 50px;
     width: auto;
@@ -239,7 +245,8 @@ footer .bottom {
     }
 
     .box {
-        padding: 20px;
+        padding: 19px;
+        border: 1px solid #024873;
     }
 
     .img-toggle {
