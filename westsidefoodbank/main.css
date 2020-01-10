@@ -232,7 +232,7 @@ button[class^='button'] {
     color: #c4e6d1;
     margin: 0px;
     font-size: 23px;
-    line-height: 34px;
+    line-height: 11px;
     font-family: 'Arya', sans-serif;
     text-align: right;
     position: absolute;
@@ -580,8 +580,8 @@ width: 70%;
 
     /* ABOUT */
     .about-pg .words {
-        font-size: 30px;
-        line-height: 42px;
+        font-size: 27px;
+        line-height: 7px;
     }
 
     .about-pg .words {
@@ -775,8 +775,8 @@ width: 70%;
     }
 
     .about-pg .words {
-        font-size: 33px;
-        line-height: 46px;
+        font-size: 30px;
+        line-height: 10px;
         bottom: 60px;
         right: 60px;
     }
@@ -913,8 +913,6 @@ width: 70%;
     }
 
     .about-pg .words{
-        font-size: 37px;
-line-height: 51px;
 bottom: 198px;
 right: 110px;
     }
